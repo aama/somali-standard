@@ -5,26 +5,25 @@
 :datasource "Saeed1999 Orwin1995"
 :geodemoURL "http://www.ethnologue.com/language/som"
 :geodemoTXT "Standard Somali is based principally on the Northern variety of a group of closely related 'Somaloid' language varieties spoken in the Horn of African and Kenya. Standard Somali is spoken throughout the region historically known as Somalia, and in adjacent countries (Djibouti, Ethiopia, Kenya). The paradigms are a combination of Saeed1999 and Orwin1995."
-:schemata{:gender [:Common :Fem :Masc],
-          :nonFiniteForm [:Infinitive],
-          :formClass [:Compound :Simple],
-          :conjSubClass [:C1 :C2A :C2B :C3A :C3B :Common],
-          :pdgmSubType [:PastInvar],
-          :polarity [:Affirmative :Negative :Negative2],
-          :case [:Nominative :Object],
-          :conjClass [:Prefix :Suffix],
-          :clauseCase [:Absolutive :Subject],
-          :genderPoss [:Fem :Masc],
-          :pdgmType [:INFINITIVESUFF :SUFFC1MAINNEGPASTINVAR :INFINITIVEPREF :Finite :NA :SubVarTense :PREFMAINNEGPASTINVAR]
-          :pos [:Pronoun :Verb],
-          :person [:Person1 :Person1ex :Person1in :Person2 :Person3],
-          :morphClass [:COMPDASSOM :FULLREDVAR :FULLREDVARCLAUSECASETYPE :INFINITIVEPREF :INFINITIVESUFF :PREFMAINNEGPASTINVAR :PREFSUBVARTENSE :SUFFC1MAINNEGPASTINVAR],
-          :conjSubType [:SubClass1 :SubClass2],
-          :proClass [:Independent :ObjClitic :Possessive :SubjClit],
-          :tam [:Conditional :Future :Imperative :Optative :Past :PastGeneral :PastHabitual :PastIndependent :PastProgressive :Potential :PresentGeneral :PresentProgressive :PresentProgressive2],
-          :clauseType [:Full :FullReducedVariant :Main :Reduced :Subordinate :SubordinateVariant],
-          :number [:Plural :Singular],
-          :numPersGender [:Invariable]}
+ :schemata {:case [:Nominative  :Object],
+            :clauseCase [:Absolutive :Subject],
+            :clauseType [:Full :Main :Reduced :Subordinate],
+            :conjClass [:Prefix :Suffix],
+            :conjSubClass [:C1 :C2A :C2B :C3A :C3B],
+            :conjSubType [:SubClass1 :SubClass2],
+            :formClass [:Compound],
+            :gender [:Common :Fem :Masc],
+            :genderPoss [:Fem :Masc],
+            :nonFiniteForm [:Infinitive],
+            :numPersGender [:Invariable],
+            :number [:Plural :Singular],
+            :pdgmSubType [:PastInvar],
+            :person [:Person1 :Person1ex :Person1in :Person2 :Person3 :person1ex],
+            :polarity [:Affirmative :Negative],
+            :pos [:Pronoun :Verb],
+            :proClass [:Independent :ObjClitic :Possessive :SubjClit],
+            :tam [:Conditional :Future :Imperative :Optative :PastGeneral :PastHabitual :PastIndependent :PastProgressive :Potential :PresentGeneral :PresentProgressive :PresentProgressive2]
+            :pdgmType [:Finite :INFINITIVEPREF :INFINITIVESUFF :PREFMAINNEGPASTINVAR :SUFFC1MAINNEGPASTINVAR :SubVarTense :PRO]}
 :pclass {:pngClass [:person :number :gender :genderPoss :numPersGender],
           :synsemClass [:case :cluaseCase :clauseType :derivedStems :nonFiniteForm :polarity :pdgmSubType :pos :proClass :tam :formClass],
           :inflClass [:conjClass :conjSubClass :conjSubType],
@@ -62,7 +61,6 @@
     :note ""
     :pdgmType :INFINITIVEPREF
     :common {:conjClass :Prefix,
-             :morphClass :INFINITIVEPREF,
              :nonFiniteForm :Infinitive,
              :pos :Verb}
     :terms [[:lexeme :token],
@@ -1357,7 +1355,6 @@
     :pdgmType :PREFMAINNEGPASTINVAR
     :common {:clauseType :Main,
              :conjClass :Prefix,
-             :morphClass :PREFMAINNEGPASTINVAR,
              :numPersGender :Invariable,
              :pdgmSubType :PastInvar,
              :polarity :Negative,
@@ -2178,7 +2175,6 @@
     :common {:conjClass :Prefix,
              :gender :Common,
              :lexeme :yahay,
-             :morphClass :SubVarTense,
              :pos :Verb}
     :terms [[:clauseCase :clauseType :polarity :tam :token],
             [:Absolutive :Subordinate :Affirmative :Future "{= main}"],
@@ -2570,7 +2566,6 @@
     :pdgmType :SUFFC1MAINNEGPASTINVAR
     :common {:clauseType :Main,
              :conjClass :Suffix,
-             :morphClass :SUFFC1MAINNEGPASTINVAR,
              :numPersGender :Invariable,
              :pdgmSubType :PastInvar,
              :polarity :Negative,
@@ -4589,7 +4584,6 @@
     :note "somali-VSuffInfinitive"
     :pdgmType :INFINITIVESUFF
     :common {:conjClass :Suffix,
-             :morphClass :INFINITIVESUFF,
              :nonFiniteForm :Infinitive,
              :pos :Verb}
     :terms [[:conjSubClass :lexeme :token],
@@ -4603,9 +4597,8 @@
 :muterms [
     {:label "somali-PInd"
     :note "SAEED1999 p. 68"
-    :pdgmType :NA
-    :common {:morpheme :PROIND,
-             :pos :Pronoun,
+    :pdgmType :PRO
+    :common {:pos :Pronoun,
              :proClass :Independent}
     :terms [[:number :person :gender :token],
             [:Singular :Person1 :Common "aní-ga"],
@@ -4620,9 +4613,8 @@
     {:label "somali-PObjClitic"
     :note "SAEED1999 pp. 73-74;2ary form is used “when two obert object clitic pronouns
             occur in the same verbal group”."
-    :pdgmType :NA
+    :pdgmType :PRO
     :common {:case :Object,
-             :morpheme :PROOBJCLIT,
              :pos :Pronoun,
              :proClass :ObjClitic}
     :terms [[:conjSubType :number :person :gender :token],
@@ -4645,9 +4637,8 @@
     }
     {:label "somali-PPoss"
     :note "SAEED1999 pp. 114-115"
-    :pdgmType :NA
-    :common {:morpheme :PROPOSS,
-             :pos :Pronoun,
+    :pdgmType :PRO
+    :common {:pos :Pronoun,
              :proClass :Possessive}
     :terms [[:genderPoss :number :person :gender :token],
             [:Fem :Singular :Person1 :Common "tàyda"],
@@ -4669,9 +4660,8 @@
     }
     {:label "somali-PSubjClit"
     :note "SAEED1999 p. 72"
-    :pdgmType :NA
+    :pdgmType :PRO
     :common {:case :Nominative,
-             :morpheme :PROSUBJCLIT,
              :pos :Pronoun,
              :proClass :SubjClit}
     :terms [[:number :person :gender :token],

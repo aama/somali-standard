@@ -5,7 +5,8 @@
 :datasource "Saeed1999 Orwin1995"
 :geodemoURL "http://www.ethnologue.com/language/som"
 :geodemoTXT "Standard Somali is based principally on the Northern variety of a group of closely related 'Somaloid' language varieties spoken in the Horn of African and Kenya. Standard Somali is spoken throughout the region historically known as Somalia, and in adjacent countries (Djibouti, Ethiopia, Kenya). The paradigms are a combination of Saeed1999 and Orwin1995."
- :schemata {:case [:Nominative  :Object],
+ :schemata {:vmorphClass [:INFINITIVEPREF  :INFINITIVESUFF :PREFMAINNEGPASTINVAR :SUFFC1MAINNEGPASTINVAR :SubVarTense],
+            :case [:Nominative :Object],
             :clauseCase [:Absolutive :Subject],
             :clauseType [:Full :Main :Reduced :Subordinate],
             :conjClass [:Prefix :Suffix],
@@ -18,12 +19,12 @@
             :numPersGender [:Invariable],
             :number [:Plural :Singular],
             :pdgmSubType [:PastInvar],
-            :person [:Person1 :Person1ex :Person1in :Person2 :Person3 :person1ex],
+            :person [:Person1 :Person1ex :Person1in :Person2 :Person3],
             :polarity [:Affirmative :Negative],
             :pos [:Pronoun :Verb],
             :proClass [:Independent :ObjClitic :Possessive :SubjClit],
             :tam [:Conditional :Future :Imperative :Optative :PastGeneral :PastHabitual :PastIndependent :PastProgressive :Potential :PresentGeneral :PresentProgressive :PresentProgressive2]
-            :pdgmType [:Finite :INFINITIVEPREF :INFINITIVESUFF :PREFMAINNEGPASTINVAR :SUFFC1MAINNEGPASTINVAR :SubVarTense :PRO]}
+            :pdgmType [:Finite :PRO :VOther]}
 :pclass {:pngClass [:person :number :gender :genderPoss :numPersGender],
           :synsemClass [:case :cluaseCase :clauseType :derivedStems :nonFiniteForm :polarity :pdgmSubType :pos :proClass :tam :formClass],
           :inflClass [:conjClass :conjSubClass :conjSubType],
@@ -59,8 +60,9 @@
 :lxterms [
     {:label "somali-VPrefInfinitive"
     :note ""
-    :pdgmType :INFINITIVEPREF
-    :common {:conjClass :Prefix,
+    :pdgmType :VOther
+    :common {:vmorphClass :INFINITIVEPREF
+             :conjClass :Prefix,
              :nonFiniteForm :Infinitive,
              :pos :Verb}
     :terms [[:lexeme :token],
@@ -1348,12 +1350,13 @@
             [:Plural :Person1in :Common "yàanan(u) oqóon"],
             [:Plural :Person2 :Common "yàanad oqóon"],
             [:Plural :Person3 :Common "yàaney oqóon"],
-            [:Plural :person1ex :Common "yàynu oqóon"]]
+            [:Plural :Person1ex :Common "yàynu oqóon"]]
     }
     {:label "somali-VPrefMainNegPastInvar"
     :note ""
-    :pdgmType :PREFMAINNEGPASTINVAR
-    :common {:clauseType :Main,
+    :pdgmType :VOther
+    :common {:vmorphClass :PREFMAINNEGPASTINVAR
+             :clauseType :Main,
              :conjClass :Prefix,
              :numPersGender :Invariable,
              :pdgmSubType :PastInvar,
@@ -2171,8 +2174,9 @@
     }
     {:label "somali-VPrefSubVarTense-yahay"
     :note ""
-    :pdgmType :SubVarTense
-    :common {:conjClass :Prefix,
+    :pdgmType :VOther
+    :common {:vmorphClass :SubVarTense
+             :conjClass :Prefix,
              :gender :Common,
              :lexeme :yahay,
              :pos :Verb}
@@ -2563,8 +2567,9 @@
     }
     {:label "somali-VSuffC1MainNegPastInvar-sug"
     :note "somali-VmainSuffNegPastInvar:does not inflect for NPG."
-    :pdgmType :SUFFC1MAINNEGPASTINVAR
-    :common {:clauseType :Main,
+    :pdgmType :VOther
+    :common {:vmorphClass :SUFFC1MAINNEGPASTINVAR
+             :clauseType :Main,
              :conjClass :Suffix,
              :numPersGender :Invariable,
              :pdgmSubType :PastInvar,
@@ -4582,8 +4587,9 @@
     }
     {:label "somali-VSuffInfinitive"
     :note "somali-VSuffInfinitive"
-    :pdgmType :INFINITIVESUFF
-    :common {:conjClass :Suffix,
+    :pdgmType :VOther
+    :common {:vmorphClass :INFINITIVESUFF
+             :conjClass :Suffix,
              :nonFiniteForm :Infinitive,
              :pos :Verb}
     :terms [[:conjSubClass :lexeme :token],

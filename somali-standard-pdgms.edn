@@ -69,7 +69,7 @@
                  }
                 {:label "somali-VPrefMainAffConditional-yahay"
                  :note ""
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :clauseType :Main,
                           :conjClass :Prefix,
                           :lexeme :yahay,
@@ -88,7 +88,7 @@
                  }
                 {:label "somali-VPrefMainAffConditional-yidi"
                  :note ""
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :clauseType :Main,
                           :conjClass :Prefix,
                           :lexeme :yidi,
@@ -107,7 +107,7 @@
                  }
                 {:label "somali-VPrefMainAffConditional-yiil"
                  :note ""
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :clauseType :Main,
                           :conjClass :Prefix,
                           :lexeme :yiil,
@@ -126,7 +126,7 @@
                  }
                 {:label "somali-VPrefMainAffConditional-yimi"
                  :note ""
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :clauseType :Main,
                           :conjClass :Prefix,
                           :lexeme :yimi,
@@ -145,7 +145,7 @@
                  }
                 {:label "somali-VPrefMainAffConditional-yiqiin"
                  :note ""
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :clauseType :Main,
                           :conjClass :Prefix,
                           :lexeme :yiqiin,
@@ -164,7 +164,7 @@
                  }
                 {:label "somali-VPrefMainAffFuture-yahay"
                  :note ""
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :clauseType :Main,
                           :conjClass :Prefix,
                           :lexeme :yahay,
@@ -183,7 +183,7 @@
                  }
                 {:label "somali-VPrefMainAffFuture-yidi"
                  :note ""
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :clauseType :Main,
                           :conjClass :Prefix,
                           :lexeme :yidi,
@@ -202,7 +202,7 @@
                  }
                 {:label "somali-VPrefMainAffFuture-yiil"
                  :note ""
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :clauseType :Main,
                           :conjClass :Prefix,
                           :lexeme :yiil,
@@ -221,7 +221,7 @@
                  }
                 {:label "somali-VPrefMainAffFuture-yimi"
                  :note ""
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :clauseType :Main,
                           :conjClass :Prefix,
                           :lexeme :yimi,
@@ -240,7 +240,7 @@
                  }
                 {:label "somali-VPrefMainAffFuture-yiqiin"
                  :note ""
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :clauseType :Main,
                           :conjClass :Prefix,
                           :lexeme :yiqiin,
@@ -259,7 +259,7 @@
                  }
                 {:label "somali-VPrefMainAffImprtv-yahay"
                  :note ""
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :clauseType :Main,
                           :conjClass :Prefix,
                           :gender :Common,
@@ -274,7 +274,7 @@
                  }
                 {:label "somali-VPrefMainAffImprtv-yidi"
                  :note ""
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :clauseType :Main,
                           :conjClass :Prefix,
                           :lexeme :yidi,
@@ -288,7 +288,7 @@
                  }
                 {:label "somali-VPrefMainAffImprtv-yiil"
                  :note ""
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :clauseType :Main,
                           :conjClass :Prefix,
                           :lexeme :yiil,
@@ -302,7 +302,7 @@
                  }
                 {:label "somali-VPrefMainAffImprtv-yimi"
                  :note ""
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :clauseType :Main,
                           :conjClass :Prefix,
                           :lexeme :yimi,
@@ -316,7 +316,7 @@
                  }
                 {:label "somali-VPrefMainAffImprtv-yiqiin"
                  :note ""
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :clauseType :Main,
                           :conjClass :Prefix,
                           :gender :Common,
@@ -331,7 +331,7 @@
                  }
                 {:label "somali-VPrefMainAffOptative-yahay"
                  :note ""
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :clauseType :Main,
                           :conjClass :Prefix,
                           :lexeme :yahay,
@@ -351,7 +351,7 @@
                  }
                 {:label "somali-VPrefMainAffOptative-yidi"
                  :note ""
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :clauseType :Main,
                           :conjClass :Prefix,
                           :lexeme :yidi,
@@ -372,7 +372,7 @@
                  }
                 {:label "somali-VPrefMainAffOptative-yiil"
                  :note ""
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :clauseType :Main,
                           :conjClass :Prefix,
                           :lexeme :yiil,
@@ -392,7 +392,7 @@
                  }
                 {:label "somali-VPrefMainAffOptative-yimi"
                  :note ""
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :clauseType :Main,
                           :conjClass :Prefix,
                           :lexeme :yimi,
@@ -412,7 +412,7 @@
                  }
                 {:label "somali-VPrefMainAffOptative-yiqiin"
                  :note ""
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :clauseType :Main,
                           :conjClass :Prefix,
                           :lexeme :yiqiin,
@@ -432,7 +432,7 @@
                  }
                 {:label "somali-VPrefMainAffPastGen-yahay"
                  :note ""
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :clauseType :Main,
                           :conjClass :Prefix,
                           :lexeme :yahay,
@@ -450,7 +450,7 @@
                  }
                 {:label "somali-VPrefMainAffPastGen-yidi"
                  :note ""
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :clauseType :Main,
                           :conjClass :Prefix,
                           :lexeme :yidi,
@@ -468,7 +468,7 @@
                  }
                 {:label "somali-VPrefMainAffPastGen-yiil"
                  :note ""
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :clauseType :Main,
                           :conjClass :Prefix,
                           :lexeme :yiil,
@@ -486,7 +486,7 @@
                  }
                 {:label "somali-VPrefMainAffPastGen-yimi"
                  :note ""
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :clauseType :Main,
                           :conjClass :Prefix,
                           :lexeme :yimi,
@@ -504,7 +504,7 @@
                  }
                 {:label "somali-VPrefMainAffPastGen-yiqiin"
                  :note ""
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :clauseType :Main,
                           :conjClass :Prefix,
                           :lexeme :yiqiin,
@@ -522,7 +522,7 @@
                  }
                 {:label "somali-VPrefMainAffPastHabit-yahay"
                  :note ""
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :clauseType :Main,
                           :conjClass :Prefix,
                           :lexeme :yahay,
@@ -541,7 +541,7 @@
                  }
                 {:label "somali-VPrefMainAffPastHabit-yidi"
                  :note ""
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :clauseType :Main,
                           :conjClass :Prefix,
                           :lexeme :yidi,
@@ -560,7 +560,7 @@
                  }
                 {:label "somali-VPrefMainAffPastHabit-yiil"
                  :note ""
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :clauseType :Main,
                           :conjClass :Prefix,
                           :lexeme :yiil,
@@ -579,7 +579,7 @@
                  }
                 {:label "somali-VPrefMainAffPastHabit-yimi"
                  :note ""
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :clauseType :Main,
                           :conjClass :Prefix,
                           :lexeme :yimi,
@@ -598,7 +598,7 @@
                  }
                 {:label "somali-VPrefMainAffPastHabit-yiqiin"
                  :note ""
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :clauseType :Main,
                           :conjClass :Prefix,
                           :lexeme :yiqiin,
@@ -617,7 +617,7 @@
                  }
                 {:label "somali-VPrefMainAffPastIndep-yidi"
                  :note ""
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :clauseType :Main,
                           :conjClass :Prefix,
                           :lexeme :yidi,
@@ -635,7 +635,7 @@
                  }
                 {:label "somali-VPrefMainAffPastIndep-yiil"
                  :note ""
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :clauseType :Main,
                           :conjClass :Prefix,
                           :lexeme :yiil,
@@ -653,7 +653,7 @@
                  }
                 {:label "somali-VPrefMainAffPastIndep-yimi"
                  :note ""
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :clauseType :Main,
                           :conjClass :Prefix,
                           :lexeme :yimi,
@@ -671,7 +671,7 @@
                  }
                 {:label "somali-VPrefMainAffPastIndep-yiqiin"
                  :note ""
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :clauseType :Main,
                           :conjClass :Prefix,
                           :lexeme :yiqiin,
@@ -689,7 +689,7 @@
                  }
                 {:label "somali-VPrefMainAffPastProg-yidi"
                  :note ""
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :clauseType :Main,
                           :conjClass :Prefix,
                           :lexeme :yidi,
@@ -707,7 +707,7 @@
                  }
                 {:label "somali-VPrefMainAffPastProg-yimi"
                  :note ""
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :clauseType :Main,
                           :conjClass :Prefix,
                           :lexeme :yimi,
@@ -725,7 +725,7 @@
                  }
                 {:label "somali-VPrefMainAffPastProg-yiqiin"
                  :note ""
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :clauseType :Main,
                           :conjClass :Prefix,
                           :lexeme :yiqiin,
@@ -743,7 +743,7 @@
                  }
                 {:label "somali-VPrefMainAffPotential-yahay"
                  :note ""
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :clauseType :Main,
                           :conjClass :Prefix,
                           :lexeme :yahay,
@@ -761,7 +761,7 @@
                  }
                 {:label "somali-VPrefMainAffPotential-yidi"
                  :note ""
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :clauseType :Main,
                           :conjClass :Prefix,
                           :lexeme :yidi,
@@ -779,7 +779,7 @@
                  }
                 {:label "somali-VPrefMainAffPotential-yiil"
                  :note ""
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :clauseType :Main,
                           :conjClass :Prefix,
                           :lexeme :yiil,
@@ -797,7 +797,7 @@
                  }
                 {:label "somali-VPrefMainAffPotential-yimi"
                  :note ""
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :clauseType :Main,
                           :conjClass :Prefix,
                           :lexeme :yimi,
@@ -815,7 +815,7 @@
                  }
                 {:label "somali-VPrefMainAffPotential-yiqiin"
                  :note ""
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :clauseType :Main,
                           :conjClass :Prefix,
                           :lexeme :yiqiin,
@@ -833,7 +833,7 @@
                  }
                 {:label "somali-VPrefMainAffPresGen-yahay"
                  :note ""
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :clauseType :Main,
                           :conjClass :Prefix,
                           :lexeme :yahay,
@@ -851,7 +851,7 @@
                  }
                 {:label "somali-VPrefMainAffPresGen-yidi"
                  :note ""
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :clauseType :Main,
                           :conjClass :Prefix,
                           :lexeme :yidi,
@@ -869,7 +869,7 @@
                  }
                 {:label "somali-VPrefMainAffPresGen-yiil"
                  :note ""
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :clauseType :Main,
                           :conjClass :Prefix,
                           :lexeme :yiil,
@@ -887,7 +887,7 @@
                  }
                 {:label "somali-VPrefMainAffPresGen-yimi"
                  :note ""
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :clauseType :Main,
                           :conjClass :Prefix,
                           :lexeme :yimi,
@@ -905,7 +905,7 @@
                  }
                 {:label "somali-VPrefMainAffPresGen-yiqiin"
                  :note ""
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :clauseType :Main,
                           :conjClass :Prefix,
                           :lexeme :yiqiin,
@@ -923,7 +923,7 @@
                  }
                 {:label "somali-VPrefMainAffPresProg-yidi"
                  :note ""
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :clauseType :Main,
                           :conjClass :Prefix,
                           :lexeme :yidi,
@@ -941,7 +941,7 @@
                  }
                 {:label "somali-VPrefMainAffPresProg-yiil"
                  :note ""
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :clauseType :Main,
                           :conjClass :Prefix,
                           :lexeme :yiil,
@@ -956,7 +956,7 @@
                  }
                 {:label "somali-VPrefMainAffPresProg-yimi"
                  :note ""
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :clauseType :Main,
                           :conjClass :Prefix,
                           :lexeme :yimi,
@@ -974,7 +974,7 @@
                  }
                 {:label "somali-VPrefMainAffPresProg-yiqiin"
                  :note ""
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :clauseType :Main,
                           :conjClass :Prefix,
                           :lexeme :yiqiin,
@@ -992,7 +992,7 @@
                  }
                 {:label "somali-VPrefMainNegConditional-yahay"
                  :note ""
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :clauseType :Main,
                           :conjClass :Prefix,
                           :lexeme :yahay,
@@ -1010,7 +1010,7 @@
                  }
                 {:label "somali-VPrefMainNegConditional-yidi"
                  :note "with má; on analogy of NegConditional-yahay [CHECK]"
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :clauseType :Main,
                           :conjClass :Prefix,
                           :lexeme :yidi,
@@ -1028,7 +1028,7 @@
                  }
                 {:label "somali-VPrefMainNegConditional-yiil"
                  :note "with má; on analogy of NegConditional-yahay [CHECK]"
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :clauseType :Main,
                           :conjClass :Prefix,
                           :lexeme :yiil,
@@ -1046,7 +1046,7 @@
                  }
                 {:label "somali-VPrefMainNegConditional-yimi"
                  :note "with má; on analogy of NegConditional-yahay [CHECK]"
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :clauseType :Main,
                           :conjClass :Prefix,
                           :lexeme :yimi,
@@ -1064,7 +1064,7 @@
                  }
                 {:label "somali-VPrefMainNegConditional-yiqiin"
                  :note "with má; on analogy of NegConditional-yahay [CHECK]"
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :clauseType :Main,
                           :conjClass :Prefix,
                           :lexeme :yiqiin,
@@ -1082,7 +1082,7 @@
                  }
                 {:label "somali-VPrefMainNegFuture-yahay"
                  :note ""
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :clauseType :Main,
                           :conjClass :Prefix,
                           :lexeme :yahay,
@@ -1101,7 +1101,7 @@
                  }
                 {:label "somali-VPrefMainNegFuture-yidi"
                  :note ""
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :clauseType :Main,
                           :conjClass :Prefix,
                           :lexeme :yidi,
@@ -1120,7 +1120,7 @@
                  }
                 {:label "somali-VPrefMainNegFuture-yiil"
                  :note ""
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :clauseType :Main,
                           :conjClass :Prefix,
                           :lexeme :yiil,
@@ -1139,7 +1139,7 @@
                  }
                 {:label "somali-VPrefMainNegFuture-yimi"
                  :note ""
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :clauseType :Main,
                           :conjClass :Prefix,
                           :lexeme :yimi,
@@ -1158,7 +1158,7 @@
                  }
                 {:label "somali-VPrefMainNegFuture-yiqiin"
                  :note ""
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :clauseType :Main,
                           :conjClass :Prefix,
                           :lexeme :yiqiin,
@@ -1177,7 +1177,7 @@
                  }
                 {:label "somali-VPrefMainNegImprtv-yahay"
                  :note ""
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :clauseType :Main,
                           :conjClass :Prefix,
                           :gender :Common,
@@ -1192,7 +1192,7 @@
                  }
                 {:label "somali-VPrefMainNegImprtv-yidi"
                  :note ""
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :clauseType :Main,
                           :conjClass :Prefix,
                           :lexeme :yidi,
@@ -1206,7 +1206,7 @@
                  }
                 {:label "somali-VPrefMainNegImprtv-yiil"
                  :note ""
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :clauseType :Main,
                           :conjClass :Prefix,
                           :lexeme :yiil,
@@ -1220,7 +1220,7 @@
                  }
                 {:label "somali-VPrefMainNegImprtv-yimi"
                  :note ""
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :clauseType :Main,
                           :conjClass :Prefix,
                           :lexeme :yimi,
@@ -1234,7 +1234,7 @@
                  }
                 {:label "somali-VPrefMainNegImprtv-yiqiin"
                  :note ""
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :clauseType :Main,
                           :conjClass :Prefix,
                           :gender :Common,
@@ -1249,7 +1249,7 @@
                  }
                 {:label "somali-VPrefMainNegOptative-yahay"
                  :note ""
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :clauseType :Main,
                           :conjClass :Prefix,
                           :lexeme :yahay,
@@ -1269,7 +1269,7 @@
                  }
                 {:label "somali-VPrefMainNegOptative-yidi"
                  :note ""
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :clauseType :Main,
                           :conjClass :Prefix,
                           :lexeme :yidi,
@@ -1289,7 +1289,7 @@
                  }
                 {:label "somali-VPrefMainNegOptative-yiil"
                  :note ""
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :clauseType :Main,
                           :conjClass :Prefix,
                           :lexeme :yiil,
@@ -1309,7 +1309,7 @@
                  }
                 {:label "somali-VPrefMainNegOptative-yimi"
                  :note ""
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :clauseType :Main,
                           :conjClass :Prefix,
                           :lexeme :yimi,
@@ -1329,7 +1329,7 @@
                  }
                 {:label "somali-VPrefMainNegOptative-yiqiin"
                  :note ""
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :clauseType :Main,
                           :conjClass :Prefix,
                           :lexeme :yiqiin,
@@ -1372,7 +1372,7 @@
                  }
                 {:label "somali-VPrefMainNegPresGen-yahay"
                  :note ""
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :clauseType :Main,
                           :conjClass :Prefix,
                           :lexeme :yahay,
@@ -1390,7 +1390,7 @@
                  }
                 {:label "somali-VPrefMainNegPresGen-yidi"
                  :note ""
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :clauseType :Main,
                           :conjClass :Prefix,
                           :lexeme :yidi,
@@ -1408,7 +1408,7 @@
                  }
                 {:label "somali-VPrefMainNegPresGen-yiil"
                  :note ""
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :clauseType :Main,
                           :conjClass :Prefix,
                           :lexeme :yiil,
@@ -1426,7 +1426,7 @@
                  }
                 {:label "somali-VPrefMainNegPresGen-yimi"
                  :note ""
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :clauseType :Main,
                           :conjClass :Prefix,
                           :lexeme :yimi,
@@ -1444,7 +1444,7 @@
                  }
                 {:label "somali-VPrefMainNegPresGen-yiqiin"
                  :note ""
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :clauseType :Main,
                           :conjClass :Prefix,
                           :lexeme :yiqiin,
@@ -1462,7 +1462,7 @@
                  }
                 {:label "somali-VPrefMainNegPresProg-yidi"
                  :note ""
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :clauseType :Main,
                           :conjClass :Prefix,
                           :lexeme :yidi,
@@ -1480,7 +1480,7 @@
                  }
                 {:label "somali-VPrefMainNegPresProg-yimi"
                  :note ""
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :clauseType :Main,
                           :conjClass :Prefix,
                           :lexeme :yimi,
@@ -1498,7 +1498,7 @@
                  }
                 {:label "somali-VPrefMainNegPresProg2-yidi"
                  :note ""
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :clauseType :Main,
                           :conjClass :Prefix,
                           :lexeme :yidi,
@@ -1516,7 +1516,7 @@
                  }
                 {:label "somali-VPrefMainNegPresProg2-yimi"
                  :note ""
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :clauseType :Main,
                           :conjClass :Prefix,
                           :lexeme :yimi,
@@ -1534,7 +1534,7 @@
                  }
                 {:label "somali-VPrefRedAbsAffPastGen-yahay"
                  :note ""
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :clauseCase :Absolutive,
                           :clauseType :Reduced,
                           :conjClass :Prefix,
@@ -1553,7 +1553,7 @@
                  }
                 {:label "somali-VPrefRedAbsAffPastGen-yidi"
                  :note ""
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :clauseCase :Absolutive,
                           :clauseType :Reduced,
                           :conjClass :Prefix,
@@ -1572,7 +1572,7 @@
                  }
                 {:label "somali-VPrefRedAbsAffPastGen-yiil"
                  :note ""
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :clauseCase :Absolutive,
                           :clauseType :Reduced,
                           :conjClass :Prefix,
@@ -1591,7 +1591,7 @@
                  }
                 {:label "somali-VPrefRedAbsAffPastGen-yimi"
                  :note ""
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :clauseCase :Absolutive,
                           :clauseType :Reduced,
                           :conjClass :Prefix,
@@ -1610,7 +1610,7 @@
                  }
                 {:label "somali-VPrefRedAbsAffPastGen-yiqiin"
                  :note ""
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :clauseCase :Absolutive,
                           :clauseType :Reduced,
                           :conjClass :Prefix,
@@ -1629,7 +1629,7 @@
                  }
                 {:label "somali-VPrefRedAbsAffPastProg-yidi"
                  :note ""
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :clauseCase :Absolutive,
                           :clauseType :Reduced,
                           :conjClass :Prefix,
@@ -1648,7 +1648,7 @@
                  }
                 {:label "somali-VPrefRedAbsAffPastProg-yiil"
                  :note ""
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :clauseCase :Absolutive,
                           :clauseType :Reduced,
                           :conjClass :Prefix,
@@ -1664,7 +1664,7 @@
                  }
                 {:label "somali-VPrefRedAbsAffPastProg-yimi"
                  :note ""
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :clauseCase :Absolutive,
                           :clauseType :Reduced,
                           :conjClass :Prefix,
@@ -1683,7 +1683,7 @@
                  }
                 {:label "somali-VPrefRedAbsAffPastProg-yiqiin"
                  :note ""
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :clauseCase :Absolutive,
                           :clauseType :Reduced,
                           :conjClass :Prefix,
@@ -1702,7 +1702,7 @@
                  }
                 {:label "somali-VPrefRedAbsAffPresGen-yidi"
                  :note ""
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :clauseCase :Absolutive,
                           :clauseType :Reduced,
                           :conjClass :Prefix,
@@ -1721,7 +1721,7 @@
                  }
                 {:label "somali-VPrefRedAbsAffPresGen-yiil"
                  :note ""
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :clauseCase :Absolutive,
                           :clauseType :Reduced,
                           :conjClass :Prefix,
@@ -1740,7 +1740,7 @@
                  }
                 {:label "somali-VPrefRedAbsAffPresGen-yimi"
                  :note ""
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :clauseCase :Absolutive,
                           :clauseType :Reduced,
                           :conjClass :Prefix,
@@ -1759,7 +1759,7 @@
                  }
                 {:label "somali-VPrefRedAbsAffPresGen-yiqiin"
                  :note ""
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :clauseCase :Absolutive,
                           :clauseType :Reduced,
                           :conjClass :Prefix,
@@ -1778,7 +1778,7 @@
                  }
                 {:label "somali-VPrefRedAbsAffPresProg-yidi"
                  :note ""
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :clauseCase :Absolutive,
                           :clauseType :Reduced,
                           :conjClass :Prefix,
@@ -1797,7 +1797,7 @@
                  }
                 {:label "somali-VPrefRedAbsAffPresProg-yiil"
                  :note ""
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :clauseCase :Absolutive,
                           :clauseType :Reduced,
                           :conjClass :Prefix,
@@ -1813,7 +1813,7 @@
                  }
                 {:label "somali-VPrefRedAbsAffPresProg-yimi"
                  :note ""
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :clauseCase :Absolutive,
                           :clauseType :Reduced,
                           :conjClass :Prefix,
@@ -1832,7 +1832,7 @@
                  }
                 {:label "somali-VPrefRedAbsAffPresProg-yiqiin"
                  :note ""
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :clauseCase :Absolutive,
                           :clauseType :Reduced,
                           :conjClass :Prefix,
@@ -1851,7 +1851,7 @@
                  }
                 {:label "somali-VPrefRedSubjAffPastGen-yahay"
                  :note ""
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :clauseCase :Subject,
                           :clauseType :Reduced,
                           :conjClass :Prefix,
@@ -1870,7 +1870,7 @@
                  }
                 {:label "somali-VPrefRedSubjAffPastGen-yidi"
                  :note ""
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :clauseCase :Subject,
                           :clauseType :Reduced,
                           :conjClass :Prefix,
@@ -1890,7 +1890,7 @@
                  }
                 {:label "somali-VPrefRedSubjAffPastGen-yiil"
                  :note ""
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :clauseCase :Subject,
                           :clauseType :Reduced,
                           :conjClass :Prefix,
@@ -1909,7 +1909,7 @@
                  }
                 {:label "somali-VPrefRedSubjAffPastGen-yimi"
                  :note ""
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :clauseCase :Subject,
                           :clauseType :Reduced,
                           :conjClass :Prefix,
@@ -1928,7 +1928,7 @@
                  }
                 {:label "somali-VPrefRedSubjAffPastGen-yiqiin"
                  :note ""
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :clauseCase :Subject,
                           :clauseType :Reduced,
                           :conjClass :Prefix,
@@ -1947,7 +1947,7 @@
                  }
                 {:label "somali-VPrefRedSubjAffPastProg-yidi"
                  :note ""
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :clauseCase :Subject,
                           :clauseType :Reduced,
                           :conjClass :Prefix,
@@ -1965,7 +1965,7 @@
                  }
                 {:label "somali-VPrefRedSubjAffPastProg-yiil"
                  :note ""
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :clauseCase :Subject,
                           :clauseType :Reduced,
                           :conjClass :Prefix,
@@ -1981,7 +1981,7 @@
                  }
                 {:label "somali-VPrefRedSubjAffPastProg-yimi"
                  :note ""
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :clauseCase :Subject,
                           :clauseType :Reduced,
                           :conjClass :Prefix,
@@ -2000,7 +2000,7 @@
                  }
                 {:label "somali-VPrefRedSubjAffPastProg-yiqiin"
                  :note ""
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :clauseCase :Subject,
                           :clauseType :Reduced,
                           :conjClass :Prefix,
@@ -2019,7 +2019,7 @@
                  }
                 {:label "somali-VPrefRedSubjAffPresGen-yidi"
                  :note ""
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :clauseCase :Subject,
                           :clauseType :Reduced,
                           :conjClass :Prefix,
@@ -2038,7 +2038,7 @@
                  }
                 {:label "somali-VPrefRedSubjAffPresGen-yiil"
                  :note ""
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :clauseCase :Subject,
                           :clauseType :Reduced,
                           :conjClass :Prefix,
@@ -2057,7 +2057,7 @@
                  }
                 {:label "somali-VPrefRedSubjAffPresGen-yimi"
                  :note ""
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :clauseCase :Subject,
                           :clauseType :Reduced,
                           :conjClass :Prefix,
@@ -2076,7 +2076,7 @@
                  }
                 {:label "somali-VPrefRedSubjAffPresGen-yiqiin"
                  :note ""
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :clauseCase :Subject,
                           :clauseType :Reduced,
                           :conjClass :Prefix,
@@ -2095,7 +2095,7 @@
                  }
                 {:label "somali-VPrefRedSubjAffPresProg-yidi"
                  :note ""
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :clauseCase :Subject,
                           :clauseType :Reduced,
                           :conjClass :Prefix,
@@ -2114,7 +2114,7 @@
                  }
                 {:label "somali-VPrefRedSubjAffPresProg-yiil"
                  :note ""
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :clauseCase :Subject,
                           :clauseType :Reduced,
                           :conjClass :Prefix,
@@ -2130,7 +2130,7 @@
                  }
                 {:label "somali-VPrefRedSubjAffPresProg-yimi"
                  :note ""
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :clauseCase :Subject,
                           :clauseType :Reduced,
                           :conjClass :Prefix,
@@ -2149,7 +2149,7 @@
                  }
                 {:label "somali-VPrefRedSubjAffPresProg-yiqiin"
                  :note ""
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :clauseCase :Subject,
                           :clauseType :Reduced,
                           :conjClass :Prefix,
@@ -2193,7 +2193,7 @@
                  }
                 {:label "somali-VSuffC1FullAbsAffPastGen-sug"
                  :note ""
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :clauseCase :Absolutive,
                           :clauseType :Full,
                           :conjClass :Suffix,
@@ -2213,7 +2213,7 @@
                  }
                 {:label "somali-VSuffC1FullAbsAffPastProg-sug"
                  :note ""
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :clauseCase :Absolutive,
                           :clauseType :Full,
                           :conjClass :Suffix,
@@ -2233,7 +2233,7 @@
                  }
                 {:label "somali-VSuffC1FullAbsAffPresGen-sug"
                  :note ""
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :clauseCase :Absolutive,
                           :clauseType :Full,
                           :conjClass :Suffix,
@@ -2253,7 +2253,7 @@
                  }
                 {:label "somali-VSuffC1FullAbsAffPresProg-sug"
                  :note ""
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :clauseCase :Absolutive,
                           :clauseType :Full,
                           :conjClass :Suffix,
@@ -2273,7 +2273,7 @@
                  }
                 {:label "somali-VSuffC1MainAffConditional-sug"
                  :note ""
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :clauseType :Main,
                           :conjClass :Suffix,
                           :conjSubClass :C1,
@@ -2293,7 +2293,7 @@
                  }
                 {:label "somali-VSuffC1MainAffFuture-sug"
                  :note ""
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :clauseType :Main,
                           :conjClass :Suffix,
                           :conjSubClass :C1,
@@ -2313,7 +2313,7 @@
                  }
                 {:label "somali-VSuffC1MainAffImprtv-sug"
                  :note ""
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :gender :Common,
                           :conjSubClass :C1,
                           :polarity :Affirmative,
@@ -2329,7 +2329,7 @@
                  }
                 {:label "somali-VSuffC1MainAffOptative-sug"
                  :note ""
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :clauseType :Main,
                           :conjClass :Suffix,
                           :conjSubClass :C1,
@@ -2350,7 +2350,7 @@
                  }
                 {:label "somali-VSuffC1MainAffPastGen-sug"
                  :note ""
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :clauseType :Main,
                           :conjClass :Suffix,
                           :conjSubClass :C1,
@@ -2369,7 +2369,7 @@
                  }
                 {:label "somali-VSuffC1MainAffPastHabit-sug"
                  :note ""
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :clauseType :Main,
                           :conjClass :Suffix,
                           :conjSubClass :C1,
@@ -2389,7 +2389,7 @@
                  }
                 {:label "somali-VSuffC1MainAffPastIndep-sug"
                  :note ""
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :clauseType :Main,
                           :conjClass :Suffix,
                           :conjSubClass :C1,
@@ -2408,7 +2408,7 @@
                  }
                 {:label "somali-VSuffC1MainAffPastProg-sug"
                  :note ""
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :clauseType :Main,
                           :conjClass :Suffix,
                           :conjSubClass :C1,
@@ -2427,7 +2427,7 @@
                  }
                 {:label "somali-VSuffC1MainAffPotential-sug"
                  :note ""
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :clauseType :Main,
                           :conjClass :Suffix,
                           :conjSubClass :C1,
@@ -2446,7 +2446,7 @@
                  }
                 {:label "somali-VSuffC1MainAffPresGen-sug"
                  :note ""
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :clauseType :Main,
                           :conjClass :Suffix,
                           :conjSubClass :C1,
@@ -2465,7 +2465,7 @@
                  }
                 {:label "somali-VSuffC1MainAffPresProg-sug"
                  :note ""
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :clauseType :Main,
                           :conjClass :Suffix,
                           :conjSubClass :C1,
@@ -2484,7 +2484,7 @@
                  }
                 {:label "somali-VSuffC1MainNegConditional-sug"
                  :note ""
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :clauseType :Main,
                           :conjClass :Suffix,
                           :conjSubClass :C1,
@@ -2503,7 +2503,7 @@
                  }
                 {:label "somali-VSuffC1MainNegFuture-sug"
                  :note ""
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :clauseType :Main,
                           :conjClass :Suffix,
                           :conjSubClass :C1,
@@ -2523,7 +2523,7 @@
                  }
                 {:label "somali-VSuffC1MainNegImprtv-sug"
                  :note ""
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :gender :Common,
                           :conjSubClass :C1,
                           :polarity :Negative,
@@ -2539,7 +2539,7 @@
                  }
                 {:label "somali-VSuffC1MainNegOptative-sug"
                  :note ""
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :clauseType :Main,
                           :conjClass :Suffix,
                           :conjSubClass :C1,
@@ -2586,7 +2586,7 @@
                  }
                 {:label "somali-VSuffC1MainNegPresGen-sug"
                  :note ""
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :clauseType :Main,
                           :conjClass :Suffix,
                           :conjSubClass :C1,
@@ -2605,7 +2605,7 @@
                  }
                 {:label "somali-VSuffC1MainNegPresProg-sug"
                  :note ""
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :clauseType :Main,
                           :conjClass :Suffix,
                           :conjSubClass :C1,
@@ -2624,7 +2624,7 @@
                  }
                 {:label "somali-VSuffC1MainNegPresProg2-sug"
                  :note ""
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :clauseType :Main,
                           :conjClass :Suffix,
                           :conjSubClass :C1,
@@ -2643,7 +2643,7 @@
                  }
                 {:label "somali-VSuffC1RedAbsAffPastGen-sug"
                  :note ""
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :clauseCase :Absolutive,
                           :clauseType :Reduced,
                           :conjClass :Suffix,
@@ -2663,7 +2663,7 @@
                  }
                 {:label "somali-VSuffC1RedAbsAffPastProg-keen"
                  :note ""
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :clauseCase :Absolutive,
                           :clauseType :Reduced,
                           :conjClass :Suffix,
@@ -2683,7 +2683,7 @@
                  }
                 {:label "somali-VSuffC1RedAbsAffPresGen-keen"
                  :note ""
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :clauseCase :Absolutive,
                           :clauseType :Reduced,
                           :conjClass :Suffix,
@@ -2703,7 +2703,7 @@
                  }
                 {:label "somali-VSuffC1RedAbsAffPresProg-keen"
                  :note ""
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :clauseCase :Absolutive,
                           :clauseType :Reduced,
                           :conjClass :Suffix,
@@ -2723,7 +2723,7 @@
                  }
                 {:label "somali-VSuffC1RedSubjAffPastGen-keen"
                  :note ""
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :clauseCase :Subject,
                           :clauseType :Reduced,
                           :conjClass :Suffix,
@@ -2743,7 +2743,7 @@
                  }
                 {:label "somali-VSuffC1RedSubjAffPastProg-keen"
                  :note ""
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :clauseCase :Subject,
                           :clauseType :Reduced,
                           :conjClass :Suffix,
@@ -2763,7 +2763,7 @@
                  }
                 {:label "somali-VSuffC1RedSubjAffPresGen-keen"
                  :note ""
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :clauseCase :Subject,
                           :clauseType :Reduced,
                           :conjClass :Suffix,
@@ -2783,7 +2783,7 @@
                  }
                 {:label "somali-VSuffC1RedSubjAffPresProg-keen"
                  :note ""
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :clauseCase :Subject,
                           :clauseType :Reduced,
                           :conjClass :Suffix,
@@ -2803,7 +2803,7 @@
                  }
                 {:label "somali-VSuffC2AFullAbsAffPastProg-kari"
                  :note ""
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :clauseCase :Absolutive,
                           :clauseType :Full,
                           :conjClass :Suffix,
@@ -2823,7 +2823,7 @@
                  }
                 {:label "somali-VSuffC2AFullAbsAffPresGen-kari"
                  :note ""
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :clauseCase :Absolutive,
                           :clauseType :Full,
                           :conjClass :Suffix,
@@ -2843,7 +2843,7 @@
                  }
                 {:label "somali-VSuffC2AFullAbsAffPresProg-kari"
                  :note ""
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :clauseCase :Absolutive,
                           :clauseType :Full,
                           :conjClass :Suffix,
@@ -2863,7 +2863,7 @@
                  }
                 {:label "somali-VSuffC2AFullAbsAffPstGen-kari"
                  :note ""
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :clauseCase :Absolutive,
                           :clauseType :Full,
                           :conjClass :Suffix,
@@ -2883,7 +2883,7 @@
                  }
                 {:label "somali-VSuffC2AMainAffConditional-kari"
                  :note ""
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :clauseType :Main,
                           :conjClass :Suffix,
                           :conjSubClass :C2A,
@@ -2903,7 +2903,7 @@
                  }
                 {:label "somali-VSuffC2AMainAffFuture-kari"
                  :note ""
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :clauseType :Main,
                           :conjClass :Suffix,
                           :conjSubClass :C2A,
@@ -2923,7 +2923,7 @@
                  }
                 {:label "somali-VSuffC2AMainAffImprtv-kari"
                  :note ""
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :gender :Common,
                           :conjSubClass :C2A,
                           :polarity :Affirmative,
@@ -2939,7 +2939,7 @@
                  }
                 {:label "somali-VSuffC2AMainAffOptative-kari"
                  :note ""
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :clauseType :Main,
                           :conjClass :Suffix,
                           :conjSubClass :C2A,
@@ -2960,7 +2960,7 @@
                  }
                 {:label "somali-VSuffC2AMainAffPastGen-kari"
                  :note ""
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :clauseType :Main,
                           :conjClass :Suffix,
                           :conjSubClass :C2A,
@@ -2979,7 +2979,7 @@
                  }
                 {:label "somali-VSuffC2AMainAffPastHabit-kari"
                  :note ""
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :clauseType :Main,
                           :conjClass :Suffix,
                           :conjSubClass :C2A,
@@ -2999,7 +2999,7 @@
                  }
                 {:label "somali-VSuffC2AMainAffPastIndep-kari"
                  :note ""
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :clauseType :Main,
                           :conjClass :Suffix,
                           :conjSubClass :C2A,
@@ -3018,7 +3018,7 @@
                  }
                 {:label "somali-VSuffC2AMainAffPastProg-kari"
                  :note ""
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :clauseType :Main,
                           :conjClass :Suffix,
                           :conjSubClass :C2A,
@@ -3037,7 +3037,7 @@
                  }
                 {:label "somali-VSuffC2AMainAffPotential-kari"
                  :note ""
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :clauseType :Main,
                           :conjClass :Suffix,
                           :conjSubClass :C2A,
@@ -3056,7 +3056,7 @@
                  }
                 {:label "somali-VSuffC2AMainAffPresGen-kari"
                  :note ""
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :clauseType :Main,
                           :conjClass :Suffix,
                           :conjSubClass :C2A,
@@ -3075,7 +3075,7 @@
                  }
                 {:label "somali-VSuffC2AMainAffPresProg-kari"
                  :note ""
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :clauseType :Main,
                           :conjClass :Suffix,
                           :conjSubClass :C2A,
@@ -3094,7 +3094,7 @@
                  }
                 {:label "somali-VSuffC2AMainNegConditional-kari"
                  :note ""
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :clauseType :Main,
                           :conjClass :Suffix,
                           :conjSubClass :C2A,
@@ -3113,7 +3113,7 @@
                  }
                 {:label "somali-VSuffC2AMainNegFuture-kari"
                  :note ""
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :clauseType :Main,
                           :conjClass :Suffix,
                           :conjSubClass :C2A,
@@ -3133,7 +3133,7 @@
                  }
                 {:label "somali-VSuffC2AMainNegImprtv-kari"
                  :note ""
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :gender :Common,
                           :conjSubClass :C2A,
                           :polarity :Negative,
@@ -3149,7 +3149,7 @@
                  }
                 {:label "somali-VSuffC2AMainNegOptative-kari"
                  :note ""
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :clauseType :Main,
                           :conjClass :Suffix,
                           :conjSubClass :C2A,
@@ -3170,7 +3170,7 @@
                  }
                 {:label "somali-VSuffC2AMainNegPresGen-kari"
                  :note ""
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :clauseType :Main,
                           :conjClass :Suffix,
                           :conjSubClass :C2A,
@@ -3189,7 +3189,7 @@
                  }
                 {:label "somali-VSuffC2AMainNegPresProg-kari"
                  :note ""
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :clauseType :Main,
                           :conjClass :Suffix,
                           :conjSubClass :C2A,
@@ -3208,7 +3208,7 @@
                  }
                 {:label "somali-VSuffC2AMainNegPresProg2-kari"
                  :note ""
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :clauseType :Main,
                           :conjClass :Suffix,
                           :conjSubClass :C2A,
@@ -3227,7 +3227,7 @@
                  }
                 {:label "somali-VSuffC2ARedAbsAffPastGen-kari"
                  :note ""
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :clauseCase :Absolutive,
                           :clauseType :Reduced,
                           :conjClass :Suffix,
@@ -3247,7 +3247,7 @@
                  }
                 {:label "somali-VSuffC2BFullAbsAffPastGen-yar"
                  :note ""
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :clauseCase :Absolutive,
                           :clauseType :Full,
                           :conjClass :Suffix,
@@ -3267,7 +3267,7 @@
                  }
                 {:label "somali-VSuffC2BFullAbsAffPastProg-yar"
                  :note "form calqued on conjSubClass :C2A/:C3A [CHECK!]"
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :clauseCase :Absolutive,
                           :clauseType :Full,
                           :conjClass :Suffix,
@@ -3287,7 +3287,7 @@
                  }
                 {:label "somali-VSuffC2BFullAbsAffPresGen-yar"
                  :note ""
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :clauseCase :Absolutive,
                           :clauseType :Full,
                           :conjClass :Suffix,
@@ -3307,7 +3307,7 @@
                  }
                 {:label "somali-VSuffC2BFullAbsAffPresProg-yar"
                  :note "form calqued on conjSubClass :C2A/:C3A [CHECK!]"
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :clauseCase :Absolutive,
                           :clauseType :Full,
                           :conjClass :Suffix,
@@ -3327,7 +3327,7 @@
                  }
                 {:label "somali-VSuffC2BMainAffConditional-yar"
                  :note "form calqued on conjSubClass :C2A/:C3A [CHECK!]"
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :clauseType :Main,
                           :conjClass :Suffix,
                           :conjSubClass :C2B,
@@ -3347,7 +3347,7 @@
                  }
                 {:label "somali-VSuffC2BMainAffFuture-yar"
                  :note "form calqued on conjSubClass :C2A/:C3A [CHECK!]"
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :clauseType :Main,
                           :conjClass :Suffix,
                           :conjSubClass :C2B,
@@ -3367,7 +3367,7 @@
                  }
                 {:label "somali-VSuffC2BMainAffImprtv-yar"
                  :note ""
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :gender :Common,
                           :conjSubClass :C2B,
                           :polarity :Affirmative,
@@ -3383,7 +3383,7 @@
                  }
                 {:label "somali-VSuffC2BMainAffOptative-yar"
                  :note "form calqued on conjSubClass :C2A/:C3A [CHECK!]"
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :clauseType :Main,
                           :conjClass :Suffix,
                           :conjSubClass :C2B,
@@ -3404,7 +3404,7 @@
                  }
                 {:label "somali-VSuffC2BMainAffPastGen-yar"
                  :note ""
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :clauseType :Main,
                           :conjClass :Suffix,
                           :conjSubClass :C2B,
@@ -3423,7 +3423,7 @@
                  }
                 {:label "somali-VSuffC2BMainAffPastHabit-yar"
                  :note "form calqued on conjSubClass :C2A/:C3A [CHECK!]"
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :clauseType :Main,
                           :conjClass :Suffix,
                           :conjSubClass :C2B,
@@ -3443,7 +3443,7 @@
                  }
                 {:label "somali-VSuffC2BMainAffPastIndep-yar"
                  :note "form calqued on conjSubClass :C2A/:C3A [CHECK!]"
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :clauseType :Main,
                           :conjClass :Suffix,
                           :conjSubClass :C2B,
@@ -3462,7 +3462,7 @@
                  }
                 {:label "somali-VSuffC2BMainAffPastProg-yar"
                  :note "form calqued on conjSubClass :C2A/:C3A [CHECK!]"
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :clauseType :Main,
                           :conjClass :Suffix,
                           :conjSubClass :C2B,
@@ -3481,7 +3481,7 @@
                  }
                 {:label "somali-VSuffC2BMainAffPotential-yar"
                  :note "form calqued on conjSubClass :C2A/:C3A [CHECK!]"
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :clauseType :Main,
                           :conjClass :Suffix,
                           :conjSubClass :C2B,
@@ -3500,7 +3500,7 @@
                  }
                 {:label "somali-VSuffC2BMainAffPresGen-yar"
                  :note ""
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :clauseType :Main,
                           :conjClass :Suffix,
                           :conjSubClass :C2B,
@@ -3519,7 +3519,7 @@
                  }
                 {:label "somali-VSuffC2BMainAffPresProg-yar"
                  :note "form calqued on conjSubClass :C2A/:C3A [CHECK!]"
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :clauseType :Main,
                           :conjClass :Suffix,
                           :conjSubClass :C2B,
@@ -3538,7 +3538,7 @@
                  }
                 {:label "somali-VSuffC2BMainNegConditional-yar"
                  :note "form calqued on conjSubClass :C2A/:C3A [CHECK!]"
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :clauseType :Main,
                           :conjClass :Suffix,
                           :conjSubClass :C2B,
@@ -3557,7 +3557,7 @@
                  }
                 {:label "somali-VSuffC2BMainNegFuture-yar"
                  :note "form calqued on conjSubClass :C2A/:C3A [CHECK!]"
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :clauseType :Main,
                           :conjClass :Suffix,
                           :conjSubClass :C2B,
@@ -3577,7 +3577,7 @@
                  }
                 {:label "somali-VSuffC2BMainNegImprtv-yar"
                  :note ""
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :gender :Common,
                           :conjSubClass :C2B,
                           :polarity :Negative,
@@ -3593,7 +3593,7 @@
                  }
                 {:label "somali-VSuffC2BMainNegOptative-yar"
                  :note "form calqued on conjSubClass :C2A/:C3A [CHECK!]"
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :clauseType :Main,
                           :conjClass :Suffix,
                           :conjSubClass :C2B,
@@ -3614,7 +3614,7 @@
                  }
                 {:label "somali-VSuffC2BMainNegPresGen-yar"
                  :note ""
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :clauseType :Main,
                           :conjClass :Suffix,
                           :conjSubClass :C2B,
@@ -3633,7 +3633,7 @@
                  }
                 {:label "somali-VSuffC2BMainNegPresProg-yar"
                  :note "form calqued on conjSubClass :C2A/:C3A [CHECK!]"
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :clauseType :Main,
                           :conjClass :Suffix,
                           :conjSubClass :C2B,
@@ -3652,7 +3652,7 @@
                  }
                 {:label "somali-VSuffC2BMainNegPresProg2-yar"
                  :note "form calqued on conjSubClass :C2A/:C3A [CHECK!]"
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :clauseType :Main,
                           :conjClass :Suffix,
                           :conjSubClass :C2B,
@@ -3671,7 +3671,7 @@
                  }
                 {:label "somali-VSuffC2BRedAbsAffPastGen-yar"
                  :note ""
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :clauseCase :Absolutive,
                           :clauseType :Reduced,
                           :conjClass :Suffix,
@@ -3691,7 +3691,7 @@
                  }
                 {:label "somali-VSuffC3AFullAbsAffPastGen-joogso"
                  :note ""
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :clauseCase :Absolutive,
                           :clauseType :Full,
                           :conjClass :Suffix,
@@ -3711,7 +3711,7 @@
                  }
                 {:label "somali-VSuffC3AFullAbsAffPastProg-joogso"
                  :note ""
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :clauseCase :Absolutive,
                           :clauseType :Full,
                           :conjClass :Suffix,
@@ -3731,7 +3731,7 @@
                  }
                 {:label "somali-VSuffC3AFullAbsAffPresGen-joogso"
                  :note ""
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :clauseCase :Absolutive,
                           :clauseType :Full,
                           :conjClass :Suffix,
@@ -3751,7 +3751,7 @@
                  }
                 {:label "somali-VSuffC3AFullAbsAffPresProg-joogso"
                  :note ""
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :clauseCase :Absolutive,
                           :clauseType :Full,
                           :conjClass :Suffix,
@@ -3771,7 +3771,7 @@
                  }
                 {:label "somali-VSuffC3AMainAffConditional-joogso"
                  :note ""
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :clauseType :Main,
                           :conjClass :Suffix,
                           :conjSubClass :C3A,
@@ -3791,7 +3791,7 @@
                  }
                 {:label "somali-VSuffC3AMainAffFuture-joogso"
                  :note ""
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :clauseType :Main,
                           :conjClass :Suffix,
                           :conjSubClass :C3A,
@@ -3811,7 +3811,7 @@
                  }
                 {:label "somali-VSuffC3AMainAffImprtv-joogso"
                  :note ""
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :gender :Common,
                           :conjSubClass :C3A,
                           :polarity :Affirmative,
@@ -3827,7 +3827,7 @@
                  }
                 {:label "somali-VSuffC3AMainAffOptative-joogso"
                  :note ""
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :clauseType :Main,
                           :conjClass :Suffix,
                           :conjSubClass :C3A,
@@ -3848,7 +3848,7 @@
                  }
                 {:label "somali-VSuffC3AMainAffPastGen-joogso"
                  :note ""
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :clauseType :Main,
                           :conjClass :Suffix,
                           :conjSubClass :C3A,
@@ -3867,7 +3867,7 @@
                  }
                 {:label "somali-VSuffC3AMainAffPastHabit-joogso"
                  :note ""
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :clauseType :Main,
                           :conjClass :Suffix,
                           :conjSubClass :C3A,
@@ -3887,7 +3887,7 @@
                  }
                 {:label "somali-VSuffC3AMainAffPastIndep-joogso"
                  :note ""
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :clauseType :Main,
                           :conjClass :Suffix,
                           :conjSubClass :C3A,
@@ -3906,7 +3906,7 @@
                  }
                 {:label "somali-VSuffC3AMainAffPastProg-joogso"
                  :note ""
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :clauseType :Main,
                           :conjClass :Suffix,
                           :conjSubClass :C3A,
@@ -3925,7 +3925,7 @@
                  }
                 {:label "somali-VSuffC3AMainAffPotential-joogso"
                  :note ""
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :clauseType :Main,
                           :conjClass :Suffix,
                           :conjSubClass :C3A,
@@ -3944,7 +3944,7 @@
                  }
                 {:label "somali-VSuffC3AMainAffPresGen-joogso"
                  :note ""
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :clauseType :Main,
                           :conjClass :Suffix,
                           :conjSubClass :C3A,
@@ -3963,7 +3963,7 @@
                  }
                 {:label "somali-VSuffC3AMainAffPresProg-joogso"
                  :note ""
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :clauseType :Main,
                           :conjClass :Suffix,
                           :conjSubClass :C3A,
@@ -3982,7 +3982,7 @@
                  }
                 {:label "somali-VSuffC3AMainNegConditional-joogso"
                  :note ""
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :clauseType :Main,
                           :conjClass :Suffix,
                           :conjSubClass :C3A,
@@ -4001,7 +4001,7 @@
                  }
                 {:label "somali-VSuffC3AMainNegFuture-joogso"
                  :note ""
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :clauseType :Main,
                           :conjClass :Suffix,
                           :conjSubClass :C3A,
@@ -4021,7 +4021,7 @@
                  }
                 {:label "somali-VSuffC3AMainNegImprtv-joogso"
                  :note ""
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :gender :Common,
                           :conjSubClass :C3A,
                           :polarity :Negative,
@@ -4037,7 +4037,7 @@
                  }
                 {:label "somali-VSuffC3AMainNegOptative-joogso"
                  :note ""
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :clauseType :Main,
                           :conjClass :Suffix,
                           :conjSubClass :C3A,
@@ -4058,7 +4058,7 @@
                  }
                 {:label "somali-VSuffC3AMainNegPresGen-joogso"
                  :note ""
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :clauseType :Main,
                           :conjClass :Suffix,
                           :conjSubClass :C3A,
@@ -4077,7 +4077,7 @@
                  }
                 {:label "somali-VSuffC3AMainNegPresProg-joogso"
                  :note ""
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :clauseType :Main,
                           :conjClass :Suffix,
                           :conjSubClass :C3A,
@@ -4096,7 +4096,7 @@
                  }
                 {:label "somali-VSuffC3AMainNegPresProg2-joogso"
                  :note ""
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :clauseType :Main,
                           :conjClass :Suffix,
                           :conjSubClass :C3A,
@@ -4115,7 +4115,7 @@
                  }
                 {:label "somali-VSuffC3ARedAbsAffPastGen-joogso"
                  :note ""
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :clauseCase :Absolutive,
                           :clauseType :Reduced,
                           :conjClass :Suffix,
@@ -4135,7 +4135,7 @@
                  }
                 {:label "somali-VSuffC3BAbsAffPresProg-qaado"
                  :note "form calqued on conjSubClass :C2A/:C3A [CHECK!]"
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :clauseType :Main,
                           :conjClass :Suffix,
                           :conjSubClass :C3B,
@@ -4154,7 +4154,7 @@
                  }
                 {:label "somali-VSuffC3BFullAbsAffPastGen-qaado"
                  :note ""
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :clauseCase :Absolutive,
                           :clauseType :Full,
                           :conjClass :Suffix,
@@ -4174,7 +4174,7 @@
                  }
                 {:label "somali-VSuffC3BFullAbsAffPastProg-qaado"
                  :note "form calqued on conjSubClass :C2A/:C3A [CHECK!]"
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :clauseCase :Absolutive,
                           :clauseType :Full,
                           :conjClass :Suffix,
@@ -4194,7 +4194,7 @@
                  }
                 {:label "somali-VSuffC3BFullAbsAffPresGen-qaado"
                  :note ""
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :clauseCase :Absolutive,
                           :clauseType :Full,
                           :conjClass :Suffix,
@@ -4214,7 +4214,7 @@
                  }
                 {:label "somali-VSuffC3BFullMainAffPresProg-qaado"
                  :note "form calqued on conjSubClass :C2A/:C3A [CHECK!]"
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :clauseCase :Absolutive,
                           :clauseType :Full,
                           :conjClass :Suffix,
@@ -4234,7 +4234,7 @@
                  }
                 {:label "somali-VSuffC3BMainAffConditional-qaado"
                  :note "form calqued on conjSubClass :C2A/:C3A [CHECK!]"
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :clauseType :Main,
                           :conjClass :Suffix,
                           :conjSubClass :C3B,
@@ -4254,7 +4254,7 @@
                  }
                 {:label "somali-VSuffC3BMainAffFuture-qaado"
                  :note "form calqued on conjSubClass :C2A/:C3A [CHECK!]"
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :clauseType :Main,
                           :conjClass :Suffix,
                           :conjSubClass :C3B,
@@ -4274,7 +4274,7 @@
                  }
                 {:label "somali-VSuffC3BMainAffImprtv-qaado"
                  :note ""
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :gender :Common,
                           :conjSubClass :C3B,
                           :polarity :Affirmative,
@@ -4290,7 +4290,7 @@
                  }
                 {:label "somali-VSuffC3BMainAffOptative-qaado"
                  :note "form calqued on conjSubClass :C2A/:C3A [CHECK!]"
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :clauseType :Main,
                           :conjClass :Suffix,
                           :conjSubClass :C3B,
@@ -4311,7 +4311,7 @@
                  }
                 {:label "somali-VSuffC3BMainAffPastGen-qaado"
                  :note ""
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :clauseType :Main,
                           :conjClass :Suffix,
                           :conjSubClass :C3B,
@@ -4330,7 +4330,7 @@
                  }
                 {:label "somali-VSuffC3BMainAffPastHabit-qaado"
                  :note "form calqued on conjSubClass :C2A/:C3A [CHECK!]"
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :clauseType :Main,
                           :conjClass :Suffix,
                           :conjSubClass :C3B,
@@ -4350,7 +4350,7 @@
                  }
                 {:label "somali-VSuffC3BMainAffPastIndep-qaado"
                  :note "form calqued on conjSubClass :C2A/:C3A [CHECK!]"
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :clauseType :Main,
                           :conjClass :Suffix,
                           :conjSubClass :C3B,
@@ -4369,7 +4369,7 @@
                  }
                 {:label "somali-VSuffC3BMainAffPastProg-qaado"
                  :note "form calqued on conjSubClass :C2A/:C3A [CHECK!]"
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :clauseType :Main,
                           :conjClass :Suffix,
                           :conjSubClass :C3B,
@@ -4388,7 +4388,7 @@
                  }
                 {:label "somali-VSuffC3BMainAffPotential-qaado"
                  :note "form calqued on conjSubClass :C2A/:C3A [CHECK!]"
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :clauseType :Main,
                           :conjClass :Suffix,
                           :conjSubClass :C3B,
@@ -4407,7 +4407,7 @@
                  }
                 {:label "somali-VSuffC3BMainAffPresGen-qaado"
                  :note ""
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :clauseType :Main,
                           :conjClass :Suffix,
                           :conjSubClass :C3B,
@@ -4426,7 +4426,7 @@
                  }
                 {:label "somali-VSuffC3BMainNegConditional-qaado"
                  :note "form calqued on conjSubClass :C2A/:C3A [CHECK!]"
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :clauseType :Main,
                           :conjClass :Suffix,
                           :conjSubClass :C3B,
@@ -4445,7 +4445,7 @@
                  }
                 {:label "somali-VSuffC3BMainNegFuture-qaado"
                  :note "form calqued on conjSubClass :C2A/:C3A [CHECK!]"
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :clauseType :Main,
                           :conjClass :Suffix,
                           :conjSubClass :C3B,
@@ -4465,7 +4465,7 @@
                  }
                 {:label "somali-VSuffC3BMainNegImprtv-qaado"
                  :note ""
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :gender :Common,
                           :conjSubClass :C3B,
                           :polarity :Negative,
@@ -4481,7 +4481,7 @@
                  }
                 {:label "somali-VSuffC3BMainNegOptative-qaado"
                  :note "form calqued on conjSubClass :C2A/:C3A [CHECK!]"
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :clauseType :Main,
                           :conjClass :Suffix,
                           :conjSubClass :C3B,
@@ -4502,7 +4502,7 @@
                  }
                 {:label "somali-VSuffC3BMainNegPresGen-qaado"
                  :note ""
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :clauseType :Main,
                           :conjClass :Suffix,
                           :conjSubClass :C3B,
@@ -4521,7 +4521,7 @@
                  }
                 {:label "somali-VSuffC3BMainNegPresProg-qaado"
                  :note "form calqued on conjSubClass :C2A/:C3A [CHECK!]"
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :clauseType :Main,
                           :conjClass :Suffix,
                           :conjSubClass :C3B,
@@ -4540,7 +4540,7 @@
                  }
                 {:label "somali-VSuffC3BMainNegPresProg2-qaado"
                  :note "form calqued on conjSubClass :C2A/:C3A [CHECK!]"
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :clauseType :Main,
                           :conjClass :Suffix,
                           :conjSubClass :C3B,
@@ -4559,7 +4559,7 @@
                  }
                 {:label "somali-VSuffC3BRedAbsAffPastGen-qaado"
                  :note ""
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :clauseCase :Absolutive,
                           :clauseType :Reduced,
                           :conjClass :Suffix,

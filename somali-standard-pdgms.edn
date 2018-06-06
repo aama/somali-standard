@@ -5,26 +5,27 @@
  :datasource "Saeed1999 Orwin1995"
  :geodemoURL "http://www.ethnologue.com/language/som"
  :geodemoTXT "Standard Somali is based principally on the Northern variety of a group of closely related 'Somaloid' language varieties spoken in the Horn of African and Kenya. Standard Somali is spoken throughout the region historically known as Somalia, and in adjacent countries (Djibouti, Ethiopia, Kenya). The paradigms are a combination of Saeed1999 and Orwin1995."
-:schemata {:case [:Nominative :Object],
-           :clauseCase [:Absolutive :Subject],
-           :clauseType [:Full :Main :Reduced :Subordinate],
-           :conjClass [:Prefix :Suffix],
-           :conjSubClass [:C1 :C2A :C2B :C3A :C3B],
-           :conjSubType [:SubClass1 :SubClass2],
-           :formClass [:Compound],
-           :gender [:Common :Fem :Masc],
-           :genderPoss [:Fem :Masc],
-           :nonFiniteForm [:Infinitive],
-           :numPersGender [:Invariable],
-           :number [:Plural :Singular],
-           :pdgmSubType [:PastInvar],
-           :person [:Person1 :Person1ex :Person1in :Person2 :Person3],
-           :polarity [:Affirmative :Negative],
-           :pos [:Pronoun :Verb],
-           :proClass [:Independent :ObjClitic :Possessive :SubjClit],
-           :tam [:Conditional :Future :Imperative :Optative :PastGeneral :PastHabitual :PastIndependent :PastProgressive :Potential :PresentGeneral :PresentProgressive :PresentProgressive2],
-           :vmorphClass [:Finite :INFINITIVEPREF :INFINITIVESUFF :PREFMAINNEGPASTINVAR :SUFFC1MAINNEGPASTINVAR :SubVarTense]
-           }
+:schemata {:lexeme [:joogs  :joogso :kar :kari :keen :qaad :qaado :sug :yahay :yar :yaree :yidi :yiil :yimi :yiqiin :yqiin],
+ :case [:Nominative :Object],
+ :clauseCase [:Absolutive :Subject],
+ :clauseType [:Full :Main :Reduced :Subordinate],
+ :conjClass [:Prefix :Suffix],
+ :conjSubClass [:C1 :C2A :C2B :C3A :C3B],
+ :conjSubType [:SubClass1 :SubClass2],
+ :formClass [:Compound],
+ :gender [:Common :Fem :Masc],
+ :genderPoss [:Fem :Masc],
+ :nonFiniteForm [:Infinitive],
+ :numPersGender [:Invariable],
+ :number [:Plural :Singular],
+ :pdgmSubType [:PastInvar],
+ :person [:Person1 :Person1ex :Person1in :Person2 :Person3],
+ :polarity [:Affirmative :Negative],
+ :pos [:Pronoun :Verb],
+ :proClass [:Independent :ObjClitic :Possessive :SubjClit],
+ :tam [:Conditional :Future :Imperative :Optative :PastGeneral :PastHabitual :PastIndependent :PastProgressive :Potential :PresentGeneral :PresentProgressive :PresentProgressive2],
+ :vmorphClass [:Finite :INFINITIVEPREF :INFINITIVESUFF :PREFMAINNEGPASTINVAR :SUFFC1MAINNEGPASTINVAR :SubVarTense]
+ }
  :pclass {:pngClass [:person :number :gender :genderPoss :numPersGender],
           :synsemClass [:case :cluaseCase :clauseType :derivedStems :nonFiniteForm :polarity :pdgmSubType :pos :proClass :tam :formClass],
           :inflClass [:conjClass :conjSubClass :conjSubType],
@@ -4592,7 +4593,7 @@
                  }
                 {:label "somali-PInd"
                  :note "SAEED1999 p. 68"
-                 :common {:pos :Pronoun,
+                 :common {:pos :Pronoun, :pmorphClass :ProMorph,
                           :proClass :Independent}
                  :terms [[:number :person :gender :token],
                          [:Singular :Person1 :Common "aní-ga"],
@@ -4608,7 +4609,7 @@
                  :note "SAEED1999 pp. 73-74;2ary form is used “when two obert object clitic pronouns
             occur in the same verbal group”."
                  :common {:case :Object,
-                          :pos :Pronoun,
+                          :pos :Pronoun, :pmorphClass :ProMorph,
                           :proClass :ObjClitic}
                  :terms [[:conjSubType :number :person :gender :token],
                          [:SubClass1 :Singular :Person1 :Common "i"],
@@ -4630,7 +4631,7 @@
                  }
                 {:label "somali-PPoss"
                  :note "SAEED1999 pp. 114-115"
-                 :common {:pos :Pronoun,
+                 :common {:pos :Pronoun, :pmorphClass :ProMorph,
                           :proClass :Possessive}
                  :terms [[:genderPoss :number :person :gender :token],
                          [:Fem :Singular :Person1 :Common "tàyda"],
@@ -4653,7 +4654,7 @@
                 {:label "somali-PSubjClit"
                  :note "SAEED1999 p. 72"
                  :common {:case :Nominative,
-                          :pos :Pronoun,
+                          :pos :Pronoun, :pmorphClass :ProMorph,
                           :proClass :SubjClit}
                  :terms [[:number :person :gender :token],
                          [:Singular :Person1 :Common "aan"],

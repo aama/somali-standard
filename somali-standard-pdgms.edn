@@ -5,8 +5,7 @@
  :datasource "Saeed1999 Orwin1995"
  :geodemoURL "http://www.ethnologue.com/language/som"
  :geodemoTXT "Standard Somali is based principally on the Northern variety of a group of closely related 'Somaloid' language varieties spoken in the Horn of African and Kenya. Standard Somali is spoken throughout the region historically known as Somalia, and in adjacent countries (Djibouti, Ethiopia, Kenya). The paradigms are a combination of Saeed1999 and Orwin1995."
-:schemata {:lexeme [:joogs  :joogso :kar :kari :keen :qaad :qaado :sug :yahay :yar :yaree :yidi :yiil :yimi :yiqiin :yqiin],
- :case [:Nominative :Object],
+:schemata { :case [:Nominative :Object],
  :clauseCase [:Absolutive :Subject],
  :clauseType [:Full :Main :Reduced :Subordinate],
  :conjClass [:Prefix :Suffix],
@@ -30,30 +29,27 @@
           :synsemClass [:case :cluaseCase :clauseType :derivedStems :nonFiniteForm :polarity :pdgmSubType :pos :proClass :tam :formClass],
           :inflClass [:conjClass :conjSubClass :conjSubType],
           :otherClass []}
- :lexemes{:yahay {:conjClass :Prefix, :gloss "be", :lemma "yahay", :pos :Verb},
-          :yimi {:gloss "come", :lemma "yimi", :pos :Verb, :conjClass :Prefix},
-          :SUFFC1MAINNEGPASTINVAR {:gloss "[x]", :lemma "[y]"},
-          :yidi {:gloss "say", :lemma "yiɗi", :pos :Verb, :conjClass :Prefix},
-          :PREFMAINNEGPASTINVAR {:gloss "[x]", :lemma "[y]"},
-          :kar {:gloss "[x]", :lemma "[y]"},
-          :joogso {:conjClass :Suffix, :conjSubClass :C3A, :gloss "stop oneself", :lemma "joogsó", :pos :Verb},
-          :FULLREDVARCLAUSECASETYPE {:gloss "[x]", :lemma "[y]"},
-          :FULLREDVAR {:gloss "[x]", :lemma "[y]"},
-          :sug {:conjClass :Suffix, :gloss "wait for", :lemma "súg", :pos :Verb, :conjSubClass :C1},
-          :yqiin {:gloss "[x]", :lemma "[y]"},
-          :joogs {:gloss "[x]", :lemma "[y]"},
-          :kari {:conjClass :Suffix, :conjSubClass :C2A, :gloss "cook", :lemma "kári", :pos :Verb},
-          :yaree {:gloss "[x]", :lemma "[y]"},
-          :COMPDASSOM {:gloss "[x]", :lemma "[y]"},
-          :yiil {:gloss "be (in a place)", :lemma "yiil", :pos :Verb, :conjClass :Prefix},
-          :qaad {:gloss "[x]", :lemma "[y]"},
-          :yar {:conjClass :Suffix, :conjSubClass :C2B, :gloss "make small (cf. yár ‘small’)", :lemma "yarèe", :pos :Verb},
-          :INFINITIVEPREF {:gloss "[x]", :lemma "[y]"},
-          :keen {:conjClass :Suffix, :conjSubClass :C1, :gloss "give", :lemma "kéen", :pos :Verb},
-          :INFINITIVESUFF {:gloss "[x]", :lemma "[y]"},
-          :qaado {:conjClass :Suffix, :gloss "take for oneself", :lemma "qaadó", :pos :Verb, :conjSubClass :C3B},
-          :PREFSUBVARTENSE {:gloss "[x]", :lemma "[y]"},
-          :yiqiin {:gloss "know", :lemma "yiqiin", :pos :Verb, :conjClass :Prefix}}
+ :lexemes {
+:COMPDASSOM   {:pos :Verb, :lemma "[y]", :gloss "[x]", },
+:FULLREDVAR   {:pos :Verb, :lemma "[y]", :gloss "[x]", },
+:FULLREDVARCLAUSECASETYPE   {:pos :Verb, :lemma "[y]", :gloss "[x]", },
+:INFINITIVEPREF   {:pos :Verb, :lemma "[y]", :gloss "[x]", },
+:INFINITIVESUFF   {:pos :Verb, :lemma "[y]", :gloss "[x]", },
+:PREFMAINNEGPASTINVAR   {:pos :Verb, :lemma "[y]", :gloss "[x]", },
+:PREFSUBVARTENSE   {:pos :Verb, :lemma "[y]", :gloss "[x]", },
+:SUFFC1MAINNEGPASTINVAR   {:pos :Verb, :lemma "[y]", :gloss "[x]", },
+:joogso   {:pos :Verb, :lemma "joogsó", :gloss "stop oneself", :conjClass :Suffix, :conjSubClass :C3A},
+:kari   {:pos :Verb, :lemma "kári", :gloss "cook", :conjClass :Suffix, :conjSubClass :C2A},
+:keen   {:pos :Verb, :lemma "kéen", :gloss "give", :conjClass :Suffix, :conjSubClass :C1},
+:qaado   {:pos :Verb, :lemma "qaadó", :gloss "take for oneself", :conjClass :Suffix, :conjSubClass :C3B},
+:sug   {:pos :Verb, :lemma "súg", :gloss "wait for", :conjClass :Suffix, :conjSubClass :C1},
+:yahay   {:pos :Verb, :lemma "yahay", :gloss "be", :conjClass :Prefix},
+:yaree   {:pos :Verb, :lemma "yarèe", :gloss "make small (cf. yár ‘small’)", :conjClass :Suffix, :conjSubClass :C2B},
+:yidi   {:pos :Verb, :lemma "yiɗi", :gloss "say", :conjClass :Prefix},
+:yiil   {:pos :Verb, :lemma "yiil", :gloss "be (in a place)", :conjClass :Prefix},
+:yimi   {:pos :Verb, :lemma "yimi", :gloss "come", :conjClass :Prefix},
+:yiqiin   {:pos :Verb, :lemma "yiqiin", :gloss "know", :conjClass :Prefix},
+}
  :termclusters [
                 {:label "somali-VPrefInfinitive"
                  :note ""
@@ -1369,7 +1365,7 @@
                          [:yimi :PastHabitual "imán jirín"],
                          [:yimi :PastProgressive "_"],
                          [:yiqiin :PastHabitual "oqóon jirín"],
-                         [:yqiin :PastGeneral "_"]]
+                         [:yiqiin :PastGeneral "_"]]
                  }
                 {:label "somali-VPrefMainNegPresGen-yahay"
                  :note ""
@@ -2572,18 +2568,18 @@
                          [:C1 :sug :PastGeneral "_"],
                          [:C1 :sug :PastHabitual "súgi jirín"],
                          [:C1 :sug :PastProgressive "_"],
-                         [:C2A :kar :PastGeneral "_"],
-                         [:C2A :kar :PastHabitual "karín jirín"],
-                         [:C2A :kar :PastProgressive "_"],
-                         [:C2B :yar :PastGeneral "_"],
-                         [:C2B :yar :PastHabitual "CHECK jirín"],
-                         [:C2B :yar :PastProgressive "_"],
-                         [:C3A :joogs :PastGeneral "_"],
-                         [:C3A :joogs :PastHabitual "joogsán jirín"],
-                         [:C3A :joogs :PastProgressive "_"],
-                         [:C3B :qaad :PastGeneral "_"],
-                         [:C3B :qaad :PastHabitual "CHECK jirín"],
-                         [:C3B :qaad :PastProgressive "_"]]
+                         [:C2A :kari :PastGeneral "_"],
+                         [:C2A :kari :PastHabitual "karín jirín"],
+                         [:C2A :kari :PastProgressive "_"],
+                         [:C2B :yaree :PastGeneral "_"],
+                         [:C2B :yaree :PastHabitual "CHECK jirín"],
+                         [:C2B :yaree :PastProgressive "_"],
+                         [:C3A :joogso :PastGeneral "_"],
+                         [:C3A :joogso :PastHabitual "joogsán jirín"],
+                         [:C3A :joogso :PastProgressive "_"],
+                         [:C3B :qaado :PastGeneral "_"],
+                         [:C3B :qaado :PastHabitual "CHECK jirín"],
+                         [:C3B :qaado :PastProgressive "_"]]
                  }
                 {:label "somali-VSuffC1MainNegPresGen-sug"
                  :note ""

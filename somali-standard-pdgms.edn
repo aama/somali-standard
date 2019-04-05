@@ -2,57 +2,57 @@
  :lang :somali-standard
  :subfamily "Lowland East Cushitic Omo-Tana"
  :sgpref "sst"
- :datasource "Saeed1999 Orwin1995"
+ :datasource "Saeed1999 Orwin1995; abbrev S99 O95"
  :geodemoURL "http://www.ethnologue.com/language/som"
  :geodemoTXT "Standard Somali is based principally on the Northern variety of a group of closely related 'Somaloid' language varieties spoken in the Horn of African and Kenya. Standard Somali is spoken throughout the region historically known as Somalia, and in adjacent countries (Djibouti, Ethiopia, Kenya). The paradigms are a combination of Saeed1999 and Orwin1995."
-:schemata { :case [:Nominative :Object],
- :clauseCase [:Absolutive :Subject],
- :clauseType [:Full :Main :Reduced :Subordinate],
- :conjClass [:Prefix :Suffix],
- :conjSubClass [:C1 :C2A :C2B :C3A :C3B],
- :conjSubType [:SubClass1 :SubClass2],
- :formClass [:Compound],
- :gender [:Common :Fem :Masc],
- :genderPoss [:Fem :Masc],
- :nonFiniteForm [:Infinitive],
- :numPersGender [:Invariable],
- :number [:Plural :Singular],
- :pdgmSubType [:PastInvar],
- :person [:Person1 :Person1ex :Person1in :Person2 :Person3],
- :polarity [:Affirmative :Negative],
- :pos [:Pronoun :Verb],
- :proClass [:Independent :ObjClitic :Possessive :SubjClit],
- :tam [:Conditional :Future :Imperative :Optative :PastGeneral :PastHabitual :PastIndependent :PastProgressive :Potential :PresentGeneral :PresentProgressive :PresentProgressive2],
- :vmorphClass [:Finite :INFINITIVEPREF :INFINITIVESUFF :PREFMAINNEGPASTINVAR :SUFFC1MAINNEGPASTINVAR :SubVarTense]
- }
+ :schemata { :case [:Nominative :Object],
+            :clauseCase [:Absolutive :Subject],
+            :clauseType [:Full :Main :Reduced :Subordinate],
+            :conjClass [:Prefix :Suffix],
+            :conjSubClass [:C1 :C2A :C2B :C3A :C3B],
+            :conjSubType [:SubClass1 :SubClass2],
+            :formClass [:Compound],
+            :gender [:Common :Fem :Masc],
+            :genderPoss [:Fem :Masc],
+            :nonFiniteForm [:Infinitive],
+            :numPersGender [:Invariable],
+            :number [:Plural :Singular],
+            :pdgmSubType [:PastInvar],
+            :person [:Person1 :Person1ex :Person1in :Person2 :Person3],
+            :polarity [:Affirmative :Negative],
+            :pos [:Pronoun :Verb],
+            :proClass [:Independent :ObjClitic :Possessive :SubjClit],
+            :tam [:Conditional :Future :Imperative :Optative :PastGeneral :PastHabitual :PastIndependent :PastProgressive :Potential :PresentGeneral :PresentProgressive :PresentProgressive2],
+            :vmorphClass [:Finite :INFINITIVEPREF :INFINITIVESUFF :PREFMAINNEGPASTINVAR :SUFFC1MAINNEGPASTINVAR :SubVarTense]
+            }
  :pclass {:pngClass [:person :number :gender :genderPoss :numPersGender],
           :synsemClass [:case :cluaseCase :clauseType :derivedStems :nonFiniteForm :polarity :pdgmSubType :pos :proClass :tam :formClass],
           :inflClass [:conjClass :conjSubClass :conjSubType],
           :otherClass []}
  :lexemes {
-:COMPDASSOM   {:pos :Verb, :lemma "[y]", :gloss "[x]", },
-:FULLREDVAR   {:pos :Verb, :lemma "[y]", :gloss "[x]", },
-:FULLREDVARCLAUSECASETYPE   {:pos :Verb, :lemma "[y]", :gloss "[x]", },
-:INFINITIVEPREF   {:pos :Verb, :lemma "[y]", :gloss "[x]", },
-:INFINITIVESUFF   {:pos :Verb, :lemma "[y]", :gloss "[x]", },
-:PREFMAINNEGPASTINVAR   {:pos :Verb, :lemma "[y]", :gloss "[x]", },
-:PREFSUBVARTENSE   {:pos :Verb, :lemma "[y]", :gloss "[x]", },
-:SUFFC1MAINNEGPASTINVAR   {:pos :Verb, :lemma "[y]", :gloss "[x]", },
-:joogso   {:pos :Verb, :lemma "joogsó", :gloss "stop oneself", :conjClass :Suffix, :conjSubClass :C3A},
-:kari   {:pos :Verb, :lemma "kári", :gloss "cook", :conjClass :Suffix, :conjSubClass :C2A},
-:keen   {:pos :Verb, :lemma "kéen", :gloss "give", :conjClass :Suffix, :conjSubClass :C1},
-:qaado   {:pos :Verb, :lemma "qaadó", :gloss "take for oneself", :conjClass :Suffix, :conjSubClass :C3B},
-:sug   {:pos :Verb, :lemma "súg", :gloss "wait for", :conjClass :Suffix, :conjSubClass :C1},
-:yahay   {:pos :Verb, :lemma "yahay", :gloss "be", :conjClass :Prefix},
-:yaree   {:pos :Verb, :lemma "yarèe", :gloss "make small (cf. yár ‘small’)", :conjClass :Suffix, :conjSubClass :C2B},
-:yidi   {:pos :Verb, :lemma "yiɗi", :gloss "say", :conjClass :Prefix},
-:yiil   {:pos :Verb, :lemma "yiil", :gloss "be (in a place)", :conjClass :Prefix},
-:yimi   {:pos :Verb, :lemma "yimi", :gloss "come", :conjClass :Prefix},
-:yiqiin   {:pos :Verb, :lemma "yiqiin", :gloss "know", :conjClass :Prefix},
-}
+           :COMPDASSOM   {:pos :Verb, :lemma "[y]", :gloss "[x]", },
+           :FULLREDVAR   {:pos :Verb, :lemma "[y]", :gloss "[x]", },
+           :FULLREDVARCLAUSECASETYPE   {:pos :Verb, :lemma "[y]", :gloss "[x]", },
+           :INFINITIVEPREF   {:pos :Verb, :lemma "[y]", :gloss "[x]", },
+           :INFINITIVESUFF   {:pos :Verb, :lemma "[y]", :gloss "[x]", },
+           :PREFMAINNEGPASTINVAR   {:pos :Verb, :lemma "[y]", :gloss "[x]", },
+           :PREFSUBVARTENSE   {:pos :Verb, :lemma "[y]", :gloss "[x]", },
+           :SUFFC1MAINNEGPASTINVAR   {:pos :Verb, :lemma "[y]", :gloss "[x]", },
+           :joogso   {:pos :Verb, :lemma "joogsó", :gloss "stop oneself", :conjClass :Suffix, :conjSubClass :C3A},
+           :kari   {:pos :Verb, :lemma "kári", :gloss "cook", :conjClass :Suffix, :conjSubClass :C2A},
+           :keen   {:pos :Verb, :lemma "kéen", :gloss "give", :conjClass :Suffix, :conjSubClass :C1},
+           :qaado   {:pos :Verb, :lemma "qaadó", :gloss "take for oneself", :conjClass :Suffix, :conjSubClass :C3B},
+           :sug   {:pos :Verb, :lemma "súg", :gloss "wait for", :conjClass :Suffix, :conjSubClass :C1},
+           :yahay   {:pos :Verb, :lemma "yahay", :gloss "be", :conjClass :Prefix},
+           :yaree   {:pos :Verb, :lemma "yarèe", :gloss "make small (cf. yár ‘small’)", :conjClass :Suffix, :conjSubClass :C2B},
+           :yidi   {:pos :Verb, :lemma "yiɗi", :gloss "say", :conjClass :Prefix},
+           :yiil   {:pos :Verb, :lemma "yiil", :gloss "be (in a place)", :conjClass :Prefix},
+           :yimi   {:pos :Verb, :lemma "yimi", :gloss "come", :conjClass :Prefix},
+           :yiqiin   {:pos :Verb, :lemma "yiqiin", :gloss "know", :conjClass :Prefix},
+           }
  :termclusters [
                 {:label "somali-VPrefInfinitive"
-                 :note ""
+                 :note "S99"
                  :common {:vmorphClass :INFINITIVEPREF
                           :conjClass :Prefix,
                           :nonFiniteForm :Infinitive,
@@ -65,7 +65,7 @@
                          [:yiqiin "oqóon"]]
                  }
                 {:label "somali-VPrefMainAffConditional-yahay"
-                 :note ""
+                 :note "S99"
                  :common {:vmorphClass :Finite
                           :clauseType :Main,
                           :conjClass :Prefix,
@@ -84,7 +84,7 @@
                          [:Plural :Person3 :Common "aháan lahaayeen"]]
                  }
                 {:label "somali-VPrefMainAffConditional-yidi"
-                 :note ""
+                 :note "S99"
                  :common {:vmorphClass :Finite
                           :clauseType :Main,
                           :conjClass :Prefix,
@@ -103,7 +103,7 @@
                          [:Plural :Person3 :Common "oɗán lahaayeen"]]
                  }
                 {:label "somali-VPrefMainAffConditional-yiil"
-                 :note ""
+                 :note "S99"
                  :common {:vmorphClass :Finite
                           :clauseType :Main,
                           :conjClass :Prefix,
@@ -122,7 +122,7 @@
                          [:Plural :Person3 :Common "óolli"]]
                  }
                 {:label "somali-VPrefMainAffConditional-yimi"
-                 :note ""
+                 :note "S99"
                  :common {:vmorphClass :Finite
                           :clauseType :Main,
                           :conjClass :Prefix,
@@ -141,7 +141,7 @@
                          [:Plural :Person3 :Common "imán lahaayeen"]]
                  }
                 {:label "somali-VPrefMainAffConditional-yiqiin"
-                 :note ""
+                 :note "S99"
                  :common {:vmorphClass :Finite
                           :clauseType :Main,
                           :conjClass :Prefix,
@@ -160,7 +160,7 @@
                          [:Plural :Person3 :Common "oqóon lahaayeen"]]
                  }
                 {:label "somali-VPrefMainAffFuture-yahay"
-                 :note ""
+                 :note "S99"
                  :common {:vmorphClass :Finite
                           :clauseType :Main,
                           :conjClass :Prefix,
@@ -179,7 +179,7 @@
                          [:Plural :Person3 :Common "aháan doonaan"]]
                  }
                 {:label "somali-VPrefMainAffFuture-yidi"
-                 :note ""
+                 :note "S99"
                  :common {:vmorphClass :Finite
                           :clauseType :Main,
                           :conjClass :Prefix,
@@ -198,7 +198,7 @@
                          [:Plural :Person3 :Common "oɗán doonaan"]]
                  }
                 {:label "somali-VPrefMainAffFuture-yiil"
-                 :note ""
+                 :note "S99"
                  :common {:vmorphClass :Finite
                           :clauseType :Main,
                           :conjClass :Prefix,
@@ -217,7 +217,7 @@
                          [:Plural :Person3 :Common "óolli doonaan"]]
                  }
                 {:label "somali-VPrefMainAffFuture-yimi"
-                 :note ""
+                 :note "S99"
                  :common {:vmorphClass :Finite
                           :clauseType :Main,
                           :conjClass :Prefix,
@@ -236,7 +236,7 @@
                          [:Plural :Person3 :Common "imán doonaan"]]
                  }
                 {:label "somali-VPrefMainAffFuture-yiqiin"
-                 :note ""
+                 :note "S99"
                  :common {:vmorphClass :Finite
                           :clauseType :Main,
                           :conjClass :Prefix,
@@ -255,7 +255,7 @@
                          [:Plural :Person3 :Common "oqóon doonaan"]]
                  }
                 {:label "somali-VPrefMainAffImprtv-yahay"
-                 :note ""
+                 :note "S99"
                  :common {:vmorphClass :Finite
                           :clauseType :Main,
                           :conjClass :Prefix,
@@ -270,7 +270,7 @@
                          [:Plural "aháada"]]
                  }
                 {:label "somali-VPrefMainAffImprtv-yidi"
-                 :note ""
+                 :note "S99"
                  :common {:vmorphClass :Finite
                           :clauseType :Main,
                           :conjClass :Prefix,
@@ -284,7 +284,7 @@
                          [:Plural :Common "ɗáha"]]
                  }
                 {:label "somali-VPrefMainAffImprtv-yiil"
-                 :note ""
+                 :note "S99"
                  :common {:vmorphClass :Finite
                           :clauseType :Main,
                           :conjClass :Prefix,
@@ -298,7 +298,7 @@
                          [:Plural :Common "óolla"]]
                  }
                 {:label "somali-VPrefMainAffImprtv-yimi"
-                 :note ""
+                 :note "S99"
                  :common {:vmorphClass :Finite
                           :clauseType :Main,
                           :conjClass :Prefix,
@@ -312,7 +312,7 @@
                          [:Plural :Common "kaaláya"]]
                  }
                 {:label "somali-VPrefMainAffImprtv-yiqiin"
-                 :note ""
+                 :note "S99"
                  :common {:vmorphClass :Finite
                           :clauseType :Main,
                           :conjClass :Prefix,
@@ -327,7 +327,7 @@
                          [:Plural "oqáada~oqóoda~aqóoda"]]
                  }
                 {:label "somali-VPrefMainAffOptative-yahay"
-                 :note ""
+                 :note "S99"
                  :common {:vmorphClass :Finite
                           :clauseType :Main,
                           :conjClass :Prefix,
@@ -347,7 +347,7 @@
                          [:Plural :Person3 :Common "há"]]
                  }
                 {:label "somali-VPrefMainAffOptative-yidi"
-                 :note ""
+                 :note "S99"
                  :common {:vmorphClass :Finite
                           :clauseType :Main,
                           :conjClass :Prefix,
@@ -368,7 +368,7 @@
                          [:Plural :Person3 :Common "há"]]
                  }
                 {:label "somali-VPrefMainAffOptative-yiil"
-                 :note ""
+                 :note "S99"
                  :common {:vmorphClass :Finite
                           :clauseType :Main,
                           :conjClass :Prefix,
@@ -388,7 +388,7 @@
                          [:Plural :Person3 :Common "há yáalleen"]]
                  }
                 {:label "somali-VPrefMainAffOptative-yimi"
-                 :note ""
+                 :note "S99"
                  :common {:vmorphClass :Finite
                           :clauseType :Main,
                           :conjClass :Prefix,
@@ -408,7 +408,7 @@
                          [:Plural :Person3 :Common "há yimáaddeen"]]
                  }
                 {:label "somali-VPrefMainAffOptative-yiqiin"
-                 :note ""
+                 :note "S99"
                  :common {:vmorphClass :Finite
                           :clauseType :Main,
                           :conjClass :Prefix,
@@ -428,7 +428,7 @@
                          [:Plural :Person3 :Common "há yaqáanneen"]]
                  }
                 {:label "somali-VPrefMainAffPastGen-yahay"
-                 :note ""
+                 :note "S99"
                  :common {:vmorphClass :Finite
                           :clauseType :Main,
                           :conjClass :Prefix,
@@ -446,7 +446,7 @@
                          [:Plural :Person3 :Common "ahaayeen"]]
                  }
                 {:label "somali-VPrefMainAffPastGen-yidi"
-                 :note ""
+                 :note "S99"
                  :common {:vmorphClass :Finite
                           :clauseType :Main,
                           :conjClass :Prefix,
@@ -464,7 +464,7 @@
                          [:Plural :Person3 :Common "yiɗaahdeen"]]
                  }
                 {:label "somali-VPrefMainAffPastGen-yiil"
-                 :note ""
+                 :note "S99"
                  :common {:vmorphClass :Finite
                           :clauseType :Main,
                           :conjClass :Prefix,
@@ -482,7 +482,7 @@
                          [:Plural :Person3 :Common "yiilleen"]]
                  }
                 {:label "somali-VPrefMainAffPastGen-yimi"
-                 :note ""
+                 :note "S99"
                  :common {:vmorphClass :Finite
                           :clauseType :Main,
                           :conjClass :Prefix,
@@ -500,7 +500,7 @@
                          [:Plural :Person3 :Common "yimaaddeen"]]
                  }
                 {:label "somali-VPrefMainAffPastGen-yiqiin"
-                 :note ""
+                 :note "S99"
                  :common {:vmorphClass :Finite
                           :clauseType :Main,
                           :conjClass :Prefix,
@@ -518,7 +518,7 @@
                          [:Plural :Person3 :Common "yiqiinneen"]]
                  }
                 {:label "somali-VPrefMainAffPastHabit-yahay"
-                 :note ""
+                 :note "S99"
                  :common {:vmorphClass :Finite
                           :clauseType :Main,
                           :conjClass :Prefix,
@@ -537,7 +537,7 @@
                          [:Plural :Person3 :Common "aháan"]]
                  }
                 {:label "somali-VPrefMainAffPastHabit-yidi"
-                 :note ""
+                 :note "S99"
                  :common {:vmorphClass :Finite
                           :clauseType :Main,
                           :conjClass :Prefix,
@@ -556,7 +556,7 @@
                          [:Plural :Person3 :Common "oɗán jireen"]]
                  }
                 {:label "somali-VPrefMainAffPastHabit-yiil"
-                 :note ""
+                 :note "S99"
                  :common {:vmorphClass :Finite
                           :clauseType :Main,
                           :conjClass :Prefix,
@@ -575,7 +575,7 @@
                          [:Plural :Person3 :Common "óolli jireen"]]
                  }
                 {:label "somali-VPrefMainAffPastHabit-yimi"
-                 :note ""
+                 :note "S99"
                  :common {:vmorphClass :Finite
                           :clauseType :Main,
                           :conjClass :Prefix,
@@ -594,7 +594,7 @@
                          [:Plural :Person3 :Common "imán jireen"]]
                  }
                 {:label "somali-VPrefMainAffPastHabit-yiqiin"
-                 :note ""
+                 :note "S99"
                  :common {:vmorphClass :Finite
                           :clauseType :Main,
                           :conjClass :Prefix,
@@ -613,7 +613,7 @@
                          [:Plural :Person3 :Common "oqóon jireen"]]
                  }
                 {:label "somali-VPrefMainAffPastIndep-yidi"
-                 :note ""
+                 :note "S99"
                  :common {:vmorphClass :Finite
                           :clauseType :Main,
                           :conjClass :Prefix,
@@ -631,7 +631,7 @@
                          [:Plural :Person3 :Common "yiɗaahdé"]]
                  }
                 {:label "somali-VPrefMainAffPastIndep-yiil"
-                 :note ""
+                 :note "S99"
                  :common {:vmorphClass :Finite
                           :clauseType :Main,
                           :conjClass :Prefix,
@@ -649,7 +649,7 @@
                          [:Plural :Person3 :Common "yaallé"]]
                  }
                 {:label "somali-VPrefMainAffPastIndep-yimi"
-                 :note ""
+                 :note "S99"
                  :common {:vmorphClass :Finite
                           :clauseType :Main,
                           :conjClass :Prefix,
@@ -667,7 +667,7 @@
                          [:Plural :Person3 :Common "yimaaddé"]]
                  }
                 {:label "somali-VPrefMainAffPastIndep-yiqiin"
-                 :note ""
+                 :note "S99"
                  :common {:vmorphClass :Finite
                           :clauseType :Main,
                           :conjClass :Prefix,
@@ -685,7 +685,7 @@
                          [:Plural :Person3 :Common "yiqiiné"]]
                  }
                 {:label "somali-VPrefMainAffPastProg-yidi"
-                 :note ""
+                 :note "S99"
                  :common {:vmorphClass :Finite
                           :clauseType :Main,
                           :conjClass :Prefix,
@@ -703,7 +703,7 @@
                          [:Plural :Person3 :Common "oɗánayeen"]]
                  }
                 {:label "somali-VPrefMainAffPastProg-yimi"
-                 :note ""
+                 :note "S99"
                  :common {:vmorphClass :Finite
                           :clauseType :Main,
                           :conjClass :Prefix,
@@ -721,7 +721,7 @@
                          [:Plural :Person3 :Common "imánayeen"]]
                  }
                 {:label "somali-VPrefMainAffPastProg-yiqiin"
-                 :note ""
+                 :note "S99"
                  :common {:vmorphClass :Finite
                           :clauseType :Main,
                           :conjClass :Prefix,
@@ -739,7 +739,7 @@
                          [:Plural :Person3 :Common "aqóonayeen"]]
                  }
                 {:label "somali-VPrefMainAffPotential-yahay"
-                 :note ""
+                 :note "S99"
                  :common {:vmorphClass :Finite
                           :clauseType :Main,
                           :conjClass :Prefix,
@@ -757,7 +757,7 @@
                          [:Plural :Person3 :Common "ahaadeen"]]
                  }
                 {:label "somali-VPrefMainAffPotential-yidi"
-                 :note ""
+                 :note "S99"
                  :common {:vmorphClass :Finite
                           :clauseType :Main,
                           :conjClass :Prefix,
@@ -775,7 +775,7 @@
                          [:Plural :Person3 :Common "yiɗaahdeen"]]
                  }
                 {:label "somali-VPrefMainAffPotential-yiil"
-                 :note ""
+                 :note "S99"
                  :common {:vmorphClass :Finite
                           :clauseType :Main,
                           :conjClass :Prefix,
@@ -793,7 +793,7 @@
                          [:Plural :Person3 :Common "yaalleen"]]
                  }
                 {:label "somali-VPrefMainAffPotential-yimi"
-                 :note ""
+                 :note "S99"
                  :common {:vmorphClass :Finite
                           :clauseType :Main,
                           :conjClass :Prefix,
@@ -811,7 +811,7 @@
                          [:Plural :Person3 :Common "yimaaddeen"]]
                  }
                 {:label "somali-VPrefMainAffPotential-yiqiin"
-                 :note ""
+                 :note "S99"
                  :common {:vmorphClass :Finite
                           :clauseType :Main,
                           :conjClass :Prefix,
@@ -829,7 +829,7 @@
                          [:Plural :Person3 :Common "yaqaanneen"]]
                  }
                 {:label "somali-VPrefMainAffPresGen-yahay"
-                 :note ""
+                 :note "S99"
                  :common {:vmorphClass :Finite
                           :clauseType :Main,
                           :conjClass :Prefix,
@@ -847,7 +847,7 @@
                          [:Plural :Person3 :Common "yihiin"]]
                  }
                 {:label "somali-VPrefMainAffPresGen-yidi"
-                 :note ""
+                 :note "S99"
                  :common {:vmorphClass :Finite
                           :clauseType :Main,
                           :conjClass :Prefix,
@@ -865,7 +865,7 @@
                          [:Plural :Person3 :Common "yiɗaahdaan"]]
                  }
                 {:label "somali-VPrefMainAffPresGen-yiil"
-                 :note ""
+                 :note "S99"
                  :common {:vmorphClass :Finite
                           :clauseType :Main,
                           :conjClass :Prefix,
@@ -883,7 +883,7 @@
                          [:Plural :Person3 :Common "yaalliin~yaallaan"]]
                  }
                 {:label "somali-VPrefMainAffPresGen-yimi"
-                 :note ""
+                 :note "S99"
                  :common {:vmorphClass :Finite
                           :clauseType :Main,
                           :conjClass :Prefix,
@@ -901,7 +901,7 @@
                          [:Plural :Person3 :Common "yimaaddaan"]]
                  }
                 {:label "somali-VPrefMainAffPresGen-yiqiin"
-                 :note ""
+                 :note "S99"
                  :common {:vmorphClass :Finite
                           :clauseType :Main,
                           :conjClass :Prefix,
@@ -919,7 +919,7 @@
                          [:Plural :Person3 :Common "yaqaanniin"]]
                  }
                 {:label "somali-VPrefMainAffPresProg-yidi"
-                 :note ""
+                 :note "S99"
                  :common {:vmorphClass :Finite
                           :clauseType :Main,
                           :conjClass :Prefix,
@@ -937,7 +937,7 @@
                          [:Plural :Person3 :Common "oɗáneyaan"]]
                  }
                 {:label "somali-VPrefMainAffPresProg-yiil"
-                 :note ""
+                 :note "S99"
                  :common {:vmorphClass :Finite
                           :clauseType :Main,
                           :conjClass :Prefix,
@@ -952,7 +952,7 @@
                          [:Plural :Common "oólayaan"]]
                  }
                 {:label "somali-VPrefMainAffPresProg-yimi"
-                 :note ""
+                 :note "S99"
                  :common {:vmorphClass :Finite
                           :clauseType :Main,
                           :conjClass :Prefix,
@@ -970,7 +970,7 @@
                          [:Plural :Person3 :Common "imáneyaan"]]
                  }
                 {:label "somali-VPrefMainAffPresProg-yiqiin"
-                 :note ""
+                 :note "S99"
                  :common {:vmorphClass :Finite
                           :clauseType :Main,
                           :conjClass :Prefix,
@@ -988,7 +988,7 @@
                          [:Plural :Person3 :Common "aqóoneyaan"]]
                  }
                 {:label "somali-VPrefMainNegConditional-yahay"
-                 :note ""
+                 :note "S99"
                  :common {:vmorphClass :Finite
                           :clauseType :Main,
                           :conjClass :Prefix,
@@ -1006,7 +1006,7 @@
                          [:Plural :Person3 :Common "ahaadeen"]]
                  }
                 {:label "somali-VPrefMainNegConditional-yidi"
-                 :note "with má; on analogy of NegConditional-yahay [CHECK]"
+                 :note "S99 :: with má; on analogy of NegConditional-yahay [CHECK]"
                  :common {:vmorphClass :Finite
                           :clauseType :Main,
                           :conjClass :Prefix,
@@ -1024,7 +1024,7 @@
                          [:Plural :Person3 :Common "yiɗaahdeen"]]
                  }
                 {:label "somali-VPrefMainNegConditional-yiil"
-                 :note "with má; on analogy of NegConditional-yahay [CHECK]"
+                 :note "S99 :: with má; on analogy of NegConditional-yahay [CHECK]"
                  :common {:vmorphClass :Finite
                           :clauseType :Main,
                           :conjClass :Prefix,
@@ -1042,7 +1042,7 @@
                          [:Plural :Person3 :Common "yaalleen"]]
                  }
                 {:label "somali-VPrefMainNegConditional-yimi"
-                 :note "with má; on analogy of NegConditional-yahay [CHECK]"
+                 :note "S99 :: with má; on analogy of NegConditional-yahay [CHECK]"
                  :common {:vmorphClass :Finite
                           :clauseType :Main,
                           :conjClass :Prefix,
@@ -1060,7 +1060,7 @@
                          [:Plural :Person3 :Common "yimaaddeen"]]
                  }
                 {:label "somali-VPrefMainNegConditional-yiqiin"
-                 :note "with má; on analogy of NegConditional-yahay [CHECK]"
+                 :note "S99 :: with má; on analogy of NegConditional-yahay [CHECK]"
                  :common {:vmorphClass :Finite
                           :clauseType :Main,
                           :conjClass :Prefix,
@@ -1078,7 +1078,7 @@
                          [:Plural :Person3 :Common "yaqaanneen"]]
                  }
                 {:label "somali-VPrefMainNegFuture-yahay"
-                 :note ""
+                 :note "S99"
                  :common {:vmorphClass :Finite
                           :clauseType :Main,
                           :conjClass :Prefix,
@@ -1097,7 +1097,7 @@
                          [:Plural :Person3 :Common "aháan doonàan"]]
                  }
                 {:label "somali-VPrefMainNegFuture-yidi"
-                 :note ""
+                 :note "S99"
                  :common {:vmorphClass :Finite
                           :clauseType :Main,
                           :conjClass :Prefix,
@@ -1116,7 +1116,7 @@
                          [:Plural :Person3 :Common "oɗán doonàan"]]
                  }
                 {:label "somali-VPrefMainNegFuture-yiil"
-                 :note ""
+                 :note "S99"
                  :common {:vmorphClass :Finite
                           :clauseType :Main,
                           :conjClass :Prefix,
@@ -1135,7 +1135,7 @@
                          [:Plural :Person3 :Common "óolli doonàan"]]
                  }
                 {:label "somali-VPrefMainNegFuture-yimi"
-                 :note ""
+                 :note "S99"
                  :common {:vmorphClass :Finite
                           :clauseType :Main,
                           :conjClass :Prefix,
@@ -1154,7 +1154,7 @@
                          [:Plural :Person3 :Common "imán doonàan"]]
                  }
                 {:label "somali-VPrefMainNegFuture-yiqiin"
-                 :note ""
+                 :note "S99"
                  :common {:vmorphClass :Finite
                           :clauseType :Main,
                           :conjClass :Prefix,
@@ -1173,7 +1173,7 @@
                          [:Plural :Person3 :Common "oqóon doonàan"]]
                  }
                 {:label "somali-VPrefMainNegImprtv-yahay"
-                 :note ""
+                 :note "S99"
                  :common {:vmorphClass :Finite
                           :clauseType :Main,
                           :conjClass :Prefix,
@@ -1188,7 +1188,7 @@
                          [:Plural "ahaanína"]]
                  }
                 {:label "somali-VPrefMainNegImprtv-yidi"
-                 :note ""
+                 :note "S99"
                  :common {:vmorphClass :Finite
                           :clauseType :Main,
                           :conjClass :Prefix,
@@ -1202,7 +1202,7 @@
                          [:Plural "oɗanína"]]
                  }
                 {:label "somali-VPrefMainNegImprtv-yiil"
-                 :note ""
+                 :note "S99"
                  :common {:vmorphClass :Finite
                           :clauseType :Main,
                           :conjClass :Prefix,
@@ -1216,7 +1216,7 @@
                          [:Plural "oollína"]]
                  }
                 {:label "somali-VPrefMainNegImprtv-yimi"
-                 :note ""
+                 :note "S99"
                  :common {:vmorphClass :Finite
                           :clauseType :Main,
                           :conjClass :Prefix,
@@ -1230,7 +1230,7 @@
                          [:Plural "imannína"]]
                  }
                 {:label "somali-VPrefMainNegImprtv-yiqiin"
-                 :note ""
+                 :note "S99"
                  :common {:vmorphClass :Finite
                           :clauseType :Main,
                           :conjClass :Prefix,
@@ -1245,7 +1245,7 @@
                          [:Plural "oqoonín"]]
                  }
                 {:label "somali-VPrefMainNegOptative-yahay"
-                 :note ""
+                 :note "S99"
                  :common {:vmorphClass :Finite
                           :clauseType :Main,
                           :conjClass :Prefix,
@@ -1265,7 +1265,7 @@
                          [:Plural :Person3 :Common "yàaney ahaannín"]]
                  }
                 {:label "somali-VPrefMainNegOptative-yidi"
-                 :note ""
+                 :note "S99"
                  :common {:vmorphClass :Finite
                           :clauseType :Main,
                           :conjClass :Prefix,
@@ -1285,7 +1285,7 @@
                          [:Plural :Person3 :Common "yàaney oɗán"]]
                  }
                 {:label "somali-VPrefMainNegOptative-yiil"
-                 :note ""
+                 :note "S99"
                  :common {:vmorphClass :Finite
                           :clauseType :Main,
                           :conjClass :Prefix,
@@ -1305,7 +1305,7 @@
                          [:Plural :Person3 :Common "yàaney óolli"]]
                  }
                 {:label "somali-VPrefMainNegOptative-yimi"
-                 :note ""
+                 :note "S99"
                  :common {:vmorphClass :Finite
                           :clauseType :Main,
                           :conjClass :Prefix,
@@ -1325,7 +1325,7 @@
                          [:Plural :Person3 :Common "yàaney imán"]]
                  }
                 {:label "somali-VPrefMainNegOptative-yiqiin"
-                 :note ""
+                 :note "S99"
                  :common {:vmorphClass :Finite
                           :clauseType :Main,
                           :conjClass :Prefix,
@@ -1345,7 +1345,7 @@
                          [:Plural :Person1ex :Common "yàynu oqóon"]]
                  }
                 {:label "somali-VPrefMainNegPastInvar"
-                 :note ""
+                 :note "S99"
                  :common {:vmorphClass :PREFMAINNEGPASTINVAR
                           :clauseType :Main,
                           :conjClass :Prefix,
@@ -1368,7 +1368,7 @@
                          [:yiqiin :PastGeneral "_"]]
                  }
                 {:label "somali-VPrefMainNegPresGen-yahay"
-                 :note ""
+                 :note "S99"
                  :common {:vmorphClass :Finite
                           :clauseType :Main,
                           :conjClass :Prefix,
@@ -1386,7 +1386,7 @@
                          [:Plural :Person3 :Common "ahá"]]
                  }
                 {:label "somali-VPrefMainNegPresGen-yidi"
-                 :note ""
+                 :note "S99"
                  :common {:vmorphClass :Finite
                           :clauseType :Main,
                           :conjClass :Prefix,
@@ -1404,7 +1404,7 @@
                          [:Plural :Person3 :Common "yiɗaahdàan"]]
                  }
                 {:label "somali-VPrefMainNegPresGen-yiil"
-                 :note ""
+                 :note "S99"
                  :common {:vmorphClass :Finite
                           :clauseType :Main,
                           :conjClass :Prefix,
@@ -1422,7 +1422,7 @@
                          [:Plural :Person3 :Common "yaallìin"]]
                  }
                 {:label "somali-VPrefMainNegPresGen-yimi"
-                 :note ""
+                 :note "S99"
                  :common {:vmorphClass :Finite
                           :clauseType :Main,
                           :conjClass :Prefix,
@@ -1440,7 +1440,7 @@
                          [:Plural :Person3 :Common "yimaaddàan"]]
                  }
                 {:label "somali-VPrefMainNegPresGen-yiqiin"
-                 :note ""
+                 :note "S99"
                  :common {:vmorphClass :Finite
                           :clauseType :Main,
                           :conjClass :Prefix,
@@ -1458,7 +1458,7 @@
                          [:Plural :Person3 :Common "yaqaannìin"]]
                  }
                 {:label "somali-VPrefMainNegPresProg-yidi"
-                 :note ""
+                 :note "S99"
                  :common {:vmorphClass :Finite
                           :clauseType :Main,
                           :conjClass :Prefix,
@@ -1476,7 +1476,7 @@
                          [:Plural :Person3 :Common "oɗán maayàan"]]
                  }
                 {:label "somali-VPrefMainNegPresProg-yimi"
-                 :note ""
+                 :note "S99"
                  :common {:vmorphClass :Finite
                           :clauseType :Main,
                           :conjClass :Prefix,
@@ -1494,7 +1494,7 @@
                          [:Plural :Person3 :Common "imán maayàan"]]
                  }
                 {:label "somali-VPrefMainNegPresProg2-yidi"
-                 :note ""
+                 :note "S99"
                  :common {:vmorphClass :Finite
                           :clauseType :Main,
                           :conjClass :Prefix,
@@ -1512,7 +1512,7 @@
                          [:Plural :Person3 :Common "oɗánayáan"]]
                  }
                 {:label "somali-VPrefMainNegPresProg2-yimi"
-                 :note ""
+                 :note "S99"
                  :common {:vmorphClass :Finite
                           :clauseType :Main,
                           :conjClass :Prefix,
@@ -1530,7 +1530,7 @@
                          [:Plural :Person3 :Common "imánayáan"]]
                  }
                 {:label "somali-VPrefRedAbsAffPastGen-yahay"
-                 :note ""
+                 :note "S99"
                  :common {:vmorphClass :Finite
                           :clauseCase :Absolutive,
                           :clauseType :Reduced,
@@ -1549,7 +1549,7 @@
                          [:Plural :Person3 :Common "aháa"]]
                  }
                 {:label "somali-VPrefRedAbsAffPastGen-yidi"
-                 :note ""
+                 :note "S99"
                  :common {:vmorphClass :Finite
                           :clauseCase :Absolutive,
                           :clauseType :Reduced,
@@ -1568,7 +1568,7 @@
                          [:Plural :Person3 :Common "yiɗí"]]
                  }
                 {:label "somali-VPrefRedAbsAffPastGen-yiil"
-                 :note ""
+                 :note "S99"
                  :common {:vmorphClass :Finite
                           :clauseCase :Absolutive,
                           :clauseType :Reduced,
@@ -1587,7 +1587,7 @@
                          [:Plural :Person3 :Common "yíil"]]
                  }
                 {:label "somali-VPrefRedAbsAffPastGen-yimi"
-                 :note ""
+                 :note "S99"
                  :common {:vmorphClass :Finite
                           :clauseCase :Absolutive,
                           :clauseType :Reduced,
@@ -1606,7 +1606,7 @@
                          [:Plural :Person3 :Common "yimí(d)"]]
                  }
                 {:label "somali-VPrefRedAbsAffPastGen-yiqiin"
-                 :note ""
+                 :note "S99"
                  :common {:vmorphClass :Finite
                           :clauseCase :Absolutive,
                           :clauseType :Reduced,
@@ -1625,7 +1625,7 @@
                          [:Plural :Person3 :Common "yiqíin"]]
                  }
                 {:label "somali-VPrefRedAbsAffPastProg-yidi"
-                 :note ""
+                 :note "S99"
                  :common {:vmorphClass :Finite
                           :clauseCase :Absolutive,
                           :clauseType :Reduced,
@@ -1644,7 +1644,7 @@
                          [:Plural :Person3 :Common "oɗánayáy"]]
                  }
                 {:label "somali-VPrefRedAbsAffPastProg-yiil"
-                 :note ""
+                 :note "S99"
                  :common {:vmorphClass :Finite
                           :clauseCase :Absolutive,
                           :clauseType :Reduced,
@@ -1660,7 +1660,7 @@
                          [:Plural :Common "oóllayáy"]]
                  }
                 {:label "somali-VPrefRedAbsAffPastProg-yimi"
-                 :note ""
+                 :note "S99"
                  :common {:vmorphClass :Finite
                           :clauseCase :Absolutive,
                           :clauseType :Reduced,
@@ -1679,7 +1679,7 @@
                          [:Plural :Person3 :Common "imánayáy"]]
                  }
                 {:label "somali-VPrefRedAbsAffPastProg-yiqiin"
-                 :note ""
+                 :note "S99"
                  :common {:vmorphClass :Finite
                           :clauseCase :Absolutive,
                           :clauseType :Reduced,
@@ -1698,7 +1698,7 @@
                          [:Plural :Person3 :Common "aqóonayáy"]]
                  }
                 {:label "somali-VPrefRedAbsAffPresGen-yidi"
-                 :note ""
+                 :note "S99"
                  :common {:vmorphClass :Finite
                           :clauseCase :Absolutive,
                           :clauseType :Reduced,
@@ -1717,7 +1717,7 @@
                          [:Plural :Person3 :Common "yiɗaahdá"]]
                  }
                 {:label "somali-VPrefRedAbsAffPresGen-yiil"
-                 :note ""
+                 :note "S99"
                  :common {:vmorphClass :Finite
                           :clauseCase :Absolutive,
                           :clauseType :Reduced,
@@ -1736,7 +1736,7 @@
                          [:Plural :Person3 :Common "yáal~yaallá"]]
                  }
                 {:label "somali-VPrefRedAbsAffPresGen-yimi"
-                 :note ""
+                 :note "S99"
                  :common {:vmorphClass :Finite
                           :clauseCase :Absolutive,
                           :clauseType :Reduced,
@@ -1755,7 +1755,7 @@
                          [:Plural :Person3 :Common "yimaaddá"]]
                  }
                 {:label "somali-VPrefRedAbsAffPresGen-yiqiin"
-                 :note ""
+                 :note "S99"
                  :common {:vmorphClass :Finite
                           :clauseCase :Absolutive,
                           :clauseType :Reduced,
@@ -1774,7 +1774,7 @@
                          [:Plural :Person3 :Common "yaqáan~yaqaanná"]]
                  }
                 {:label "somali-VPrefRedAbsAffPresProg-yidi"
-                 :note ""
+                 :note "S99"
                  :common {:vmorphClass :Finite
                           :clauseCase :Absolutive,
                           :clauseType :Reduced,
@@ -1793,7 +1793,7 @@
                          [:Plural :Person3 :Common "oɗánayá"]]
                  }
                 {:label "somali-VPrefRedAbsAffPresProg-yiil"
-                 :note ""
+                 :note "S99"
                  :common {:vmorphClass :Finite
                           :clauseCase :Absolutive,
                           :clauseType :Reduced,
@@ -1809,7 +1809,7 @@
                          [:Plural :Common "óollayá"]]
                  }
                 {:label "somali-VPrefRedAbsAffPresProg-yimi"
-                 :note ""
+                 :note "S99"
                  :common {:vmorphClass :Finite
                           :clauseCase :Absolutive,
                           :clauseType :Reduced,
@@ -1828,7 +1828,7 @@
                          [:Plural :Person3 :Common "imánayá"]]
                  }
                 {:label "somali-VPrefRedAbsAffPresProg-yiqiin"
-                 :note ""
+                 :note "S99"
                  :common {:vmorphClass :Finite
                           :clauseCase :Absolutive,
                           :clauseType :Reduced,
@@ -1847,7 +1847,7 @@
                          [:Plural :Person3 :Common "aqóonayá"]]
                  }
                 {:label "somali-VPrefRedSubjAffPastGen-yahay"
-                 :note ""
+                 :note "S99"
                  :common {:vmorphClass :Finite
                           :clauseCase :Subject,
                           :clauseType :Reduced,
@@ -1866,7 +1866,7 @@
                          [:Plural :Person3 :Common "ahaa"]]
                  }
                 {:label "somali-VPrefRedSubjAffPastGen-yidi"
-                 :note ""
+                 :note "S99"
                  :common {:vmorphClass :Finite
                           :clauseCase :Subject,
                           :clauseType :Reduced,
@@ -1886,7 +1886,7 @@
                          [:Plural :Person3 :Common "yiɗi"]]
                  }
                 {:label "somali-VPrefRedSubjAffPastGen-yiil"
-                 :note ""
+                 :note "S99"
                  :common {:vmorphClass :Finite
                           :clauseCase :Subject,
                           :clauseType :Reduced,
@@ -1905,7 +1905,7 @@
                          [:Plural :Person3 :Common "yiil"]]
                  }
                 {:label "somali-VPrefRedSubjAffPastGen-yimi"
-                 :note ""
+                 :note "S99"
                  :common {:vmorphClass :Finite
                           :clauseCase :Subject,
                           :clauseType :Reduced,
@@ -1924,7 +1924,7 @@
                          [:Plural :Person3 :Common "yimi(d)"]]
                  }
                 {:label "somali-VPrefRedSubjAffPastGen-yiqiin"
-                 :note ""
+                 :note "S99"
                  :common {:vmorphClass :Finite
                           :clauseCase :Subject,
                           :clauseType :Reduced,
@@ -1943,7 +1943,7 @@
                          [:Plural :Person3 :Common "yiqiin"]]
                  }
                 {:label "somali-VPrefRedSubjAffPastProg-yidi"
-                 :note ""
+                 :note "S99"
                  :common {:vmorphClass :Finite
                           :clauseCase :Subject,
                           :clauseType :Reduced,
@@ -1961,7 +1961,7 @@
                          [:Plural :Person3 :Common "oɗanaya"]]
                  }
                 {:label "somali-VPrefRedSubjAffPastProg-yiil"
-                 :note ""
+                 :note "S99"
                  :common {:vmorphClass :Finite
                           :clauseCase :Subject,
                           :clauseType :Reduced,
@@ -1977,7 +1977,7 @@
                          [:Plural :Common "oollaya"]]
                  }
                 {:label "somali-VPrefRedSubjAffPastProg-yimi"
-                 :note ""
+                 :note "S99"
                  :common {:vmorphClass :Finite
                           :clauseCase :Subject,
                           :clauseType :Reduced,
@@ -1996,7 +1996,7 @@
                          [:Plural :Person3 :Common "imanaya"]]
                  }
                 {:label "somali-VPrefRedSubjAffPastProg-yiqiin"
-                 :note ""
+                 :note "S99"
                  :common {:vmorphClass :Finite
                           :clauseCase :Subject,
                           :clauseType :Reduced,
@@ -2015,7 +2015,7 @@
                          [:Plural :Person3 :Common "aqoonaya"]]
                  }
                 {:label "somali-VPrefRedSubjAffPresGen-yidi"
-                 :note ""
+                 :note "S99"
                  :common {:vmorphClass :Finite
                           :clauseCase :Subject,
                           :clauseType :Reduced,
@@ -2034,7 +2034,7 @@
                          [:Plural :Person3 :Common "yiɗaahdaa"]]
                  }
                 {:label "somali-VPrefRedSubjAffPresGen-yiil"
-                 :note ""
+                 :note "S99"
                  :common {:vmorphClass :Finite
                           :clauseCase :Subject,
                           :clauseType :Reduced,
@@ -2053,7 +2053,7 @@
                          [:Plural :Person3 :Common "yaal~yaallaa"]]
                  }
                 {:label "somali-VPrefRedSubjAffPresGen-yimi"
-                 :note ""
+                 :note "S99"
                  :common {:vmorphClass :Finite
                           :clauseCase :Subject,
                           :clauseType :Reduced,
@@ -2072,7 +2072,7 @@
                          [:Plural :Person3 :Common "yimaaddaa"]]
                  }
                 {:label "somali-VPrefRedSubjAffPresGen-yiqiin"
-                 :note ""
+                 :note "S99"
                  :common {:vmorphClass :Finite
                           :clauseCase :Subject,
                           :clauseType :Reduced,
@@ -2091,7 +2091,7 @@
                          [:Plural :Person3 :Common "yaqaan"]]
                  }
                 {:label "somali-VPrefRedSubjAffPresProg-yidi"
-                 :note ""
+                 :note "S99"
                  :common {:vmorphClass :Finite
                           :clauseCase :Subject,
                           :clauseType :Reduced,
@@ -2110,7 +2110,7 @@
                          [:Plural :Person3 :Common "oɗanaya"]]
                  }
                 {:label "somali-VPrefRedSubjAffPresProg-yiil"
-                 :note ""
+                 :note "S99"
                  :common {:vmorphClass :Finite
                           :clauseCase :Subject,
                           :clauseType :Reduced,
@@ -2126,7 +2126,7 @@
                          [:Plural :Common "oollaya"]]
                  }
                 {:label "somali-VPrefRedSubjAffPresProg-yimi"
-                 :note ""
+                 :note "S99"
                  :common {:vmorphClass :Finite
                           :clauseCase :Subject,
                           :clauseType :Reduced,
@@ -2145,7 +2145,7 @@
                          [:Plural :Person3 :Common "imanaya"]]
                  }
                 {:label "somali-VPrefRedSubjAffPresProg-yiqiin"
-                 :note ""
+                 :note "S99"
                  :common {:vmorphClass :Finite
                           :clauseCase :Subject,
                           :clauseType :Reduced,
@@ -2164,7 +2164,7 @@
                          [:Plural :Person3 :Common "aqoonaya"]]
                  }
                 {:label "somali-VPrefSubVarTense-yahay"
-                 :note ""
+                 :note "S99"
                  :common {:vmorphClass :SubVarTense
                           :conjClass :Prefix,
                           :gender :Common,
@@ -2189,7 +2189,7 @@
                          [:Subject :Subordinate :Negative :PresentGeneral "CHECK"]]
                  }
                 {:label "somali-VSuffC1FullAbsAffPastGen-sug"
-                 :note ""
+                 :note "S99"
                  :common {:vmorphClass :Finite
                           :clauseCase :Absolutive,
                           :clauseType :Full,
@@ -2209,7 +2209,7 @@
                          [:Plural :Person3 :Common "sugéen"]]
                  }
                 {:label "somali-VSuffC1FullAbsAffPastProg-sug"
-                 :note ""
+                 :note "S99"
                  :common {:vmorphClass :Finite
                           :clauseCase :Absolutive,
                           :clauseType :Full,
@@ -2229,7 +2229,7 @@
                          [:Plural :Person3 :Common "súgayéen"]]
                  }
                 {:label "somali-VSuffC1FullAbsAffPresGen-sug"
-                 :note ""
+                 :note "S99"
                  :common {:vmorphClass :Finite
                           :clauseCase :Absolutive,
                           :clauseType :Full,
@@ -2249,7 +2249,7 @@
                          [:Plural :Person3 :Common "sugàan"]]
                  }
                 {:label "somali-VSuffC1FullAbsAffPresProg-sug"
-                 :note ""
+                 :note "S99"
                  :common {:vmorphClass :Finite
                           :clauseCase :Absolutive,
                           :clauseType :Full,
@@ -2269,7 +2269,7 @@
                          [:Plural :Person3 :Common "súgayàan"]]
                  }
                 {:label "somali-VSuffC1MainAffConditional-sug"
-                 :note ""
+                 :note "S99"
                  :common {:vmorphClass :Finite
                           :clauseType :Main,
                           :conjClass :Suffix,
@@ -2289,7 +2289,7 @@
                          [:Plural :Person3 :Common "súgi lahaayeen"]]
                  }
                 {:label "somali-VSuffC1MainAffFuture-sug"
-                 :note ""
+                 :note "S99"
                  :common {:vmorphClass :Finite
                           :clauseType :Main,
                           :conjClass :Suffix,
@@ -2309,7 +2309,7 @@
                          [:Plural :Person3 :Common "súgi doonaan"]]
                  }
                 {:label "somali-VSuffC1MainAffImprtv-sug"
-                 :note ""
+                 :note "S99"
                  :common {:vmorphClass :Finite
                           :gender :Common,
                           :conjSubClass :C1,
@@ -2325,7 +2325,7 @@
                          [:Plural "súga"]]
                  }
                 {:label "somali-VSuffC1MainAffOptative-sug"
-                 :note ""
+                 :note "S99"
                  :common {:vmorphClass :Finite
                           :clauseType :Main,
                           :conjClass :Suffix,
@@ -2346,7 +2346,7 @@
                          [:Plural :Person3 :Common "há sugeen"]]
                  }
                 {:label "somali-VSuffC1MainAffPastGen-sug"
-                 :note ""
+                 :note "S99"
                  :common {:vmorphClass :Finite
                           :clauseType :Main,
                           :conjClass :Suffix,
@@ -2365,7 +2365,7 @@
                          [:Plural :Person3 :Common "sugeen"]]
                  }
                 {:label "somali-VSuffC1MainAffPastHabit-sug"
-                 :note ""
+                 :note "S99"
                  :common {:vmorphClass :Finite
                           :clauseType :Main,
                           :conjClass :Suffix,
@@ -2385,7 +2385,7 @@
                          [:Plural :Person3 :Common "súgi jireen"]]
                  }
                 {:label "somali-VSuffC1MainAffPastIndep-sug"
-                 :note ""
+                 :note "S99"
                  :common {:vmorphClass :Finite
                           :clauseType :Main,
                           :conjClass :Suffix,
@@ -2404,7 +2404,7 @@
                          [:Plural :Person3 :Common "sugé"]]
                  }
                 {:label "somali-VSuffC1MainAffPastProg-sug"
-                 :note ""
+                 :note "S99"
                  :common {:vmorphClass :Finite
                           :clauseType :Main,
                           :conjClass :Suffix,
@@ -2423,7 +2423,7 @@
                          [:Plural :Person3 :Common "súgayeen"]]
                  }
                 {:label "somali-VSuffC1MainAffPotential-sug"
-                 :note ""
+                 :note "S99"
                  :common {:vmorphClass :Finite
                           :clauseType :Main,
                           :conjClass :Suffix,
@@ -2442,7 +2442,7 @@
                          [:Plural :Person3 :Common "sugeen"]]
                  }
                 {:label "somali-VSuffC1MainAffPresGen-sug"
-                 :note ""
+                 :note "S99"
                  :common {:vmorphClass :Finite
                           :clauseType :Main,
                           :conjClass :Suffix,
@@ -2461,7 +2461,7 @@
                          [:Plural :Person3 :Common "sugaan"]]
                  }
                 {:label "somali-VSuffC1MainAffPresProg-sug"
-                 :note ""
+                 :note "S99"
                  :common {:vmorphClass :Finite
                           :clauseType :Main,
                           :conjClass :Suffix,
@@ -2480,7 +2480,7 @@
                          [:Plural :Person3 :Common "súgayaan"]]
                  }
                 {:label "somali-VSuffC1MainNegConditional-sug"
-                 :note ""
+                 :note "S99"
                  :common {:vmorphClass :Finite
                           :clauseType :Main,
                           :conjClass :Suffix,
@@ -2499,7 +2499,7 @@
                          [:Plural :Person3 :Common "sugéen"]]
                  }
                 {:label "somali-VSuffC1MainNegFuture-sug"
-                 :note ""
+                 :note "S99"
                  :common {:vmorphClass :Finite
                           :clauseType :Main,
                           :conjClass :Suffix,
@@ -2519,7 +2519,7 @@
                          [:Plural :Person3 :Common "súgi doonàan"]]
                  }
                 {:label "somali-VSuffC1MainNegImprtv-sug"
-                 :note ""
+                 :note "S99"
                  :common {:vmorphClass :Finite
                           :gender :Common,
                           :conjSubClass :C1,
@@ -2535,7 +2535,7 @@
                          [:Plural "sugína"]]
                  }
                 {:label "somali-VSuffC1MainNegOptative-sug"
-                 :note ""
+                 :note "S99"
                  :common {:vmorphClass :Finite
                           :clauseType :Main,
                           :conjClass :Suffix,
@@ -2556,7 +2556,7 @@
                          [:Plural :Person3 :Common "yàaney súgin"]]
                  }
                 {:label "somali-VSuffC1MainNegPastInvar-sug"
-                 :note "somali-VmainSuffNegPastInvar:does not inflect for NPG."
+                 :note "S99 :: somali-VmainSuffNegPastInvar:does not inflect for NPG."
                  :common {:vmorphClass :SUFFC1MAINNEGPASTINVAR
                           :clauseType :Main,
                           :conjClass :Suffix,
@@ -2582,7 +2582,7 @@
                          [:C3B :qaado :PastProgressive "_"]]
                  }
                 {:label "somali-VSuffC1MainNegPresGen-sug"
-                 :note ""
+                 :note "S99"
                  :common {:vmorphClass :Finite
                           :clauseType :Main,
                           :conjClass :Suffix,
@@ -2601,7 +2601,7 @@
                          [:Plural :Person3 :Common "sugàan"]]
                  }
                 {:label "somali-VSuffC1MainNegPresProg-sug"
-                 :note ""
+                 :note "S99"
                  :common {:vmorphClass :Finite
                           :clauseType :Main,
                           :conjClass :Suffix,
@@ -2620,7 +2620,7 @@
                          [:Plural :Person3 :Common "súgi maayàan"]]
                  }
                 {:label "somali-VSuffC1MainNegPresProg2-sug"
-                 :note ""
+                 :note "S99"
                  :common {:vmorphClass :Finite
                           :clauseType :Main,
                           :conjClass :Suffix,
@@ -2639,7 +2639,7 @@
                          [:Plural :Person3 :Common "súgayàan"]]
                  }
                 {:label "somali-VSuffC1RedAbsAffPastGen-sug"
-                 :note ""
+                 :note "S99"
                  :common {:vmorphClass :Finite
                           :clauseCase :Absolutive,
                           :clauseType :Reduced,
@@ -2659,7 +2659,7 @@
                          [:Plural :Person3 :Common "sugáy"]]
                  }
                 {:label "somali-VSuffC1RedAbsAffPastProg-keen"
-                 :note ""
+                 :note "S99"
                  :common {:vmorphClass :Finite
                           :clauseCase :Absolutive,
                           :clauseType :Reduced,
@@ -2679,7 +2679,7 @@
                          [:Plural :Person3 :Common "keénayáy"]]
                  }
                 {:label "somali-VSuffC1RedAbsAffPresGen-keen"
-                 :note ""
+                 :note "S99"
                  :common {:vmorphClass :Finite
                           :clauseCase :Absolutive,
                           :clauseType :Reduced,
@@ -2699,7 +2699,7 @@
                          [:Plural :Person3 :Common "keená"]]
                  }
                 {:label "somali-VSuffC1RedAbsAffPresProg-keen"
-                 :note ""
+                 :note "S99"
                  :common {:vmorphClass :Finite
                           :clauseCase :Absolutive,
                           :clauseType :Reduced,
@@ -2719,7 +2719,7 @@
                          [:Plural :Person3 :Common "keénayá"]]
                  }
                 {:label "somali-VSuffC1RedSubjAffPastGen-keen"
-                 :note ""
+                 :note "S99"
                  :common {:vmorphClass :Finite
                           :clauseCase :Subject,
                           :clauseType :Reduced,
@@ -2739,7 +2739,7 @@
                          [:Plural :Person3 :Common "keenay"]]
                  }
                 {:label "somali-VSuffC1RedSubjAffPastProg-keen"
-                 :note ""
+                 :note "S99"
                  :common {:vmorphClass :Finite
                           :clauseCase :Subject,
                           :clauseType :Reduced,
@@ -2759,7 +2759,7 @@
                          [:Plural :Person3 :Common "keénayay"]]
                  }
                 {:label "somali-VSuffC1RedSubjAffPresGen-keen"
-                 :note ""
+                 :note "S99"
                  :common {:vmorphClass :Finite
                           :clauseCase :Subject,
                           :clauseType :Reduced,
@@ -2779,7 +2779,7 @@
                          [:Plural :Person3 :Common "keenaa"]]
                  }
                 {:label "somali-VSuffC1RedSubjAffPresProg-keen"
-                 :note ""
+                 :note "S99"
                  :common {:vmorphClass :Finite
                           :clauseCase :Subject,
                           :clauseType :Reduced,
@@ -2799,7 +2799,7 @@
                          [:Plural :Person3 :Common "keénayay"]]
                  }
                 {:label "somali-VSuffC2AFullAbsAffPastProg-kari"
-                 :note ""
+                 :note "S99"
                  :common {:vmorphClass :Finite
                           :clauseCase :Absolutive,
                           :clauseType :Full,
@@ -2819,7 +2819,7 @@
                          [:Plural :Person3 :Common "karínayéen"]]
                  }
                 {:label "somali-VSuffC2AFullAbsAffPresGen-kari"
-                 :note ""
+                 :note "S99"
                  :common {:vmorphClass :Finite
                           :clauseCase :Absolutive,
                           :clauseType :Full,
@@ -2839,7 +2839,7 @@
                          [:Plural :Person3 :Common "kariyàan"]]
                  }
                 {:label "somali-VSuffC2AFullAbsAffPresProg-kari"
-                 :note ""
+                 :note "S99"
                  :common {:vmorphClass :Finite
                           :clauseCase :Absolutive,
                           :clauseType :Full,
@@ -2859,7 +2859,7 @@
                          [:Plural :Person3 :Common "karínayàan"]]
                  }
                 {:label "somali-VSuffC2AFullAbsAffPstGen-kari"
-                 :note ""
+                 :note "S99"
                  :common {:vmorphClass :Finite
                           :clauseCase :Absolutive,
                           :clauseType :Full,
@@ -2879,7 +2879,7 @@
                          [:Plural :Person3 :Common "kariyéen"]]
                  }
                 {:label "somali-VSuffC2AMainAffConditional-kari"
-                 :note ""
+                 :note "S99"
                  :common {:vmorphClass :Finite
                           :clauseType :Main,
                           :conjClass :Suffix,
@@ -2899,7 +2899,7 @@
                          [:Plural :Person3 :Common "karín lahaayeen"]]
                  }
                 {:label "somali-VSuffC2AMainAffFuture-kari"
-                 :note ""
+                 :note "S99"
                  :common {:vmorphClass :Finite
                           :clauseType :Main,
                           :conjClass :Suffix,
@@ -2919,7 +2919,7 @@
                          [:Plural :Person3 :Common "karín doonaan"]]
                  }
                 {:label "somali-VSuffC2AMainAffImprtv-kari"
-                 :note ""
+                 :note "S99"
                  :common {:vmorphClass :Finite
                           :gender :Common,
                           :conjSubClass :C2A,
@@ -2935,7 +2935,7 @@
                          [:Plural "karya"]]
                  }
                 {:label "somali-VSuffC2AMainAffOptative-kari"
-                 :note ""
+                 :note "S99"
                  :common {:vmorphClass :Finite
                           :clauseType :Main,
                           :conjClass :Suffix,
@@ -2956,7 +2956,7 @@
                          [:Plural :Person3 :Common "há kariyeen"]]
                  }
                 {:label "somali-VSuffC2AMainAffPastGen-kari"
-                 :note ""
+                 :note "S99"
                  :common {:vmorphClass :Finite
                           :clauseType :Main,
                           :conjClass :Suffix,
@@ -2975,7 +2975,7 @@
                          [:Plural :Person3 :Common "kariyeen"]]
                  }
                 {:label "somali-VSuffC2AMainAffPastHabit-kari"
-                 :note ""
+                 :note "S99"
                  :common {:vmorphClass :Finite
                           :clauseType :Main,
                           :conjClass :Suffix,
@@ -2995,7 +2995,7 @@
                          [:Plural :Person3 :Common "karín jireen"]]
                  }
                 {:label "somali-VSuffC2AMainAffPastIndep-kari"
-                 :note ""
+                 :note "S99"
                  :common {:vmorphClass :Finite
                           :clauseType :Main,
                           :conjClass :Suffix,
@@ -3014,7 +3014,7 @@
                          [:Plural :Person3 :Common "kariyé"]]
                  }
                 {:label "somali-VSuffC2AMainAffPastProg-kari"
-                 :note ""
+                 :note "S99"
                  :common {:vmorphClass :Finite
                           :clauseType :Main,
                           :conjClass :Suffix,
@@ -3033,7 +3033,7 @@
                          [:Plural :Person3 :Common "karínayeen"]]
                  }
                 {:label "somali-VSuffC2AMainAffPotential-kari"
-                 :note ""
+                 :note "S99"
                  :common {:vmorphClass :Finite
                           :clauseType :Main,
                           :conjClass :Suffix,
@@ -3052,7 +3052,7 @@
                          [:Plural :Person3 :Common "kariyeen"]]
                  }
                 {:label "somali-VSuffC2AMainAffPresGen-kari"
-                 :note ""
+                 :note "S99"
                  :common {:vmorphClass :Finite
                           :clauseType :Main,
                           :conjClass :Suffix,
@@ -3071,7 +3071,7 @@
                          [:Plural :Person3 :Common "kariyaan"]]
                  }
                 {:label "somali-VSuffC2AMainAffPresProg-kari"
-                 :note ""
+                 :note "S99"
                  :common {:vmorphClass :Finite
                           :clauseType :Main,
                           :conjClass :Suffix,
@@ -3090,7 +3090,7 @@
                          [:Plural :Person3 :Common "karínayaan"]]
                  }
                 {:label "somali-VSuffC2AMainNegConditional-kari"
-                 :note ""
+                 :note "S99"
                  :common {:vmorphClass :Finite
                           :clauseType :Main,
                           :conjClass :Suffix,
@@ -3109,7 +3109,7 @@
                          [:Plural :Person3 :Common "kariyéen"]]
                  }
                 {:label "somali-VSuffC2AMainNegFuture-kari"
-                 :note ""
+                 :note "S99"
                  :common {:vmorphClass :Finite
                           :clauseType :Main,
                           :conjClass :Suffix,
@@ -3129,7 +3129,7 @@
                          [:Plural :Person3 :Common "karín doonàan"]]
                  }
                 {:label "somali-VSuffC2AMainNegImprtv-kari"
-                 :note ""
+                 :note "S99"
                  :common {:vmorphClass :Finite
                           :gender :Common,
                           :conjSubClass :C2A,
@@ -3145,7 +3145,7 @@
                          [:Plural "karinína"]]
                  }
                 {:label "somali-VSuffC2AMainNegOptative-kari"
-                 :note ""
+                 :note "S99"
                  :common {:vmorphClass :Finite
                           :clauseType :Main,
                           :conjClass :Suffix,
@@ -3166,7 +3166,7 @@
                          [:Plural :Person3 :Common "yàaney karín"]]
                  }
                 {:label "somali-VSuffC2AMainNegPresGen-kari"
-                 :note ""
+                 :note "S99"
                  :common {:vmorphClass :Finite
                           :clauseType :Main,
                           :conjClass :Suffix,
@@ -3185,7 +3185,7 @@
                          [:Plural :Person3 :Common "kariyàan"]]
                  }
                 {:label "somali-VSuffC2AMainNegPresProg-kari"
-                 :note ""
+                 :note "S99"
                  :common {:vmorphClass :Finite
                           :clauseType :Main,
                           :conjClass :Suffix,
@@ -3204,7 +3204,7 @@
                          [:Plural :Person3 :Common "karín maayàan"]]
                  }
                 {:label "somali-VSuffC2AMainNegPresProg2-kari"
-                 :note ""
+                 :note "S99"
                  :common {:vmorphClass :Finite
                           :clauseType :Main,
                           :conjClass :Suffix,
@@ -3223,7 +3223,7 @@
                          [:Plural :Person3 :Common "karínayàan"]]
                  }
                 {:label "somali-VSuffC2ARedAbsAffPastGen-kari"
-                 :note ""
+                 :note "S99"
                  :common {:vmorphClass :Finite
                           :clauseCase :Absolutive,
                           :clauseType :Reduced,
@@ -3243,7 +3243,7 @@
                          [:Plural :Person3 :Common "karieyéy"]]
                  }
                 {:label "somali-VSuffC2BFullAbsAffPastGen-yar"
-                 :note ""
+                 :note "S99"
                  :common {:vmorphClass :Finite
                           :clauseCase :Absolutive,
                           :clauseType :Full,
@@ -3263,7 +3263,7 @@
                          [:Plural :Person3 :Common "yareeyéen"]]
                  }
                 {:label "somali-VSuffC2BFullAbsAffPastProg-yar"
-                 :note "form calqued on conjSubClass :C2A/:C3A [CHECK!]"
+                 :note "S99 :: form calqued on conjSubClass :C2A/:C3A [CHECK!]"
                  :common {:vmorphClass :Finite
                           :clauseCase :Absolutive,
                           :clauseType :Full,
@@ -3283,7 +3283,7 @@
                          [:Plural :Person3 :Common "yarèynayéen"]]
                  }
                 {:label "somali-VSuffC2BFullAbsAffPresGen-yar"
-                 :note ""
+                 :note "S99"
                  :common {:vmorphClass :Finite
                           :clauseCase :Absolutive,
                           :clauseType :Full,
@@ -3303,7 +3303,7 @@
                          [:Plural :Person3 :Common "yareeyàan"]]
                  }
                 {:label "somali-VSuffC2BFullAbsAffPresProg-yar"
-                 :note "form calqued on conjSubClass :C2A/:C3A [CHECK!]"
+                 :note "S99 :: form calqued on conjSubClass :C2A/:C3A [CHECK!]"
                  :common {:vmorphClass :Finite
                           :clauseCase :Absolutive,
                           :clauseType :Full,
@@ -3323,7 +3323,7 @@
                          [:Plural :Person3 :Common "yarèynayàan"]]
                  }
                 {:label "somali-VSuffC2BMainAffConditional-yar"
-                 :note "form calqued on conjSubClass :C2A/:C3A [CHECK!]"
+                 :note "S99 :: form calqued on conjSubClass :C2A/:C3A [CHECK!]"
                  :common {:vmorphClass :Finite
                           :clauseType :Main,
                           :conjClass :Suffix,
@@ -3343,7 +3343,7 @@
                          [:Plural :Person3 :Common "yarèyn lahaayeen"]]
                  }
                 {:label "somali-VSuffC2BMainAffFuture-yar"
-                 :note "form calqued on conjSubClass :C2A/:C3A [CHECK!]"
+                 :note "S99 :: form calqued on conjSubClass :C2A/:C3A [CHECK!]"
                  :common {:vmorphClass :Finite
                           :clauseType :Main,
                           :conjClass :Suffix,
@@ -3363,7 +3363,7 @@
                          [:Plural :Person3 :Common "yarèyn doonaan"]]
                  }
                 {:label "somali-VSuffC2BMainAffImprtv-yar"
-                 :note ""
+                 :note "S99"
                  :common {:vmorphClass :Finite
                           :gender :Common,
                           :conjSubClass :C2B,
@@ -3379,7 +3379,7 @@
                          [:Plural "yaréeya"]]
                  }
                 {:label "somali-VSuffC2BMainAffOptative-yar"
-                 :note "form calqued on conjSubClass :C2A/:C3A [CHECK!]"
+                 :note "S99 :: form calqued on conjSubClass :C2A/:C3A [CHECK!]"
                  :common {:vmorphClass :Finite
                           :clauseType :Main,
                           :conjClass :Suffix,
@@ -3400,7 +3400,7 @@
                          [:Plural :Person3 :Common "há yareeyeen"]]
                  }
                 {:label "somali-VSuffC2BMainAffPastGen-yar"
-                 :note ""
+                 :note "S99"
                  :common {:vmorphClass :Finite
                           :clauseType :Main,
                           :conjClass :Suffix,
@@ -3419,7 +3419,7 @@
                          [:Plural :Person3 :Common "yareeyeen"]]
                  }
                 {:label "somali-VSuffC2BMainAffPastHabit-yar"
-                 :note "form calqued on conjSubClass :C2A/:C3A [CHECK!]"
+                 :note "S99 :: form calqued on conjSubClass :C2A/:C3A [CHECK!]"
                  :common {:vmorphClass :Finite
                           :clauseType :Main,
                           :conjClass :Suffix,
@@ -3439,7 +3439,7 @@
                          [:Plural :Person3 :Common "yarèyn jireen"]]
                  }
                 {:label "somali-VSuffC2BMainAffPastIndep-yar"
-                 :note "form calqued on conjSubClass :C2A/:C3A [CHECK!]"
+                 :note "S99 :: form calqued on conjSubClass :C2A/:C3A [CHECK!]"
                  :common {:vmorphClass :Finite
                           :clauseType :Main,
                           :conjClass :Suffix,
@@ -3458,7 +3458,7 @@
                          [:Plural :Person3 :Common "yareyé"]]
                  }
                 {:label "somali-VSuffC2BMainAffPastProg-yar"
-                 :note "form calqued on conjSubClass :C2A/:C3A [CHECK!]"
+                 :note "S99 :: form calqued on conjSubClass :C2A/:C3A [CHECK!]"
                  :common {:vmorphClass :Finite
                           :clauseType :Main,
                           :conjClass :Suffix,
@@ -3477,7 +3477,7 @@
                          [:Plural :Person3 :Common "yarèynayeen"]]
                  }
                 {:label "somali-VSuffC2BMainAffPotential-yar"
-                 :note "form calqued on conjSubClass :C2A/:C3A [CHECK!]"
+                 :note "S99 :: form calqued on conjSubClass :C2A/:C3A [CHECK!]"
                  :common {:vmorphClass :Finite
                           :clauseType :Main,
                           :conjClass :Suffix,
@@ -3496,7 +3496,7 @@
                          [:Plural :Person3 :Common "yareeyeen"]]
                  }
                 {:label "somali-VSuffC2BMainAffPresGen-yar"
-                 :note ""
+                 :note "S99"
                  :common {:vmorphClass :Finite
                           :clauseType :Main,
                           :conjClass :Suffix,
@@ -3515,7 +3515,7 @@
                          [:Plural :Person3 :Common "yareeyaan"]]
                  }
                 {:label "somali-VSuffC2BMainAffPresProg-yar"
-                 :note "form calqued on conjSubClass :C2A/:C3A [CHECK!]"
+                 :note "S99 :: form calqued on conjSubClass :C2A/:C3A [CHECK!]"
                  :common {:vmorphClass :Finite
                           :clauseType :Main,
                           :conjClass :Suffix,
@@ -3534,7 +3534,7 @@
                          [:Plural :Person3 :Common "yarèynayaan"]]
                  }
                 {:label "somali-VSuffC2BMainNegConditional-yar"
-                 :note "form calqued on conjSubClass :C2A/:C3A [CHECK!]"
+                 :note "S99 :: form calqued on conjSubClass :C2A/:C3A [CHECK!]"
                  :common {:vmorphClass :Finite
                           :clauseType :Main,
                           :conjClass :Suffix,
@@ -3553,7 +3553,7 @@
                          [:Plural :Person3 :Common "yareeyéen"]]
                  }
                 {:label "somali-VSuffC2BMainNegFuture-yar"
-                 :note "form calqued on conjSubClass :C2A/:C3A [CHECK!]"
+                 :note "S99 :: form calqued on conjSubClass :C2A/:C3A [CHECK!]"
                  :common {:vmorphClass :Finite
                           :clauseType :Main,
                           :conjClass :Suffix,
@@ -3573,7 +3573,7 @@
                          [:Plural :Person3 :Common "yarèyn doonàan"]]
                  }
                 {:label "somali-VSuffC2BMainNegImprtv-yar"
-                 :note ""
+                 :note "S99"
                  :common {:vmorphClass :Finite
                           :gender :Common,
                           :conjSubClass :C2B,
@@ -3589,7 +3589,7 @@
                          [:Plural "yaraynína"]]
                  }
                 {:label "somali-VSuffC2BMainNegOptative-yar"
-                 :note "form calqued on conjSubClass :C2A/:C3A [CHECK!]"
+                 :note "S99 :: form calqued on conjSubClass :C2A/:C3A [CHECK!]"
                  :common {:vmorphClass :Finite
                           :clauseType :Main,
                           :conjClass :Suffix,
@@ -3610,7 +3610,7 @@
                          [:Plural :Person3 :Common "yàaney yarèyn"]]
                  }
                 {:label "somali-VSuffC2BMainNegPresGen-yar"
-                 :note ""
+                 :note "S99"
                  :common {:vmorphClass :Finite
                           :clauseType :Main,
                           :conjClass :Suffix,
@@ -3629,7 +3629,7 @@
                          [:Plural :Person3 :Common "yareeyàan"]]
                  }
                 {:label "somali-VSuffC2BMainNegPresProg-yar"
-                 :note "form calqued on conjSubClass :C2A/:C3A [CHECK!]"
+                 :note "S99 :: form calqued on conjSubClass :C2A/:C3A [CHECK!]"
                  :common {:vmorphClass :Finite
                           :clauseType :Main,
                           :conjClass :Suffix,
@@ -3648,7 +3648,7 @@
                          [:Plural :Person3 :Common "yarèyn maayàan"]]
                  }
                 {:label "somali-VSuffC2BMainNegPresProg2-yar"
-                 :note "form calqued on conjSubClass :C2A/:C3A [CHECK!]"
+                 :note "S99 :: form calqued on conjSubClass :C2A/:C3A [CHECK!]"
                  :common {:vmorphClass :Finite
                           :clauseType :Main,
                           :conjClass :Suffix,
@@ -3667,7 +3667,7 @@
                          [:Plural :Person3 :Common "yarèynayàan"]]
                  }
                 {:label "somali-VSuffC2BRedAbsAffPastGen-yar"
-                 :note ""
+                 :note "S99"
                  :common {:vmorphClass :Finite
                           :clauseCase :Absolutive,
                           :clauseType :Reduced,
@@ -3687,7 +3687,7 @@
                          [:Plural :Person3 :Common "yareeyéy"]]
                  }
                 {:label "somali-VSuffC3AFullAbsAffPastGen-joogso"
-                 :note ""
+                 :note "S99"
                  :common {:vmorphClass :Finite
                           :clauseCase :Absolutive,
                           :clauseType :Full,
@@ -3707,7 +3707,7 @@
                          [:Plural :Person3 :Common "joogsadéen"]]
                  }
                 {:label "somali-VSuffC3AFullAbsAffPastProg-joogso"
-                 :note ""
+                 :note "S99"
                  :common {:vmorphClass :Finite
                           :clauseCase :Absolutive,
                           :clauseType :Full,
@@ -3727,7 +3727,7 @@
                          [:Plural :Person3 :Common "joogsánayéen"]]
                  }
                 {:label "somali-VSuffC3AFullAbsAffPresGen-joogso"
-                 :note ""
+                 :note "S99"
                  :common {:vmorphClass :Finite
                           :clauseCase :Absolutive,
                           :clauseType :Full,
@@ -3747,7 +3747,7 @@
                          [:Plural :Person3 :Common "joogsadàan"]]
                  }
                 {:label "somali-VSuffC3AFullAbsAffPresProg-joogso"
-                 :note ""
+                 :note "S99"
                  :common {:vmorphClass :Finite
                           :clauseCase :Absolutive,
                           :clauseType :Full,
@@ -3767,7 +3767,7 @@
                          [:Plural :Person3 :Common "joogsánayàan"]]
                  }
                 {:label "somali-VSuffC3AMainAffConditional-joogso"
-                 :note ""
+                 :note "S99"
                  :common {:vmorphClass :Finite
                           :clauseType :Main,
                           :conjClass :Suffix,
@@ -3787,7 +3787,7 @@
                          [:Plural :Person3 :Common "joogsán lahaayeen"]]
                  }
                 {:label "somali-VSuffC3AMainAffFuture-joogso"
-                 :note ""
+                 :note "S99"
                  :common {:vmorphClass :Finite
                           :clauseType :Main,
                           :conjClass :Suffix,
@@ -3807,7 +3807,7 @@
                          [:Plural :Person3 :Common "joogsán doonaan"]]
                  }
                 {:label "somali-VSuffC3AMainAffImprtv-joogso"
-                 :note ""
+                 :note "S99"
                  :common {:vmorphClass :Finite
                           :gender :Common,
                           :conjSubClass :C3A,
@@ -3823,7 +3823,7 @@
                          [:Plural "joogsáda"]]
                  }
                 {:label "somali-VSuffC3AMainAffOptative-joogso"
-                 :note ""
+                 :note "S99"
                  :common {:vmorphClass :Finite
                           :clauseType :Main,
                           :conjClass :Suffix,
@@ -3844,7 +3844,7 @@
                          [:Plural :Person3 :Common "há jogsadeen"]]
                  }
                 {:label "somali-VSuffC3AMainAffPastGen-joogso"
-                 :note ""
+                 :note "S99"
                  :common {:vmorphClass :Finite
                           :clauseType :Main,
                           :conjClass :Suffix,
@@ -3863,7 +3863,7 @@
                          [:Plural :Person3 :Common "joogsadeen"]]
                  }
                 {:label "somali-VSuffC3AMainAffPastHabit-joogso"
-                 :note ""
+                 :note "S99"
                  :common {:vmorphClass :Finite
                           :clauseType :Main,
                           :conjClass :Suffix,
@@ -3883,7 +3883,7 @@
                          [:Plural :Person3 :Common "joogsán jireen"]]
                  }
                 {:label "somali-VSuffC3AMainAffPastIndep-joogso"
-                 :note ""
+                 :note "S99"
                  :common {:vmorphClass :Finite
                           :clauseType :Main,
                           :conjClass :Suffix,
@@ -3902,7 +3902,7 @@
                          [:Plural :Person3 :Common "joogsadé"]]
                  }
                 {:label "somali-VSuffC3AMainAffPastProg-joogso"
-                 :note ""
+                 :note "S99"
                  :common {:vmorphClass :Finite
                           :clauseType :Main,
                           :conjClass :Suffix,
@@ -3921,7 +3921,7 @@
                          [:Plural :Person3 :Common "joogsánayeen"]]
                  }
                 {:label "somali-VSuffC3AMainAffPotential-joogso"
-                 :note ""
+                 :note "S99"
                  :common {:vmorphClass :Finite
                           :clauseType :Main,
                           :conjClass :Suffix,
@@ -3940,7 +3940,7 @@
                          [:Plural :Person3 :Common "joogsadeen"]]
                  }
                 {:label "somali-VSuffC3AMainAffPresGen-joogso"
-                 :note ""
+                 :note "S99"
                  :common {:vmorphClass :Finite
                           :clauseType :Main,
                           :conjClass :Suffix,
@@ -3959,7 +3959,7 @@
                          [:Plural :Person3 :Common "joogsadaan"]]
                  }
                 {:label "somali-VSuffC3AMainAffPresProg-joogso"
-                 :note ""
+                 :note "S99"
                  :common {:vmorphClass :Finite
                           :clauseType :Main,
                           :conjClass :Suffix,
@@ -3978,7 +3978,7 @@
                          [:Plural :Person3 :Common "joogsánayaan"]]
                  }
                 {:label "somali-VSuffC3AMainNegConditional-joogso"
-                 :note ""
+                 :note "S99"
                  :common {:vmorphClass :Finite
                           :clauseType :Main,
                           :conjClass :Suffix,
@@ -3997,7 +3997,7 @@
                          [:Plural :Person3 :Common "joogsadéen"]]
                  }
                 {:label "somali-VSuffC3AMainNegFuture-joogso"
-                 :note ""
+                 :note "S99"
                  :common {:vmorphClass :Finite
                           :clauseType :Main,
                           :conjClass :Suffix,
@@ -4017,7 +4017,7 @@
                          [:Plural :Person3 :Common "joogsán doonàan"]]
                  }
                 {:label "somali-VSuffC3AMainNegImprtv-joogso"
-                 :note ""
+                 :note "S99"
                  :common {:vmorphClass :Finite
                           :gender :Common,
                           :conjSubClass :C3A,
@@ -4033,7 +4033,7 @@
                          [:Plural "joogsanína"]]
                  }
                 {:label "somali-VSuffC3AMainNegOptative-joogso"
-                 :note ""
+                 :note "S99"
                  :common {:vmorphClass :Finite
                           :clauseType :Main,
                           :conjClass :Suffix,
@@ -4054,7 +4054,7 @@
                          [:Plural :Person3 :Common "yàaney joogsán"]]
                  }
                 {:label "somali-VSuffC3AMainNegPresGen-joogso"
-                 :note ""
+                 :note "S99"
                  :common {:vmorphClass :Finite
                           :clauseType :Main,
                           :conjClass :Suffix,
@@ -4073,7 +4073,7 @@
                          [:Plural :Person3 :Common "joogsadàan"]]
                  }
                 {:label "somali-VSuffC3AMainNegPresProg-joogso"
-                 :note ""
+                 :note "S99"
                  :common {:vmorphClass :Finite
                           :clauseType :Main,
                           :conjClass :Suffix,
@@ -4092,7 +4092,7 @@
                          [:Plural :Person3 :Common "joogsán maayàan"]]
                  }
                 {:label "somali-VSuffC3AMainNegPresProg2-joogso"
-                 :note ""
+                 :note "S99"
                  :common {:vmorphClass :Finite
                           :clauseType :Main,
                           :conjClass :Suffix,
@@ -4111,7 +4111,7 @@
                          [:Plural :Person3 :Common "joogsánayàan"]]
                  }
                 {:label "somali-VSuffC3ARedAbsAffPastGen-joogso"
-                 :note ""
+                 :note "S99"
                  :common {:vmorphClass :Finite
                           :clauseCase :Absolutive,
                           :clauseType :Reduced,
@@ -4131,7 +4131,7 @@
                          [:Plural :Person3 :Common "joogsadáy"]]
                  }
                 {:label "somali-VSuffC3BAbsAffPresProg-qaado"
-                 :note "form calqued on conjSubClass :C2A/:C3A [CHECK!]"
+                 :note "S99 :: form calqued on conjSubClass :C2A/:C3A [CHECK!]"
                  :common {:vmorphClass :Finite
                           :clauseType :Main,
                           :conjClass :Suffix,
@@ -4150,7 +4150,7 @@
                          [:Plural :Person3 :Common "qaadánayàan"]]
                  }
                 {:label "somali-VSuffC3BFullAbsAffPastGen-qaado"
-                 :note ""
+                 :note "S99"
                  :common {:vmorphClass :Finite
                           :clauseCase :Absolutive,
                           :clauseType :Full,
@@ -4170,7 +4170,7 @@
                          [:Plural :Person3 :Common "qaatéen"]]
                  }
                 {:label "somali-VSuffC3BFullAbsAffPastProg-qaado"
-                 :note "form calqued on conjSubClass :C2A/:C3A [CHECK!]"
+                 :note "S99 :: form calqued on conjSubClass :C2A/:C3A [CHECK!]"
                  :common {:vmorphClass :Finite
                           :clauseCase :Absolutive,
                           :clauseType :Full,
@@ -4190,7 +4190,7 @@
                          [:Plural :Person3 :Common "qaadánayéen"]]
                  }
                 {:label "somali-VSuffC3BFullAbsAffPresGen-qaado"
-                 :note ""
+                 :note "S99"
                  :common {:vmorphClass :Finite
                           :clauseCase :Absolutive,
                           :clauseType :Full,
@@ -4210,7 +4210,7 @@
                          [:Plural :Person3 :Common "qaatàan"]]
                  }
                 {:label "somali-VSuffC3BFullMainAffPresProg-qaado"
-                 :note "form calqued on conjSubClass :C2A/:C3A [CHECK!]"
+                 :note "S99 :: form calqued on conjSubClass :C2A/:C3A [CHECK!]"
                  :common {:vmorphClass :Finite
                           :clauseCase :Absolutive,
                           :clauseType :Full,
@@ -4230,7 +4230,7 @@
                          [:Plural :Person3 :Common "qaadánayaan"]]
                  }
                 {:label "somali-VSuffC3BMainAffConditional-qaado"
-                 :note "form calqued on conjSubClass :C2A/:C3A [CHECK!]"
+                 :note "S99 :: form calqued on conjSubClass :C2A/:C3A [CHECK!]"
                  :common {:vmorphClass :Finite
                           :clauseType :Main,
                           :conjClass :Suffix,
@@ -4250,7 +4250,7 @@
                          [:Plural :Person3 :Common "qaadán lahaayeen"]]
                  }
                 {:label "somali-VSuffC3BMainAffFuture-qaado"
-                 :note "form calqued on conjSubClass :C2A/:C3A [CHECK!]"
+                 :note "S99 :: form calqued on conjSubClass :C2A/:C3A [CHECK!]"
                  :common {:vmorphClass :Finite
                           :clauseType :Main,
                           :conjClass :Suffix,
@@ -4270,7 +4270,7 @@
                          [:Plural :Person3 :Common "qaadán doonaan"]]
                  }
                 {:label "somali-VSuffC3BMainAffImprtv-qaado"
-                 :note ""
+                 :note "S99"
                  :common {:vmorphClass :Finite
                           :gender :Common,
                           :conjSubClass :C3B,
@@ -4286,7 +4286,7 @@
                          [:Plural "qáata"]]
                  }
                 {:label "somali-VSuffC3BMainAffOptative-qaado"
-                 :note "form calqued on conjSubClass :C2A/:C3A [CHECK!]"
+                 :note "S99 :: form calqued on conjSubClass :C2A/:C3A [CHECK!]"
                  :common {:vmorphClass :Finite
                           :clauseType :Main,
                           :conjClass :Suffix,
@@ -4307,7 +4307,7 @@
                          [:Plural :Person3 :Common "há qaateen"]]
                  }
                 {:label "somali-VSuffC3BMainAffPastGen-qaado"
-                 :note ""
+                 :note "S99"
                  :common {:vmorphClass :Finite
                           :clauseType :Main,
                           :conjClass :Suffix,
@@ -4326,7 +4326,7 @@
                          [:Plural :Person3 :Common "qaateen"]]
                  }
                 {:label "somali-VSuffC3BMainAffPastHabit-qaado"
-                 :note "form calqued on conjSubClass :C2A/:C3A [CHECK!]"
+                 :note "S99 :: form calqued on conjSubClass :C2A/:C3A [CHECK!]"
                  :common {:vmorphClass :Finite
                           :clauseType :Main,
                           :conjClass :Suffix,
@@ -4346,7 +4346,7 @@
                          [:Plural :Person3 :Common "qaadán jireen"]]
                  }
                 {:label "somali-VSuffC3BMainAffPastIndep-qaado"
-                 :note "form calqued on conjSubClass :C2A/:C3A [CHECK!]"
+                 :note "S99 :: form calqued on conjSubClass :C2A/:C3A [CHECK!]"
                  :common {:vmorphClass :Finite
                           :clauseType :Main,
                           :conjClass :Suffix,
@@ -4365,7 +4365,7 @@
                          [:Plural :Person3 :Common "qaadé"]]
                  }
                 {:label "somali-VSuffC3BMainAffPastProg-qaado"
-                 :note "form calqued on conjSubClass :C2A/:C3A [CHECK!]"
+                 :note "S99 :: form calqued on conjSubClass :C2A/:C3A [CHECK!]"
                  :common {:vmorphClass :Finite
                           :clauseType :Main,
                           :conjClass :Suffix,
@@ -4384,7 +4384,7 @@
                          [:Plural :Person3 :Common "qaadánayeen"]]
                  }
                 {:label "somali-VSuffC3BMainAffPotential-qaado"
-                 :note "form calqued on conjSubClass :C2A/:C3A [CHECK!]"
+                 :note "S99 :: form calqued on conjSubClass :C2A/:C3A [CHECK!]"
                  :common {:vmorphClass :Finite
                           :clauseType :Main,
                           :conjClass :Suffix,
@@ -4403,7 +4403,7 @@
                          [:Plural :Person3 :Common "qaateen"]]
                  }
                 {:label "somali-VSuffC3BMainAffPresGen-qaado"
-                 :note ""
+                 :note "S99"
                  :common {:vmorphClass :Finite
                           :clauseType :Main,
                           :conjClass :Suffix,
@@ -4422,7 +4422,7 @@
                          [:Plural :Person3 :Common "qaataan"]]
                  }
                 {:label "somali-VSuffC3BMainNegConditional-qaado"
-                 :note "form calqued on conjSubClass :C2A/:C3A [CHECK!]"
+                 :note "S99 :: form calqued on conjSubClass :C2A/:C3A [CHECK!]"
                  :common {:vmorphClass :Finite
                           :clauseType :Main,
                           :conjClass :Suffix,
@@ -4441,7 +4441,7 @@
                          [:Plural :Person3 :Common "qaatéen"]]
                  }
                 {:label "somali-VSuffC3BMainNegFuture-qaado"
-                 :note "form calqued on conjSubClass :C2A/:C3A [CHECK!]"
+                 :note "S99 :: form calqued on conjSubClass :C2A/:C3A [CHECK!]"
                  :common {:vmorphClass :Finite
                           :clauseType :Main,
                           :conjClass :Suffix,
@@ -4461,7 +4461,7 @@
                          [:Plural :Person3 :Common "qaadán doonàan"]]
                  }
                 {:label "somali-VSuffC3BMainNegImprtv-qaado"
-                 :note ""
+                 :note "S99"
                  :common {:vmorphClass :Finite
                           :gender :Common,
                           :conjSubClass :C3B,
@@ -4477,7 +4477,7 @@
                          [:Plural "qaadanína"]]
                  }
                 {:label "somali-VSuffC3BMainNegOptative-qaado"
-                 :note "form calqued on conjSubClass :C2A/:C3A [CHECK!]"
+                 :note "S99 :: form calqued on conjSubClass :C2A/:C3A [CHECK!]"
                  :common {:vmorphClass :Finite
                           :clauseType :Main,
                           :conjClass :Suffix,
@@ -4498,7 +4498,7 @@
                          [:Plural :Person3 :Common "yàaney qaadán"]]
                  }
                 {:label "somali-VSuffC3BMainNegPresGen-qaado"
-                 :note ""
+                 :note "S99"
                  :common {:vmorphClass :Finite
                           :clauseType :Main,
                           :conjClass :Suffix,
@@ -4517,7 +4517,7 @@
                          [:Plural :Person3 :Common "qaatàan"]]
                  }
                 {:label "somali-VSuffC3BMainNegPresProg-qaado"
-                 :note "form calqued on conjSubClass :C2A/:C3A [CHECK!]"
+                 :note "S99 :: form calqued on conjSubClass :C2A/:C3A [CHECK!]"
                  :common {:vmorphClass :Finite
                           :clauseType :Main,
                           :conjClass :Suffix,
@@ -4536,7 +4536,7 @@
                          [:Plural :Person3 :Common "qaadán maayàan"]]
                  }
                 {:label "somali-VSuffC3BMainNegPresProg2-qaado"
-                 :note "form calqued on conjSubClass :C2A/:C3A [CHECK!]"
+                 :note "S99 :: form calqued on conjSubClass :C2A/:C3A [CHECK!]"
                  :common {:vmorphClass :Finite
                           :clauseType :Main,
                           :conjClass :Suffix,
@@ -4555,7 +4555,7 @@
                          [:Plural :Person3 :Common "qaadánayàan"]]
                  }
                 {:label "somali-VSuffC3BRedAbsAffPastGen-qaado"
-                 :note ""
+                 :note "S99"
                  :common {:vmorphClass :Finite
                           :clauseCase :Absolutive,
                           :clauseType :Reduced,
@@ -4575,7 +4575,7 @@
                          [:Plural :Person3 :Common "qaatáy"]]
                  }
                 {:label "somali-VSuffInfinitive"
-                 :note "somali-VSuffInfinitive"
+                 :note "S99"
                  :common {:vmorphClass :INFINITIVESUFF
                           :conjClass :Suffix,
                           :nonFiniteForm :Infinitive,
@@ -4588,7 +4588,7 @@
                          [:C3B :qaado "qaadán"]]
                  }
                 {:label "somali-PInd"
-                 :note "SAEED1999 p. 68"
+                 :note "S99p.68"
                  :common {:pos :Pronoun, :pmorphClass :ProMorph,
                           :proClass :Independent}
                  :terms [[:number :person :gender :token],
@@ -4602,8 +4602,7 @@
                          [:Plural :Person3 :Common "iyá-ga"]]
                  }
                 {:label "somali-PObjClitic"
-                 :note "SAEED1999 pp. 73-74;2ary form is used “when two obert object clitic pronouns
-            occur in the same verbal group”."
+                 :note "S99pp.73-74 :: 2ary form is used “when two obert object clitic pronouns  occur in the same verbal group”."
                  :common {:case :Object,
                           :pos :Pronoun, :pmorphClass :ProMorph,
                           :proClass :ObjClitic}
@@ -4626,7 +4625,7 @@
                          [:SubClass2 :Plural :Person3 :Common "_"]]
                  }
                 {:label "somali-PPoss"
-                 :note "SAEED1999 pp. 114-115"
+                 :note "S99pp.114-115"
                  :common {:pos :Pronoun, :pmorphClass :ProMorph,
                           :proClass :Possessive}
                  :terms [[:genderPoss :number :person :gender :token],
@@ -4648,7 +4647,7 @@
                          [:Masc :Plural :Person3 :Common "kòoda"]]
                  }
                 {:label "somali-PSubjClit"
-                 :note "SAEED1999 p. 72"
+                 :note "S99p.72"
                  :common {:case :Nominative,
                           :pos :Pronoun, :pmorphClass :ProMorph,
                           :proClass :SubjClit}

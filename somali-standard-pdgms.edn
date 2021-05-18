@@ -13,7 +13,7 @@
             :conjSubType [:SubClass1 :SubClass2],
             :formClass [:Compound],
             :gender [:Common :Fem :Masc],
-            :genderPoss [:Fem :Masc],
+            :genPoss [:Fem :Masc],
             :nonFiniteForm [:Infinitive],
             :numPersGender [:Invariable],
             :number [:Plural :Singular],
@@ -25,7 +25,7 @@
             :tam [:Conditional :Future :Imperative :Optative :PastGeneral :PastHabitual :PastIndependent :PastProgressive :Potential :PresentGeneral :PresentProgressive :PresentProgressive2],
             :vmorphClass [:Finite :INFINITIVEPREF :INFINITIVESUFF :PREFMAINNEGPASTINVAR :SUFFC1MAINNEGPASTINVAR :SubVarTense]
             }
- :pclass {:pngClass [:person :number :gender :genderPoss :numPersGender],
+ :pclass {:pngClass [:person :number :gender :genPoss :numPersGender],
           :synsemClass [:case :cluaseCase :clauseType :derivedStems :nonFiniteForm :polarity :pdgmSubType :pos :proClass :tam :formClass],
           :inflClass [:conjClass :conjSubClass :conjSubType],
           :otherClass []}
@@ -4628,7 +4628,7 @@
                  :note "S99pp.114-115"
                  :common {:pos :Pronoun, :pmorphClass :ProMorph,
                           :proClass :Possessive}
-                 :terms [[:genderPoss :number :person :gender :token],
+                 :terms [[:genPoss :number :person :gender :token],
                          [:Fem :Singular :Person1 :Common "tàyda"],
                          [:Fem :Singular :Person2 :Common "tàada"],
                          [:Fem :Singular :Person3 :Masc "tìisa"],

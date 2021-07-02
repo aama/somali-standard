@@ -4,7 +4,7 @@
   "sgpref": "sst",
   "datasource": "Saeed1999 Orwin1995; abbrev S99 O95",
   "geodemoURL": "http://www.ethnologue.com/language/som",
-  "geodemoTXT": "Standard Somali is based principally on the Northern variety of a group of closely related 'Somaloid' language varieties spoken in the Horn of African and Kenya. Standard Somali is spoken throughout the region historically known as Somalia, and in adjacent countries (Djibouti, Ethiopia, Kenya). The paradigms are a combination of Saeed1999 and Orwin1995."
+  "geodemoTXT": "Standard Somali is based principally on the Northern variety of a group of closely related 'Somaloid' language varieties spoken in the Horn of African and Kenya. Standard Somali is spoken throughout the region historically known as Somalia, and in adjacent countries (Djibouti, Ethiopia, Kenya). The paradigms are a combination of Saeed1999 and Orwin1995.",
   "schemata": {
     "pdgmSubType": [
       "PastInvar"
@@ -33,16 +33,13 @@
       "Plural",
       "Singular"
     ],
-    "vmorphClass": [
-      "Finite",
+    "formClass": [
+      "Compound",
       "INFINITIVEPREF",
       "INFINITIVESUFF",
       "PREFMAINNEGPASTINVAR",
       "SUFFC1MAINNEGPASTINVAR",
       "SubVarTense"
-    ],
-    "formClass": [
-      "Compound"
     ],
     "nonFiniteForm": [
       "Infinitive"
@@ -103,7 +100,7 @@
       "Fem",
       "Masc"
     ]
-  }
+  },
   "lexemes": {
     "yiqiin": {
       "pos": "Verb",
@@ -209,13 +206,13 @@
       "pos": "Verb",
       "lemma": "[y]", "gloss": "[x]"
     }
-  }
+  },
   "termclusters": [
     {
       "label": "somali-VPrefInfinitive",
       "note": "S99",
       "common": {
-        "vmorphClass": "INFINITIVEPREF",
+        "formClass": "INFINITIVEPREF",
         "conjClass": "Prefix",
         "nonFiniteForm": "Infinitive",
         "pos": "Verb"
@@ -232,7 +229,6 @@
       "label": "somali-VPrefMainAffConditional-yahay",
       "note": "S99",
       "common": {
-        "vmorphClass": "Finite",
         "clauseType": "Main",
         "conjClass": "Prefix",
         "lexeme": "yahay",
@@ -254,7 +250,6 @@
       "label": "somali-VPrefMainAffConditional-yidi",
       "note": "S99",
       "common": {
-        "vmorphClass": "Finite",
         "clauseType": "Main",
         "conjClass": "Prefix",
         "lexeme": "yidi",
@@ -276,7 +271,6 @@
       "label": "somali-VPrefMainAffConditional-yiil",
       "note": "S99",
       "common": {
-        "vmorphClass": "Finite",
         "clauseType": "Main",
         "conjClass": "Prefix",
         "lexeme": "yiil",
@@ -298,7 +292,6 @@
       "label": "somali-VPrefMainAffConditional-yimi",
       "note": "S99",
       "common": {
-        "vmorphClass": "Finite",
         "clauseType": "Main",
         "conjClass": "Prefix",
         "lexeme": "yimi",
@@ -320,7 +313,6 @@
       "label": "somali-VPrefMainAffConditional-yiqiin",
       "note": "S99",
       "common": {
-        "vmorphClass": "Finite",
         "clauseType": "Main",
         "conjClass": "Prefix",
         "lexeme": "yiqiin",
@@ -342,7 +334,6 @@
       "label": "somali-VPrefMainAffFuture-yahay",
       "note": "S99",
       "common": {
-        "vmorphClass": "Finite",
         "clauseType": "Main",
         "conjClass": "Prefix",
         "lexeme": "yahay",
@@ -364,7 +355,6 @@
       "label": "somali-VPrefMainAffFuture-yidi",
       "note": "S99",
       "common": {
-        "vmorphClass": "Finite",
         "clauseType": "Main",
         "conjClass": "Prefix",
         "lexeme": "yidi",
@@ -386,7 +376,6 @@
       "label": "somali-VPrefMainAffFuture-yiil",
       "note": "S99",
       "common": {
-        "vmorphClass": "Finite",
         "clauseType": "Main",
         "conjClass": "Prefix",
         "lexeme": "yiil",
@@ -408,7 +397,6 @@
       "label": "somali-VPrefMainAffFuture-yimi",
       "note": "S99",
       "common": {
-        "vmorphClass": "Finite",
         "clauseType": "Main",
         "conjClass": "Prefix",
         "lexeme": "yimi",
@@ -430,7 +418,6 @@
       "label": "somali-VPrefMainAffFuture-yiqiin",
       "note": "S99",
       "common": {
-        "vmorphClass": "Finite",
         "clauseType": "Main",
         "conjClass": "Prefix",
         "lexeme": "yiqiin",
@@ -454,7 +441,6 @@
       "common": {
         "person": "Person2",
         "clauseType": "Main",
-        "vmorphClass": "Finite",
         "pos": "Verb",
         "lexeme": "yahay",
         "conjClass": "Prefix",
@@ -470,7 +456,6 @@
       "label": "somali-VPrefMainAffImprtv-yidi",
       "note": "S99",
       "common": {
-        "vmorphClass": "Finite",
         "clauseType": "Main",
         "conjClass": "Prefix",
         "lexeme": "yidi",
@@ -487,7 +472,6 @@
       "label": "somali-VPrefMainAffImprtv-yiil",
       "note": "S99",
       "common": {
-        "vmorphClass": "Finite",
         "clauseType": "Main",
         "conjClass": "Prefix",
         "lexeme": "yiil",
@@ -504,7 +488,6 @@
       "label": "somali-VPrefMainAffImprtv-yimi",
       "note": "S99",
       "common": {
-        "vmorphClass": "Finite",
         "clauseType": "Main",
         "conjClass": "Prefix",
         "lexeme": "yimi",
@@ -523,7 +506,6 @@
       "common": {
         "person": "Person2",
         "clauseType": "Main",
-        "vmorphClass": "Finite",
         "pos": "Verb",
         "lexeme": "yiqiin",
         "conjClass": "Prefix",
@@ -539,7 +521,6 @@
       "label": "somali-VPrefMainAffOptative-yahay",
       "note": "S99",
       "common": {
-        "vmorphClass": "Finite",
         "clauseType": "Main",
         "conjClass": "Prefix",
         "lexeme": "yahay",
@@ -562,7 +543,6 @@
       "label": "somali-VPrefMainAffOptative-yidi",
       "note": "S99",
       "common": {
-        "vmorphClass": "Finite",
         "clauseType": "Main",
         "conjClass": "Prefix",
         "lexeme": "yidi",
@@ -586,7 +566,6 @@
       "label": "somali-VPrefMainAffOptative-yiil",
       "note": "S99",
       "common": {
-        "vmorphClass": "Finite",
         "clauseType": "Main",
         "conjClass": "Prefix",
         "lexeme": "yiil",
@@ -609,7 +588,6 @@
       "label": "somali-VPrefMainAffOptative-yimi",
       "note": "S99",
       "common": {
-        "vmorphClass": "Finite",
         "clauseType": "Main",
         "conjClass": "Prefix",
         "lexeme": "yimi",
@@ -632,7 +610,6 @@
       "label": "somali-VPrefMainAffOptative-yiqiin",
       "note": "S99",
       "common": {
-        "vmorphClass": "Finite",
         "clauseType": "Main",
         "conjClass": "Prefix",
         "lexeme": "yiqiin",
@@ -655,7 +632,6 @@
       "label": "somali-VPrefMainAffPastGen-yahay",
       "note": "S99",
       "common": {
-        "vmorphClass": "Finite",
         "clauseType": "Main",
         "conjClass": "Prefix",
         "lexeme": "yahay",
@@ -676,7 +652,6 @@
       "label": "somali-VPrefMainAffPastGen-yidi",
       "note": "S99",
       "common": {
-        "vmorphClass": "Finite",
         "clauseType": "Main",
         "conjClass": "Prefix",
         "lexeme": "yidi",
@@ -697,7 +672,6 @@
       "label": "somali-VPrefMainAffPastGen-yiil",
       "note": "S99",
       "common": {
-        "vmorphClass": "Finite",
         "clauseType": "Main",
         "conjClass": "Prefix",
         "lexeme": "yiil",
@@ -718,7 +692,6 @@
       "label": "somali-VPrefMainAffPastGen-yimi",
       "note": "S99",
       "common": {
-        "vmorphClass": "Finite",
         "clauseType": "Main",
         "conjClass": "Prefix",
         "lexeme": "yimi",
@@ -739,7 +712,6 @@
       "label": "somali-VPrefMainAffPastGen-yiqiin",
       "note": "S99",
       "common": {
-        "vmorphClass": "Finite",
         "clauseType": "Main",
         "conjClass": "Prefix",
         "lexeme": "yiqiin",
@@ -760,7 +732,6 @@
       "label": "somali-VPrefMainAffPastHabit-yahay",
       "note": "S99",
       "common": {
-        "vmorphClass": "Finite",
         "clauseType": "Main",
         "conjClass": "Prefix",
         "lexeme": "yahay",
@@ -782,7 +753,6 @@
       "label": "somali-VPrefMainAffPastHabit-yidi",
       "note": "S99",
       "common": {
-        "vmorphClass": "Finite",
         "clauseType": "Main",
         "conjClass": "Prefix",
         "lexeme": "yidi",
@@ -804,7 +774,6 @@
       "label": "somali-VPrefMainAffPastHabit-yiil",
       "note": "S99",
       "common": {
-        "vmorphClass": "Finite",
         "clauseType": "Main",
         "conjClass": "Prefix",
         "lexeme": "yiil",
@@ -826,7 +795,6 @@
       "label": "somali-VPrefMainAffPastHabit-yimi",
       "note": "S99",
       "common": {
-        "vmorphClass": "Finite",
         "clauseType": "Main",
         "conjClass": "Prefix",
         "lexeme": "yimi",
@@ -848,7 +816,6 @@
       "label": "somali-VPrefMainAffPastHabit-yiqiin",
       "note": "S99",
       "common": {
-        "vmorphClass": "Finite",
         "clauseType": "Main",
         "conjClass": "Prefix",
         "lexeme": "yiqiin",
@@ -870,7 +837,6 @@
       "label": "somali-VPrefMainAffPastIndep-yidi",
       "note": "S99",
       "common": {
-        "vmorphClass": "Finite",
         "clauseType": "Main",
         "conjClass": "Prefix",
         "lexeme": "yidi",
@@ -891,7 +857,6 @@
       "label": "somali-VPrefMainAffPastIndep-yiil",
       "note": "S99",
       "common": {
-        "vmorphClass": "Finite",
         "clauseType": "Main",
         "conjClass": "Prefix",
         "lexeme": "yiil",
@@ -912,7 +877,6 @@
       "label": "somali-VPrefMainAffPastIndep-yimi",
       "note": "S99",
       "common": {
-        "vmorphClass": "Finite",
         "clauseType": "Main",
         "conjClass": "Prefix",
         "lexeme": "yimi",
@@ -933,7 +897,6 @@
       "label": "somali-VPrefMainAffPastIndep-yiqiin",
       "note": "S99",
       "common": {
-        "vmorphClass": "Finite",
         "clauseType": "Main",
         "conjClass": "Prefix",
         "lexeme": "yiqiin",
@@ -954,7 +917,6 @@
       "label": "somali-VPrefMainAffPastProg-yidi",
       "note": "S99",
       "common": {
-        "vmorphClass": "Finite",
         "clauseType": "Main",
         "conjClass": "Prefix",
         "lexeme": "yidi",
@@ -975,7 +937,6 @@
       "label": "somali-VPrefMainAffPastProg-yimi",
       "note": "S99",
       "common": {
-        "vmorphClass": "Finite",
         "clauseType": "Main",
         "conjClass": "Prefix",
         "lexeme": "yimi",
@@ -996,7 +957,6 @@
       "label": "somali-VPrefMainAffPastProg-yiqiin",
       "note": "S99",
       "common": {
-        "vmorphClass": "Finite",
         "clauseType": "Main",
         "conjClass": "Prefix",
         "lexeme": "yiqiin",
@@ -1017,7 +977,6 @@
       "label": "somali-VPrefMainAffPotential-yahay",
       "note": "S99",
       "common": {
-        "vmorphClass": "Finite",
         "clauseType": "Main",
         "conjClass": "Prefix",
         "lexeme": "yahay",
@@ -1038,7 +997,6 @@
       "label": "somali-VPrefMainAffPotential-yidi",
       "note": "S99",
       "common": {
-        "vmorphClass": "Finite",
         "clauseType": "Main",
         "conjClass": "Prefix",
         "lexeme": "yidi",
@@ -1059,7 +1017,6 @@
       "label": "somali-VPrefMainAffPotential-yiil",
       "note": "S99",
       "common": {
-        "vmorphClass": "Finite",
         "clauseType": "Main",
         "conjClass": "Prefix",
         "lexeme": "yiil",
@@ -1080,7 +1037,6 @@
       "label": "somali-VPrefMainAffPotential-yimi",
       "note": "S99",
       "common": {
-        "vmorphClass": "Finite",
         "clauseType": "Main",
         "conjClass": "Prefix",
         "lexeme": "yimi",
@@ -1101,7 +1057,6 @@
       "label": "somali-VPrefMainAffPotential-yiqiin",
       "note": "S99",
       "common": {
-        "vmorphClass": "Finite",
         "clauseType": "Main",
         "conjClass": "Prefix",
         "lexeme": "yiqiin",
@@ -1122,7 +1077,6 @@
       "label": "somali-VPrefMainAffPresGen-yahay",
       "note": "S99",
       "common": {
-        "vmorphClass": "Finite",
         "clauseType": "Main",
         "conjClass": "Prefix",
         "lexeme": "yahay",
@@ -1143,7 +1097,6 @@
       "label": "somali-VPrefMainAffPresGen-yidi",
       "note": "S99",
       "common": {
-        "vmorphClass": "Finite",
         "clauseType": "Main",
         "conjClass": "Prefix",
         "lexeme": "yidi",
@@ -1164,7 +1117,6 @@
       "label": "somali-VPrefMainAffPresGen-yiil",
       "note": "S99",
       "common": {
-        "vmorphClass": "Finite",
         "clauseType": "Main",
         "conjClass": "Prefix",
         "lexeme": "yiil",
@@ -1185,7 +1137,6 @@
       "label": "somali-VPrefMainAffPresGen-yimi",
       "note": "S99",
       "common": {
-        "vmorphClass": "Finite",
         "clauseType": "Main",
         "conjClass": "Prefix",
         "lexeme": "yimi",
@@ -1206,7 +1157,6 @@
       "label": "somali-VPrefMainAffPresGen-yiqiin",
       "note": "S99",
       "common": {
-        "vmorphClass": "Finite",
         "clauseType": "Main",
         "conjClass": "Prefix",
         "lexeme": "yiqiin",
@@ -1227,7 +1177,6 @@
       "label": "somali-VPrefMainAffPresProg-yidi",
       "note": "S99",
       "common": {
-        "vmorphClass": "Finite",
         "clauseType": "Main",
         "conjClass": "Prefix",
         "lexeme": "yidi",
@@ -1248,7 +1197,6 @@
       "label": "somali-VPrefMainAffPresProg-yiil",
       "note": "S99",
       "common": {
-        "vmorphClass": "Finite",
         "clauseType": "Main",
         "conjClass": "Prefix",
         "lexeme": "yiil",
@@ -1266,7 +1214,6 @@
       "label": "somali-VPrefMainAffPresProg-yimi",
       "note": "S99",
       "common": {
-        "vmorphClass": "Finite",
         "clauseType": "Main",
         "conjClass": "Prefix",
         "lexeme": "yimi",
@@ -1287,7 +1234,6 @@
       "label": "somali-VPrefMainAffPresProg-yiqiin",
       "note": "S99",
       "common": {
-        "vmorphClass": "Finite",
         "clauseType": "Main",
         "conjClass": "Prefix",
         "lexeme": "yiqiin",
@@ -1308,7 +1254,6 @@
       "label": "somali-VPrefMainNegConditional-yahay",
       "note": "S99",
       "common": {
-        "vmorphClass": "Finite",
         "clauseType": "Main",
         "conjClass": "Prefix",
         "lexeme": "yahay",
@@ -1328,7 +1273,6 @@
     {
       "label": "somali-VPrefMainNegConditional-yidi",
       "note": "S99 :: with má; on analogy of NegConditional-yahay [CHECK]", "common": {
-        "vmorphClass": "Finite",
         "clauseType": "Main",
         "conjClass": "Prefix",
         "lexeme": "yidi",
@@ -1348,7 +1292,6 @@
     {
       "label": "somali-VPrefMainNegConditional-yiil",
       "note": "S99 :: with má; on analogy of NegConditional-yahay [CHECK]", "common": {
-        "vmorphClass": "Finite",
         "clauseType": "Main",
         "conjClass": "Prefix",
         "lexeme": "yiil",
@@ -1368,7 +1311,6 @@
     {
       "label": "somali-VPrefMainNegConditional-yimi",
       "note": "S99 :: with má; on analogy of NegConditional-yahay [CHECK]", "common": {
-        "vmorphClass": "Finite",
         "clauseType": "Main",
         "conjClass": "Prefix",
         "lexeme": "yimi",
@@ -1388,7 +1330,6 @@
     {
       "label": "somali-VPrefMainNegConditional-yiqiin",
       "note": "S99 :: with má; on analogy of NegConditional-yahay [CHECK]", "common": {
-        "vmorphClass": "Finite",
         "clauseType": "Main",
         "conjClass": "Prefix",
         "lexeme": "yiqiin",
@@ -1409,7 +1350,6 @@
       "label": "somali-VPrefMainNegFuture-yahay",
       "note": "S99",
       "common": {
-        "vmorphClass": "Finite",
         "clauseType": "Main",
         "conjClass": "Prefix",
         "lexeme": "yahay",
@@ -1431,7 +1371,6 @@
       "label": "somali-VPrefMainNegFuture-yidi",
       "note": "S99",
       "common": {
-        "vmorphClass": "Finite",
         "clauseType": "Main",
         "conjClass": "Prefix",
         "lexeme": "yidi",
@@ -1453,7 +1392,6 @@
       "label": "somali-VPrefMainNegFuture-yiil",
       "note": "S99",
       "common": {
-        "vmorphClass": "Finite",
         "clauseType": "Main",
         "conjClass": "Prefix",
         "lexeme": "yiil",
@@ -1475,7 +1413,6 @@
       "label": "somali-VPrefMainNegFuture-yimi",
       "note": "S99",
       "common": {
-        "vmorphClass": "Finite",
         "clauseType": "Main",
         "conjClass": "Prefix",
         "lexeme": "yimi",
@@ -1497,7 +1434,6 @@
       "label": "somali-VPrefMainNegFuture-yiqiin",
       "note": "S99",
       "common": {
-        "vmorphClass": "Finite",
         "clauseType": "Main",
         "conjClass": "Prefix",
         "lexeme": "yiqiin",
@@ -1521,7 +1457,6 @@
       "common": {
         "person": "Person2",
         "clauseType": "Main",
-        "vmorphClass": "Finite",
         "pos": "Verb",
         "lexeme": "yahay",
         "conjClass": "Prefix",
@@ -1537,7 +1472,6 @@
       "label": "somali-VPrefMainNegImprtv-yidi",
       "note": "S99",
       "common": {
-        "vmorphClass": "Finite",
         "clauseType": "Main",
         "conjClass": "Prefix",
         "lexeme": "yidi",
@@ -1554,7 +1488,6 @@
       "label": "somali-VPrefMainNegImprtv-yiil",
       "note": "S99",
       "common": {
-        "vmorphClass": "Finite",
         "clauseType": "Main",
         "conjClass": "Prefix",
         "lexeme": "yiil",
@@ -1571,7 +1504,6 @@
       "label": "somali-VPrefMainNegImprtv-yimi",
       "note": "S99",
       "common": {
-        "vmorphClass": "Finite",
         "clauseType": "Main",
         "conjClass": "Prefix",
         "lexeme": "yimi",
@@ -1590,7 +1522,6 @@
       "common": {
         "person": "Person2",
         "clauseType": "Main",
-        "vmorphClass": "Finite",
         "pos": "Verb",
         "lexeme": "yiqiin",
         "conjClass": "Prefix",
@@ -1606,7 +1537,6 @@
       "label": "somali-VPrefMainNegOptative-yahay",
       "note": "S99",
       "common": {
-        "vmorphClass": "Finite",
         "clauseType": "Main",
         "conjClass": "Prefix",
         "lexeme": "yahay",
@@ -1629,7 +1559,6 @@
       "label": "somali-VPrefMainNegOptative-yidi",
       "note": "S99",
       "common": {
-        "vmorphClass": "Finite",
         "clauseType": "Main",
         "conjClass": "Prefix",
         "lexeme": "yidi",
@@ -1652,7 +1581,6 @@
       "label": "somali-VPrefMainNegOptative-yiil",
       "note": "S99",
       "common": {
-        "vmorphClass": "Finite",
         "clauseType": "Main",
         "conjClass": "Prefix",
         "lexeme": "yiil",
@@ -1675,7 +1603,6 @@
       "label": "somali-VPrefMainNegOptative-yimi",
       "note": "S99",
       "common": {
-        "vmorphClass": "Finite",
         "clauseType": "Main",
         "conjClass": "Prefix",
         "lexeme": "yimi",
@@ -1698,7 +1625,6 @@
       "label": "somali-VPrefMainNegOptative-yiqiin",
       "note": "S99",
       "common": {
-        "vmorphClass": "Finite",
         "clauseType": "Main",
         "conjClass": "Prefix",
         "lexeme": "yiqiin",
@@ -1721,7 +1647,7 @@
       "label": "somali-VPrefMainNegPastInvar",
       "note": "S99",
       "common": {
-        "vmorphClass": "PREFMAINNEGPASTINVAR",
+        "formClass": "PREFMAINNEGPASTINVAR",
         "clauseType": "Main",
         "conjClass": "Prefix",
         "numPersGender": "Invariable",
@@ -1742,11 +1668,10 @@
                 ["yimi", "PastProgressive", "_"],
                 ["yiqiin", "PastHabitual", "oqóon jirín"],
                 ["yiqiin", "PastGeneral", "_"]]
-    }
-    {"label": "somali-VPrefMainNegPresGen-yahay" 
+    },
+    {"label": "somali-VPrefMainNegPresGen-yahay",
      "note": "S99",
      "common": {
-       "vmorphClass": "Finite",
        "clauseType": "Main",
        "conjClass": "Prefix",
        "lexeme": "yahay",
@@ -1767,7 +1692,6 @@
       "label": "somali-VPrefMainNegPresGen-yidi",
       "note": "S99",
       "common": {
-        "vmorphClass": "Finite",
         "clauseType": "Main",
         "conjClass": "Prefix",
         "lexeme": "yidi",
@@ -1788,7 +1712,6 @@
       "label": "somali-VPrefMainNegPresGen-yiil",
       "note": "S99",
       "common": {
-        "vmorphClass": "Finite",
         "clauseType": "Main",
         "conjClass": "Prefix",
         "lexeme": "yiil",
@@ -1809,7 +1732,6 @@
       "label": "somali-VPrefMainNegPresGen-yimi",
       "note": "S99",
       "common": {
-        "vmorphClass": "Finite",
         "clauseType": "Main",
         "conjClass": "Prefix",
         "lexeme": "yimi",
@@ -1830,7 +1752,6 @@
       "label": "somali-VPrefMainNegPresGen-yiqiin",
       "note": "S99",
       "common": {
-        "vmorphClass": "Finite",
         "clauseType": "Main",
         "conjClass": "Prefix",
         "lexeme": "yiqiin",
@@ -1851,7 +1772,6 @@
       "label": "somali-VPrefMainNegPresProg-yidi",
       "note": "S99",
       "common": {
-        "vmorphClass": "Finite",
         "clauseType": "Main",
         "conjClass": "Prefix",
         "lexeme": "yidi",
@@ -1872,7 +1792,6 @@
       "label": "somali-VPrefMainNegPresProg-yimi",
       "note": "S99",
       "common": {
-        "vmorphClass": "Finite",
         "clauseType": "Main",
         "conjClass": "Prefix",
         "lexeme": "yimi",
@@ -1893,7 +1812,6 @@
       "label": "somali-VPrefMainNegPresProg2-yidi",
       "note": "S99",
       "common": {
-        "vmorphClass": "Finite",
         "clauseType": "Main",
         "conjClass": "Prefix",
         "lexeme": "yidi",
@@ -1914,7 +1832,6 @@
       "label": "somali-VPrefMainNegPresProg2-yimi",
       "note": "S99",
       "common": {
-        "vmorphClass": "Finite",
         "clauseType": "Main",
         "conjClass": "Prefix",
         "lexeme": "yimi",
@@ -1935,7 +1852,6 @@
       "label": "somali-VPrefRedAbsAffPastGen-yahay",
       "note": "S99",
       "common": {
-        "vmorphClass": "Finite",
         "clauseCase": "Absolutive",
         "clauseType": "Reduced",
         "conjClass": "Prefix",
@@ -1957,7 +1873,6 @@
       "label": "somali-VPrefRedAbsAffPastGen-yidi",
       "note": "S99",
       "common": {
-        "vmorphClass": "Finite",
         "clauseCase": "Absolutive",
         "clauseType": "Reduced",
         "conjClass": "Prefix",
@@ -1979,7 +1894,6 @@
       "label": "somali-VPrefRedAbsAffPastGen-yiil",
       "note": "S99",
       "common": {
-        "vmorphClass": "Finite",
         "clauseCase": "Absolutive",
         "clauseType": "Reduced",
         "conjClass": "Prefix",
@@ -2001,7 +1915,6 @@
       "label": "somali-VPrefRedAbsAffPastGen-yimi",
       "note": "S99",
       "common": {
-        "vmorphClass": "Finite",
         "clauseCase": "Absolutive",
         "clauseType": "Reduced",
         "conjClass": "Prefix",
@@ -2023,7 +1936,6 @@
       "label": "somali-VPrefRedAbsAffPastGen-yiqiin",
       "note": "S99",
       "common": {
-        "vmorphClass": "Finite",
         "clauseCase": "Absolutive",
         "clauseType": "Reduced",
         "conjClass": "Prefix",
@@ -2045,7 +1957,6 @@
       "label": "somali-VPrefRedAbsAffPastProg-yidi",
       "note": "S99",
       "common": {
-        "vmorphClass": "Finite",
         "clauseCase": "Absolutive",
         "clauseType": "Reduced",
         "conjClass": "Prefix",
@@ -2069,7 +1980,6 @@
       "common": {
         "person": "Person3",
         "clauseType": "Reduced",
-        "vmorphClass": "Finite",
         "pos": "Verb",
         "lexeme": "yiil",
         "conjClass": "Prefix",
@@ -2086,7 +1996,6 @@
       "label": "somali-VPrefRedAbsAffPastProg-yimi",
       "note": "S99",
       "common": {
-        "vmorphClass": "Finite",
         "clauseCase": "Absolutive",
         "clauseType": "Reduced",
         "conjClass": "Prefix",
@@ -2108,7 +2017,6 @@
       "label": "somali-VPrefRedAbsAffPastProg-yiqiin",
       "note": "S99",
       "common": {
-        "vmorphClass": "Finite",
         "clauseCase": "Absolutive",
         "clauseType": "Reduced",
         "conjClass": "Prefix",
@@ -2130,7 +2038,6 @@
       "label": "somali-VPrefRedAbsAffPresGen-yidi",
       "note": "S99",
       "common": {
-        "vmorphClass": "Finite",
         "clauseCase": "Absolutive",
         "clauseType": "Reduced",
         "conjClass": "Prefix",
@@ -2152,7 +2059,6 @@
       "label": "somali-VPrefRedAbsAffPresGen-yiil",
       "note": "S99",
       "common": {
-        "vmorphClass": "Finite",
         "clauseCase": "Absolutive",
         "clauseType": "Reduced",
         "conjClass": "Prefix",
@@ -2174,7 +2080,6 @@
       "label": "somali-VPrefRedAbsAffPresGen-yimi",
       "note": "S99",
       "common": {
-        "vmorphClass": "Finite",
         "clauseCase": "Absolutive",
         "clauseType": "Reduced",
         "conjClass": "Prefix",
@@ -2196,7 +2101,6 @@
       "label": "somali-VPrefRedAbsAffPresGen-yiqiin",
       "note": "S99",
       "common": {
-        "vmorphClass": "Finite",
         "clauseCase": "Absolutive",
         "clauseType": "Reduced",
         "conjClass": "Prefix",
@@ -2218,7 +2122,6 @@
       "label": "somali-VPrefRedAbsAffPresProg-yidi",
       "note": "S99",
       "common": {
-        "vmorphClass": "Finite",
         "clauseCase": "Absolutive",
         "clauseType": "Reduced",
         "conjClass": "Prefix",
@@ -2242,7 +2145,6 @@
       "common": {
         "person": "Person3",
         "clauseType": "Reduced",
-        "vmorphClass": "Finite",
         "pos": "Verb",
         "lexeme": "yiil",
         "conjClass": "Prefix",
@@ -2259,7 +2161,6 @@
       "label": "somali-VPrefRedAbsAffPresProg-yimi",
       "note": "S99",
       "common": {
-        "vmorphClass": "Finite",
         "clauseCase": "Absolutive",
         "clauseType": "Reduced",
         "conjClass": "Prefix",
@@ -2281,7 +2182,6 @@
       "label": "somali-VPrefRedAbsAffPresProg-yiqiin",
       "note": "S99",
       "common": {
-        "vmorphClass": "Finite",
         "clauseCase": "Absolutive",
         "clauseType": "Reduced",
         "conjClass": "Prefix",
@@ -2303,7 +2203,6 @@
       "label": "somali-VPrefRedSubjAffPastGen-yahay",
       "note": "S99",
       "common": {
-        "vmorphClass": "Finite",
         "clauseCase": "Subject",
         "clauseType": "Reduced",
         "conjClass": "Prefix",
@@ -2325,7 +2224,6 @@
       "label": "somali-VPrefRedSubjAffPastGen-yidi",
       "note": "S99",
       "common": {
-        "vmorphClass": "Finite",
         "clauseCase": "Subject",
         "clauseType": "Reduced",
         "conjClass": "Prefix",
@@ -2348,7 +2246,6 @@
       "label": "somali-VPrefRedSubjAffPastGen-yiil",
       "note": "S99",
       "common": {
-        "vmorphClass": "Finite",
         "clauseCase": "Subject",
         "clauseType": "Reduced",
         "conjClass": "Prefix",
@@ -2370,7 +2267,6 @@
       "label": "somali-VPrefRedSubjAffPastGen-yimi",
       "note": "S99",
       "common": {
-        "vmorphClass": "Finite",
         "clauseCase": "Subject",
         "clauseType": "Reduced",
         "conjClass": "Prefix",
@@ -2392,7 +2288,6 @@
       "label": "somali-VPrefRedSubjAffPastGen-yiqiin",
       "note": "S99",
       "common": {
-        "vmorphClass": "Finite",
         "clauseCase": "Subject",
         "clauseType": "Reduced",
         "conjClass": "Prefix",
@@ -2414,7 +2309,6 @@
       "label": "somali-VPrefRedSubjAffPastProg-yidi",
       "note": "S99",
       "common": {
-        "vmorphClass": "Finite",
         "clauseCase": "Subject",
         "clauseType": "Reduced",
         "conjClass": "Prefix",
@@ -2437,7 +2331,6 @@
       "common": {
         "person": "Person3",
         "clauseType": "Reduced",
-        "vmorphClass": "Finite",
         "pos": "Verb",
         "lexeme": "yiil",
         "conjClass": "Prefix",
@@ -2454,7 +2347,6 @@
       "label": "somali-VPrefRedSubjAffPastProg-yimi",
       "note": "S99",
       "common": {
-        "vmorphClass": "Finite",
         "clauseCase": "Subject",
         "clauseType": "Reduced",
         "conjClass": "Prefix",
@@ -2476,7 +2368,6 @@
       "label": "somali-VPrefRedSubjAffPastProg-yiqiin",
       "note": "S99",
       "common": {
-        "vmorphClass": "Finite",
         "clauseCase": "Subject",
         "clauseType": "Reduced",
         "conjClass": "Prefix",
@@ -2498,7 +2389,6 @@
       "label": "somali-VPrefRedSubjAffPresGen-yidi",
       "note": "S99",
       "common": {
-        "vmorphClass": "Finite",
         "clauseCase": "Subject",
         "clauseType": "Reduced",
         "conjClass": "Prefix",
@@ -2520,7 +2410,6 @@
       "label": "somali-VPrefRedSubjAffPresGen-yiil",
       "note": "S99",
       "common": {
-        "vmorphClass": "Finite",
         "clauseCase": "Subject",
         "clauseType": "Reduced",
         "conjClass": "Prefix",
@@ -2542,7 +2431,6 @@
       "label": "somali-VPrefRedSubjAffPresGen-yimi",
       "note": "S99",
       "common": {
-        "vmorphClass": "Finite",
         "clauseCase": "Subject",
         "clauseType": "Reduced",
         "conjClass": "Prefix",
@@ -2564,7 +2452,6 @@
       "label": "somali-VPrefRedSubjAffPresGen-yiqiin",
       "note": "S99",
       "common": {
-        "vmorphClass": "Finite",
         "clauseCase": "Subject",
         "clauseType": "Reduced",
         "conjClass": "Prefix",
@@ -2586,7 +2473,6 @@
       "label": "somali-VPrefRedSubjAffPresProg-yidi",
       "note": "S99",
       "common": {
-        "vmorphClass": "Finite",
         "clauseCase": "Subject",
         "clauseType": "Reduced",
         "conjClass": "Prefix",
@@ -2610,7 +2496,6 @@
       "common": {
         "person": "Person3",
         "clauseType": "Reduced",
-        "vmorphClass": "Finite",
         "pos": "Verb",
         "lexeme": "yiil",
         "conjClass": "Prefix",
@@ -2627,7 +2512,6 @@
       "label": "somali-VPrefRedSubjAffPresProg-yimi",
       "note": "S99",
       "common": {
-        "vmorphClass": "Finite",
         "clauseCase": "Subject",
         "clauseType": "Reduced",
         "conjClass": "Prefix",
@@ -2649,7 +2533,6 @@
       "label": "somali-VPrefRedSubjAffPresProg-yiqiin",
       "note": "S99",
       "common": {
-        "vmorphClass": "Finite",
         "clauseCase": "Subject",
         "clauseType": "Reduced",
         "conjClass": "Prefix",
@@ -2671,7 +2554,7 @@
       "label": "somali-VPrefSubVarTense-yahay",
       "note": "S99",
       "common": {
-        "vmorphClass": "SubVarTense",
+        "formClass": "SubVarTense",
         "conjClass": "Prefix",
         "gender": "Common",
         "lexeme": "yahay",
@@ -2701,7 +2584,6 @@
       "common": {
         "conjSubClass": "C1",
         "clauseType": "Full",
-        "vmorphClass": "Finite",
         "pos": "Verb",
         "lexeme": "sug",
         "conjClass": "Suffix",
@@ -2724,7 +2606,6 @@
       "common": {
         "conjSubClass": "C1",
         "clauseType": "Full",
-        "vmorphClass": "Finite",
         "pos": "Verb",
         "lexeme": "sug",
         "conjClass": "Suffix",
@@ -2747,7 +2628,6 @@
       "common": {
         "conjSubClass": "C1",
         "clauseType": "Full",
-        "vmorphClass": "Finite",
         "pos": "Verb",
         "lexeme": "sug",
         "conjClass": "Suffix",
@@ -2770,7 +2650,6 @@
       "common": {
         "conjSubClass": "C1",
         "clauseType": "Full",
-        "vmorphClass": "Finite",
         "pos": "Verb",
         "lexeme": "sug",
         "conjClass": "Suffix",
@@ -2793,7 +2672,6 @@
       "common": {
         "conjSubClass": "C1",
         "clauseType": "Main",
-        "vmorphClass": "Finite",
         "formClass": "Compound",
         "pos": "Verb",
         "lexeme": "sug",
@@ -2816,7 +2694,6 @@
       "common": {
         "conjSubClass": "C1",
         "clauseType": "Main",
-        "vmorphClass": "Finite",
         "formClass": "Compound",
         "pos": "Verb",
         "lexeme": "sug",
@@ -2840,7 +2717,6 @@
         "conjSubClass": "C1",
         "person": "Person2",
         "clauseType": "Main",
-        "vmorphClass": "Finite",
         "pos": "Verb",
         "lexeme": "sug",
         "conjClass": "Suffix",
@@ -2858,7 +2734,6 @@
       "common": {
         "conjSubClass": "C1",
         "clauseType": "Main",
-        "vmorphClass": "Finite",
         "formClass": "Compound",
         "pos": "Verb",
         "lexeme": "sug",
@@ -2880,7 +2755,6 @@
       "label": "somali-VSuffC1MainAffPastGen-sug",
       "note": "S99",
       "common": {
-        "vmorphClass": "Finite",
         "clauseType": "Main",
         "conjClass": "Suffix",
         "conjSubClass": "C1",
@@ -2904,7 +2778,6 @@
       "common": {
         "conjSubClass": "C1",
         "clauseType": "Main",
-        "vmorphClass": "Finite",
         "formClass": "Compound",
         "pos": "Verb",
         "lexeme": "sug",
@@ -2925,7 +2798,6 @@
       "label": "somali-VSuffC1MainAffPastIndep-sug",
       "note": "S99",
       "common": {
-        "vmorphClass": "Finite",
         "clauseType": "Main",
         "conjClass": "Suffix",
         "conjSubClass": "C1",
@@ -2947,7 +2819,6 @@
       "label": "somali-VSuffC1MainAffPastProg-sug",
       "note": "S99",
       "common": {
-        "vmorphClass": "Finite",
         "clauseType": "Main",
         "conjClass": "Suffix",
         "conjSubClass": "C1",
@@ -2969,7 +2840,6 @@
       "label": "somali-VSuffC1MainAffPotential-sug",
       "note": "S99",
       "common": {
-        "vmorphClass": "Finite",
         "clauseType": "Main",
         "conjClass": "Suffix",
         "conjSubClass": "C1",
@@ -2991,7 +2861,6 @@
       "label": "somali-VSuffC1MainAffPresGen-sug",
       "note": "S99",
       "common": {
-        "vmorphClass": "Finite",
         "clauseType": "Main",
         "conjClass": "Suffix",
         "conjSubClass": "C1",
@@ -3013,7 +2882,6 @@
       "label": "somali-VSuffC1MainAffPresProg-sug",
       "note": "S99",
       "common": {
-        "vmorphClass": "Finite",
         "clauseType": "Main",
         "conjClass": "Suffix",
         "conjSubClass": "C1",
@@ -3035,7 +2903,6 @@
       "label": "somali-VSuffC1MainNegConditional-sug",
       "note": "S99",
       "common": {
-        "vmorphClass": "Finite",
         "clauseType": "Main",
         "conjClass": "Suffix",
         "conjSubClass": "C1",
@@ -3059,7 +2926,6 @@
       "common": {
         "conjSubClass": "C1",
         "clauseType": "Main",
-        "vmorphClass": "Finite",
         "formClass": "Compound",
         "pos": "Verb",
         "lexeme": "sug",
@@ -3083,7 +2949,6 @@
         "conjSubClass": "C1",
         "person": "Person2",
         "clauseType": "Main",
-        "vmorphClass": "Finite",
         "pos": "Verb",
         "lexeme": "sug",
         "conjClass": "Suffix",
@@ -3101,7 +2966,6 @@
       "common": {
         "conjSubClass": "C1",
         "clauseType": "Main",
-        "vmorphClass": "Finite",
         "formClass": "Compound",
         "pos": "Verb",
         "lexeme": "sug",
@@ -3123,7 +2987,7 @@
       "label": "somali-VSuffC1MainNegPastInvar-sug",
       "note": "S99 :: somali-VmainSuffNegPastInvar:does not inflect for NPG.",
       "common": {
-        "vmorphClass": "SUFFC1MAINNEGPASTINVAR",
+        "formClass": "SUFFC1MAINNEGPASTINVAR",
         "clauseType": "Main",
         "conjClass": "Suffix",
         "numPersGender": "Invariable",
@@ -3147,11 +3011,10 @@
                 ["C3B", "qaado", "PastGeneral",  "_"],
                 ["C3B", "qaado", "PastHabitual", "CHECK jirín"],
                 ["C3B", "qaado", "PastProgressive",  "_"]]
-    }
+    },
     {"label": "somali-VSuffC1MainNegPresGen-sug", 
      "note": "S99", 
      "common": {
-       "vmorphClass": "Finite",
        "clauseType": "Main",
        "conjClass": "Suffix",
        "conjSubClass": "C1",
@@ -3173,7 +3036,6 @@
       "label": "somali-VSuffC1MainNegPresProg-sug",
       "note": "S99",
       "common": {
-        "vmorphClass": "Finite",
         "clauseType": "Main",
         "conjClass": "Suffix",
         "conjSubClass": "C1",
@@ -3195,7 +3057,6 @@
       "label": "somali-VSuffC1MainNegPresProg2-sug",
       "note": "S99",
       "common": {
-        "vmorphClass": "Finite",
         "clauseType": "Main",
         "conjClass": "Suffix",
         "conjSubClass": "C1",
@@ -3219,7 +3080,6 @@
       "common": {
         "conjSubClass": "C1",
         "clauseType": "Reduced",
-        "vmorphClass": "Finite",
         "pos": "Verb",
         "lexeme": "sug",
         "conjClass": "Suffix",
@@ -3242,7 +3102,6 @@
       "common": {
         "conjSubClass": "C1",
         "clauseType": "Reduced",
-        "vmorphClass": "Finite",
         "pos": "Verb",
         "lexeme": "keen",
         "conjClass": "Suffix",
@@ -3265,7 +3124,6 @@
       "common": {
         "conjSubClass": "C1",
         "clauseType": "Reduced",
-        "vmorphClass": "Finite",
         "pos": "Verb",
         "lexeme": "keen",
         "conjClass": "Suffix",
@@ -3288,7 +3146,6 @@
       "common": {
         "conjSubClass": "C1",
         "clauseType": "Reduced",
-        "vmorphClass": "Finite",
         "pos": "Verb",
         "lexeme": "keen",
         "conjClass": "Suffix",
@@ -3311,7 +3168,6 @@
       "common": {
         "conjSubClass": "C1",
         "clauseType": "Reduced",
-        "vmorphClass": "Finite",
         "pos": "Verb",
         "lexeme": "keen",
         "conjClass": "Suffix",
@@ -3334,7 +3190,6 @@
       "common": {
         "conjSubClass": "C1",
         "clauseType": "Reduced",
-        "vmorphClass": "Finite",
         "pos": "Verb",
         "lexeme": "keen",
         "conjClass": "Suffix",
@@ -3357,7 +3212,6 @@
       "common": {
         "conjSubClass": "C1",
         "clauseType": "Reduced",
-        "vmorphClass": "Finite",
         "pos": "Verb",
         "lexeme": "keen",
         "conjClass": "Suffix",
@@ -3380,7 +3234,6 @@
       "common": {
         "conjSubClass": "C1",
         "clauseType": "Reduced",
-        "vmorphClass": "Finite",
         "pos": "Verb",
         "lexeme": "keen",
         "conjClass": "Suffix",
@@ -3403,7 +3256,6 @@
       "common": {
         "conjSubClass": "C2A",
         "clauseType": "Full",
-        "vmorphClass": "Finite",
         "pos": "Verb",
         "lexeme": "kari",
         "conjClass": "Suffix",
@@ -3426,7 +3278,6 @@
       "common": {
         "conjSubClass": "C2A",
         "clauseType": "Full",
-        "vmorphClass": "Finite",
         "pos": "Verb",
         "lexeme": "kari",
         "conjClass": "Suffix",
@@ -3449,7 +3300,6 @@
       "common": {
         "conjSubClass": "C2A",
         "clauseType": "Full",
-        "vmorphClass": "Finite",
         "pos": "Verb",
         "lexeme": "kari",
         "conjClass": "Suffix",
@@ -3472,7 +3322,6 @@
       "common": {
         "conjSubClass": "C2A",
         "clauseType": "Full",
-        "vmorphClass": "Finite",
         "pos": "Verb",
         "lexeme": "kari",
         "conjClass": "Suffix",
@@ -3495,7 +3344,6 @@
       "common": {
         "conjSubClass": "C2A",
         "clauseType": "Main",
-        "vmorphClass": "Finite",
         "formClass": "Compound",
         "pos": "Verb",
         "lexeme": "kari",
@@ -3518,7 +3366,6 @@
       "common": {
         "conjSubClass": "C2A",
         "clauseType": "Main",
-        "vmorphClass": "Finite",
         "formClass": "Compound",
         "pos": "Verb",
         "lexeme": "kari",
@@ -3542,7 +3389,6 @@
         "conjSubClass": "C2A",
         "person": "Person2",
         "clauseType": "Main",
-        "vmorphClass": "Finite",
         "pos": "Verb",
         "lexeme": "kari",
         "conjClass": "Suffix",
@@ -3560,7 +3406,6 @@
       "common": {
         "conjSubClass": "C2A",
         "clauseType": "Main",
-        "vmorphClass": "Finite",
         "formClass": "Compound",
         "pos": "Verb",
         "lexeme": "kari",
@@ -3582,7 +3427,6 @@
       "label": "somali-VSuffC2AMainAffPastGen-kari",
       "note": "S99",
       "common": {
-        "vmorphClass": "Finite",
         "clauseType": "Main",
         "conjClass": "Suffix",
         "conjSubClass": "C2A",
@@ -3606,7 +3450,6 @@
       "common": {
         "conjSubClass": "C2A",
         "clauseType": "Main",
-        "vmorphClass": "Finite",
         "formClass": "Compound",
         "pos": "Verb",
         "lexeme": "kari",
@@ -3627,7 +3470,6 @@
       "label": "somali-VSuffC2AMainAffPastIndep-kari",
       "note": "S99",
       "common": {
-        "vmorphClass": "Finite",
         "clauseType": "Main",
         "conjClass": "Suffix",
         "conjSubClass": "C2A",
@@ -3649,7 +3491,6 @@
       "label": "somali-VSuffC2AMainAffPastProg-kari",
       "note": "S99",
       "common": {
-        "vmorphClass": "Finite",
         "clauseType": "Main",
         "conjClass": "Suffix",
         "conjSubClass": "C2A",
@@ -3671,7 +3512,6 @@
       "label": "somali-VSuffC2AMainAffPotential-kari",
       "note": "S99",
       "common": {
-        "vmorphClass": "Finite",
         "clauseType": "Main",
         "conjClass": "Suffix",
         "conjSubClass": "C2A",
@@ -3693,7 +3533,6 @@
       "label": "somali-VSuffC2AMainAffPresGen-kari",
       "note": "S99",
       "common": {
-        "vmorphClass": "Finite",
         "clauseType": "Main",
         "conjClass": "Suffix",
         "conjSubClass": "C2A",
@@ -3715,7 +3554,6 @@
       "label": "somali-VSuffC2AMainAffPresProg-kari",
       "note": "S99",
       "common": {
-        "vmorphClass": "Finite",
         "clauseType": "Main",
         "conjClass": "Suffix",
         "conjSubClass": "C2A",
@@ -3737,7 +3575,6 @@
       "label": "somali-VSuffC2AMainNegConditional-kari",
       "note": "S99",
       "common": {
-        "vmorphClass": "Finite",
         "clauseType": "Main",
         "conjClass": "Suffix",
         "conjSubClass": "C2A",
@@ -3761,7 +3598,6 @@
       "common": {
         "conjSubClass": "C2A",
         "clauseType": "Main",
-        "vmorphClass": "Finite",
         "formClass": "Compound",
         "pos": "Verb",
         "lexeme": "kari",
@@ -3785,7 +3621,6 @@
         "conjSubClass": "C2A",
         "person": "Person2",
         "clauseType": "Main",
-        "vmorphClass": "Finite",
         "pos": "Verb",
         "lexeme": "kari",
         "conjClass": "Suffix",
@@ -3803,7 +3638,6 @@
       "common": {
         "conjSubClass": "C2A",
         "clauseType": "Main",
-        "vmorphClass": "Finite",
         "formClass": "Compound",
         "pos": "Verb",
         "lexeme": "kari",
@@ -3825,7 +3659,6 @@
       "label": "somali-VSuffC2AMainNegPresGen-kari",
       "note": "S99",
       "common": {
-        "vmorphClass": "Finite",
         "clauseType": "Main",
         "conjClass": "Suffix",
         "conjSubClass": "C2A",
@@ -3847,7 +3680,6 @@
       "label": "somali-VSuffC2AMainNegPresProg-kari",
       "note": "S99",
       "common": {
-        "vmorphClass": "Finite",
         "clauseType": "Main",
         "conjClass": "Suffix",
         "conjSubClass": "C2A",
@@ -3869,7 +3701,6 @@
       "label": "somali-VSuffC2AMainNegPresProg2-kari",
       "note": "S99",
       "common": {
-        "vmorphClass": "Finite",
         "clauseType": "Main",
         "conjClass": "Suffix",
         "conjSubClass": "C2A",
@@ -3893,7 +3724,6 @@
       "common": {
         "conjSubClass": "C2A",
         "clauseType": "Reduced",
-        "vmorphClass": "Finite",
         "pos": "Verb",
         "lexeme": "kari",
         "conjClass": "Suffix",
@@ -3916,7 +3746,6 @@
       "common": {
         "conjSubClass": "C2B",
         "clauseType": "Full",
-        "vmorphClass": "Finite",
         "pos": "Verb",
         "lexeme": "yar",
         "conjClass": "Suffix",
@@ -3938,7 +3767,6 @@
       "note": "S99 :: form calqued on conjSubClass :C2A/:C3A [CHECK!]", "common": {
         "conjSubClass": "C2B",
         "clauseType": "Full",
-        "vmorphClass": "Finite",
         "pos": "Verb",
         "lexeme": "yar",
         "conjClass": "Suffix",
@@ -3961,7 +3789,6 @@
       "common": {
         "conjSubClass": "C2B",
         "clauseType": "Full",
-        "vmorphClass": "Finite",
         "pos": "Verb",
         "lexeme": "yar",
         "conjClass": "Suffix",
@@ -3983,7 +3810,6 @@
       "note": "S99 :: form calqued on conjSubClass :C2A/:C3A [CHECK!]", "common": {
         "conjSubClass": "C2B",
         "clauseType": "Full",
-        "vmorphClass": "Finite",
         "pos": "Verb",
         "lexeme": "yar",
         "conjClass": "Suffix",
@@ -4005,7 +3831,6 @@
       "note": "S99 :: form calqued on conjSubClass :C2A/:C3A [CHECK!]", "common": {
         "conjSubClass": "C2B",
         "clauseType": "Main",
-        "vmorphClass": "Finite",
         "formClass": "Compound",
         "pos": "Verb",
         "lexeme": "yar",
@@ -4027,7 +3852,6 @@
       "note": "S99 :: form calqued on conjSubClass :C2A/:C3A [CHECK!]", "common": {
         "conjSubClass": "C2B",
         "clauseType": "Main",
-        "vmorphClass": "Finite",
         "formClass": "Compound",
         "pos": "Verb",
         "lexeme": "yar",
@@ -4051,7 +3875,6 @@
         "conjSubClass": "C2B",
         "person": "Person2",
         "clauseType": "Main",
-        "vmorphClass": "Finite",
         "pos": "Verb",
         "lexeme": "yar",
         "conjClass": "Suffix",
@@ -4068,7 +3891,6 @@
       "note": "S99 :: form calqued on conjSubClass :C2A/:C3A [CHECK!]", "common": {
         "conjSubClass": "C2B",
         "clauseType": "Main",
-        "vmorphClass": "Finite",
         "formClass": "Compound",
         "pos": "Verb",
         "lexeme": "yar",
@@ -4090,7 +3912,6 @@
       "label": "somali-VSuffC2BMainAffPastGen-yar",
       "note": "S99",
       "common": {
-        "vmorphClass": "Finite",
         "clauseType": "Main",
         "conjClass": "Suffix",
         "conjSubClass": "C2B",
@@ -4113,7 +3934,6 @@
       "note": "S99 :: form calqued on conjSubClass :C2A/:C3A [CHECK!]", "common": {
         "conjSubClass": "C2B",
         "clauseType": "Main",
-        "vmorphClass": "Finite",
         "formClass": "Compound",
         "pos": "Verb",
         "lexeme": "yar",
@@ -4133,7 +3953,6 @@
     {
       "label": "somali-VSuffC2BMainAffPastIndep-yar",
       "note": "S99 :: form calqued on conjSubClass :C2A/:C3A [CHECK!]", "common": {
-        "vmorphClass": "Finite",
         "clauseType": "Main",
         "conjClass": "Suffix",
         "conjSubClass": "C2B",
@@ -4154,7 +3973,6 @@
     {
       "label": "somali-VSuffC2BMainAffPastProg-yar",
       "note": "S99 :: form calqued on conjSubClass :C2A/:C3A [CHECK!]", "common": {
-        "vmorphClass": "Finite",
         "clauseType": "Main",
         "conjClass": "Suffix",
         "conjSubClass": "C2B",
@@ -4175,7 +3993,6 @@
     {
       "label": "somali-VSuffC2BMainAffPotential-yar",
       "note": "S99 :: form calqued on conjSubClass :C2A/:C3A [CHECK!]", "common": {
-        "vmorphClass": "Finite",
         "clauseType": "Main",
         "conjClass": "Suffix",
         "conjSubClass": "C2B",
@@ -4197,7 +4014,6 @@
       "label": "somali-VSuffC2BMainAffPresGen-yar",
       "note": "S99",
       "common": {
-        "vmorphClass": "Finite",
         "clauseType": "Main",
         "conjClass": "Suffix",
         "conjSubClass": "C2B",
@@ -4218,7 +4034,6 @@
     {
       "label": "somali-VSuffC2BMainAffPresProg-yar",
       "note": "S99 :: form calqued on conjSubClass :C2A/:C3A [CHECK!]", "common": {
-        "vmorphClass": "Finite",
         "clauseType": "Main",
         "conjClass": "Suffix",
         "conjSubClass": "C2B",
@@ -4239,7 +4054,6 @@
     {
       "label": "somali-VSuffC2BMainNegConditional-yar",
       "note": "S99 :: form calqued on conjSubClass :C2A/:C3A [CHECK!]", "common": {
-        "vmorphClass": "Finite",
         "clauseType": "Main",
         "conjClass": "Suffix",
         "conjSubClass": "C2B",
@@ -4262,7 +4076,6 @@
       "note": "S99 :: form calqued on conjSubClass :C2A/:C3A [CHECK!]", "common": {
         "conjSubClass": "C2B",
         "clauseType": "Main",
-        "vmorphClass": "Finite",
         "formClass": "Compound",
         "pos": "Verb",
         "lexeme": "yar",
@@ -4286,7 +4099,6 @@
         "conjSubClass": "C2B",
         "person": "Person2",
         "clauseType": "Main",
-        "vmorphClass": "Finite",
         "pos": "Verb",
         "lexeme": "yar",
         "conjClass": "Suffix",
@@ -4303,7 +4115,6 @@
       "note": "S99 :: form calqued on conjSubClass :C2A/:C3A [CHECK!]", "common": {
         "conjSubClass": "C2B",
         "clauseType": "Main",
-        "vmorphClass": "Finite",
         "formClass": "Compound",
         "pos": "Verb",
         "lexeme": "yar",
@@ -4325,7 +4136,6 @@
       "label": "somali-VSuffC2BMainNegPresGen-yar",
       "note": "S99",
       "common": {
-        "vmorphClass": "Finite",
         "clauseType": "Main",
         "conjClass": "Suffix",
         "conjSubClass": "C2B",
@@ -4346,7 +4156,6 @@
     {
       "label": "somali-VSuffC2BMainNegPresProg-yar",
       "note": "S99 :: form calqued on conjSubClass :C2A/:C3A [CHECK!]", "common": {
-        "vmorphClass": "Finite",
         "clauseType": "Main",
         "conjClass": "Suffix",
         "conjSubClass": "C2B",
@@ -4367,7 +4176,6 @@
     {
       "label": "somali-VSuffC2BMainNegPresProg2-yar",
       "note": "S99 :: form calqued on conjSubClass :C2A/:C3A [CHECK!]", "common": {
-        "vmorphClass": "Finite",
         "clauseType": "Main",
         "conjClass": "Suffix",
         "conjSubClass": "C2B",
@@ -4391,7 +4199,6 @@
       "common": {
         "conjSubClass": "C2B",
         "clauseType": "Reduced",
-        "vmorphClass": "Finite",
         "pos": "Verb",
         "lexeme": "yar",
         "conjClass": "Suffix",
@@ -4414,7 +4221,6 @@
       "common": {
         "conjSubClass": "C3A",
         "clauseType": "Full",
-        "vmorphClass": "Finite",
         "pos": "Verb",
         "lexeme": "joogso",
         "conjClass": "Suffix",
@@ -4437,7 +4243,6 @@
       "common": {
         "conjSubClass": "C3A",
         "clauseType": "Full",
-        "vmorphClass": "Finite",
         "pos": "Verb",
         "lexeme": "joogso",
         "conjClass": "Suffix",
@@ -4460,7 +4265,6 @@
       "common": {
         "conjSubClass": "C3A",
         "clauseType": "Full",
-        "vmorphClass": "Finite",
         "pos": "Verb",
         "lexeme": "joogso",
         "conjClass": "Suffix",
@@ -4483,7 +4287,6 @@
       "common": {
         "conjSubClass": "C3A",
         "clauseType": "Full",
-        "vmorphClass": "Finite",
         "pos": "Verb",
         "lexeme": "joogso",
         "conjClass": "Suffix",
@@ -4506,7 +4309,6 @@
       "common": {
         "conjSubClass": "C3A",
         "clauseType": "Main",
-        "vmorphClass": "Finite",
         "formClass": "Compound",
         "pos": "Verb",
         "lexeme": "joogso",
@@ -4529,7 +4331,6 @@
       "common": {
         "conjSubClass": "C3A",
         "clauseType": "Main",
-        "vmorphClass": "Finite",
         "formClass": "Compound",
         "pos": "Verb",
         "lexeme": "joogso",
@@ -4553,7 +4354,6 @@
         "conjSubClass": "C3A",
         "person": "Person2",
         "clauseType": "Main",
-        "vmorphClass": "Finite",
         "pos": "Verb",
         "lexeme": "joogso",
         "conjClass": "Suffix",
@@ -4571,7 +4371,6 @@
       "common": {
         "conjSubClass": "C3A",
         "clauseType": "Main",
-        "vmorphClass": "Finite",
         "formClass": "Compound",
         "pos": "Verb",
         "lexeme": "joogso",
@@ -4593,7 +4392,6 @@
       "label": "somali-VSuffC3AMainAffPastGen-joogso",
       "note": "S99",
       "common": {
-        "vmorphClass": "Finite",
         "clauseType": "Main",
         "conjClass": "Suffix",
         "conjSubClass": "C3A",
@@ -4617,7 +4415,6 @@
       "common": {
         "conjSubClass": "C3A",
         "clauseType": "Main",
-        "vmorphClass": "Finite",
         "formClass": "Compound",
         "pos": "Verb",
         "lexeme": "joogso",
@@ -4638,7 +4435,6 @@
       "label": "somali-VSuffC3AMainAffPastIndep-joogso",
       "note": "S99",
       "common": {
-        "vmorphClass": "Finite",
         "clauseType": "Main",
         "conjClass": "Suffix",
         "conjSubClass": "C3A",
@@ -4660,7 +4456,6 @@
       "label": "somali-VSuffC3AMainAffPastProg-joogso",
       "note": "S99",
       "common": {
-        "vmorphClass": "Finite",
         "clauseType": "Main",
         "conjClass": "Suffix",
         "conjSubClass": "C3A",
@@ -4682,7 +4477,6 @@
       "label": "somali-VSuffC3AMainAffPotential-joogso",
       "note": "S99",
       "common": {
-        "vmorphClass": "Finite",
         "clauseType": "Main",
         "conjClass": "Suffix",
         "conjSubClass": "C3A",
@@ -4704,7 +4498,6 @@
       "label": "somali-VSuffC3AMainAffPresGen-joogso",
       "note": "S99",
       "common": {
-        "vmorphClass": "Finite",
         "clauseType": "Main",
         "conjClass": "Suffix",
         "conjSubClass": "C3A",
@@ -4726,7 +4519,6 @@
       "label": "somali-VSuffC3AMainAffPresProg-joogso",
       "note": "S99",
       "common": {
-        "vmorphClass": "Finite",
         "clauseType": "Main",
         "conjClass": "Suffix",
         "conjSubClass": "C3A",
@@ -4748,7 +4540,6 @@
       "label": "somali-VSuffC3AMainNegConditional-joogso",
       "note": "S99",
       "common": {
-        "vmorphClass": "Finite",
         "clauseType": "Main",
         "conjClass": "Suffix",
         "conjSubClass": "C3A",
@@ -4772,7 +4563,6 @@
       "common": {
         "conjSubClass": "C3A",
         "clauseType": "Main",
-        "vmorphClass": "Finite",
         "formClass": "Compound",
         "pos": "Verb",
         "lexeme": "joogso",
@@ -4796,7 +4586,6 @@
         "conjSubClass": "C3A",
         "person": "Person2",
         "clauseType": "Main",
-        "vmorphClass": "Finite",
         "pos": "Verb",
         "lexeme": "joogso",
         "conjClass": "Suffix",
@@ -4814,7 +4603,6 @@
       "common": {
         "conjSubClass": "C3A",
         "clauseType": "Main",
-        "vmorphClass": "Finite",
         "formClass": "Compound",
         "pos": "Verb",
         "lexeme": "joogso",
@@ -4836,7 +4624,6 @@
       "label": "somali-VSuffC3AMainNegPresGen-joogso",
       "note": "S99",
       "common": {
-        "vmorphClass": "Finite",
         "clauseType": "Main",
         "conjClass": "Suffix",
         "conjSubClass": "C3A",
@@ -4858,7 +4645,6 @@
       "label": "somali-VSuffC3AMainNegPresProg-joogso",
       "note": "S99",
       "common": {
-        "vmorphClass": "Finite",
         "clauseType": "Main",
         "conjClass": "Suffix",
         "conjSubClass": "C3A",
@@ -4880,7 +4666,6 @@
       "label": "somali-VSuffC3AMainNegPresProg2-joogso",
       "note": "S99",
       "common": {
-        "vmorphClass": "Finite",
         "clauseType": "Main",
         "conjClass": "Suffix",
         "conjSubClass": "C3A",
@@ -4904,7 +4689,6 @@
       "common": {
         "conjSubClass": "C3A",
         "clauseType": "Reduced",
-        "vmorphClass": "Finite",
         "pos": "Verb",
         "lexeme": "joogso",
         "conjClass": "Suffix",
@@ -4924,7 +4708,6 @@
     {
       "label": "somali-VSuffC3BAbsAffPresProg-qaado",
       "note": "S99 :: form calqued on conjSubClass :C2A/:C3A [CHECK!]", "common": {
-        "vmorphClass": "Finite",
         "clauseType": "Main",
         "conjClass": "Suffix",
         "conjSubClass": "C3B",
@@ -4948,7 +4731,6 @@
       "common": {
         "conjSubClass": "C3B",
         "clauseType": "Full",
-        "vmorphClass": "Finite",
         "pos": "Verb",
         "lexeme": "qaado",
         "conjClass": "Suffix",
@@ -4970,7 +4752,6 @@
       "note": "S99 :: form calqued on conjSubClass :C2A/:C3A [CHECK!]", "common": {
         "conjSubClass": "C3B",
         "clauseType": "Full",
-        "vmorphClass": "Finite",
         "pos": "Verb",
         "lexeme": "qaado",
         "conjClass": "Suffix",
@@ -4993,7 +4774,6 @@
       "common": {
         "conjSubClass": "C3B",
         "clauseType": "Full",
-        "vmorphClass": "Finite",
         "pos": "Verb",
         "lexeme": "qaado",
         "conjClass": "Suffix",
@@ -5015,7 +4795,6 @@
       "note": "S99 :: form calqued on conjSubClass :C2A/:C3A [CHECK!]", "common": {
         "conjSubClass": "C3B",
         "clauseType": "Full",
-        "vmorphClass": "Finite",
         "pos": "Verb",
         "lexeme": "qaado",
         "conjClass": "Suffix",
@@ -5037,7 +4816,6 @@
       "note": "S99 :: form calqued on conjSubClass :C2A/:C3A [CHECK!]", "common": {
         "conjSubClass": "C3B",
         "clauseType": "Main",
-        "vmorphClass": "Finite",
         "formClass": "Compound",
         "pos": "Verb",
         "lexeme": "qaado",
@@ -5059,7 +4837,6 @@
       "note": "S99 :: form calqued on conjSubClass :C2A/:C3A [CHECK!]", "common": {
         "conjSubClass": "C3B",
         "clauseType": "Main",
-        "vmorphClass": "Finite",
         "formClass": "Compound",
         "pos": "Verb",
         "lexeme": "qaado",
@@ -5083,7 +4860,6 @@
         "conjSubClass": "C3B",
         "person": "Person2",
         "clauseType": "Main",
-        "vmorphClass": "Finite",
         "pos": "Verb",
         "lexeme": "qaado",
         "conjClass": "Suffix",
@@ -5100,7 +4876,6 @@
       "note": "S99 :: form calqued on conjSubClass :C2A/:C3A [CHECK!]", "common": {
         "conjSubClass": "C3B",
         "clauseType": "Main",
-        "vmorphClass": "Finite",
         "formClass": "Compound",
         "pos": "Verb",
         "lexeme": "qaado",
@@ -5122,7 +4897,6 @@
       "label": "somali-VSuffC3BMainAffPastGen-qaado",
       "note": "S99",
       "common": {
-        "vmorphClass": "Finite",
         "clauseType": "Main",
         "conjClass": "Suffix",
         "conjSubClass": "C3B",
@@ -5145,7 +4919,6 @@
       "note": "S99 :: form calqued on conjSubClass :C2A/:C3A [CHECK!]", "common": {
         "conjSubClass": "C3B",
         "clauseType": "Main",
-        "vmorphClass": "Finite",
         "formClass": "Compound",
         "pos": "Verb",
         "lexeme": "qaado",
@@ -5165,7 +4938,6 @@
     {
       "label": "somali-VSuffC3BMainAffPastIndep-qaado",
       "note": "S99 :: form calqued on conjSubClass :C2A/:C3A [CHECK!]", "common": {
-        "vmorphClass": "Finite",
         "clauseType": "Main",
         "conjClass": "Suffix",
         "conjSubClass": "C3B",
@@ -5186,7 +4958,6 @@
     {
       "label": "somali-VSuffC3BMainAffPastProg-qaado",
       "note": "S99 :: form calqued on conjSubClass :C2A/:C3A [CHECK!]", "common": {
-        "vmorphClass": "Finite",
         "clauseType": "Main",
         "conjClass": "Suffix",
         "conjSubClass": "C3B",
@@ -5207,7 +4978,6 @@
     {
       "label": "somali-VSuffC3BMainAffPotential-qaado",
       "note": "S99 :: form calqued on conjSubClass :C2A/:C3A [CHECK!]", "common": {
-        "vmorphClass": "Finite",
         "clauseType": "Main",
         "conjClass": "Suffix",
         "conjSubClass": "C3B",
@@ -5229,7 +4999,6 @@
       "label": "somali-VSuffC3BMainAffPresGen-qaado",
       "note": "S99",
       "common": {
-        "vmorphClass": "Finite",
         "clauseType": "Main",
         "conjClass": "Suffix",
         "conjSubClass": "C3B",
@@ -5250,7 +5019,6 @@
     {
       "label": "somali-VSuffC3BMainNegConditional-qaado",
       "note": "S99 :: form calqued on conjSubClass :C2A/:C3A [CHECK!]", "common": {
-        "vmorphClass": "Finite",
         "clauseType": "Main",
         "conjClass": "Suffix",
         "conjSubClass": "C3B",
@@ -5273,7 +5041,6 @@
       "note": "S99 :: form calqued on conjSubClass :C2A/:C3A [CHECK!]", "common": {
         "conjSubClass": "C3B",
         "clauseType": "Main",
-        "vmorphClass": "Finite",
         "formClass": "Compound",
         "pos": "Verb",
         "lexeme": "qaado",
@@ -5297,7 +5064,6 @@
         "conjSubClass": "C3B",
         "person": "Person2",
         "clauseType": "Main",
-        "vmorphClass": "Finite",
         "pos": "Verb",
         "lexeme": "qaado",
         "conjClass": "Suffix",
@@ -5314,7 +5080,6 @@
       "note": "S99 :: form calqued on conjSubClass :C2A/:C3A [CHECK!]", "common": {
         "conjSubClass": "C3B",
         "clauseType": "Main",
-        "vmorphClass": "Finite",
         "formClass": "Compound",
         "pos": "Verb",
         "lexeme": "qaado",
@@ -5336,7 +5101,6 @@
       "label": "somali-VSuffC3BMainNegPresGen-qaado",
       "note": "S99",
       "common": {
-        "vmorphClass": "Finite",
         "clauseType": "Main",
         "conjClass": "Suffix",
         "conjSubClass": "C3B",
@@ -5357,7 +5121,6 @@
     {
       "label": "somali-VSuffC3BMainNegPresProg-qaado",
       "note": "S99 :: form calqued on conjSubClass :C2A/:C3A [CHECK!]", "common": {
-        "vmorphClass": "Finite",
         "clauseType": "Main",
         "conjClass": "Suffix",
         "conjSubClass": "C3B",
@@ -5378,7 +5141,6 @@
     {
       "label": "somali-VSuffC3BMainNegPresProg2-qaado",
       "note": "S99 :: form calqued on conjSubClass :C2A/:C3A [CHECK!]", "common": {
-        "vmorphClass": "Finite",
         "clauseType": "Main",
         "conjClass": "Suffix",
         "conjSubClass": "C3B",
@@ -5402,7 +5164,6 @@
       "common": {
         "conjSubClass": "C3B",
         "clauseType": "Reduced",
-        "vmorphClass": "Finite",
         "pos": "Verb",
         "lexeme": "qaado",
         "conjClass": "Suffix",
@@ -5423,7 +5184,7 @@
       "label": "somali-VSuffInfinitive",
       "note": "S99",
       "common": {
-        "vmorphClass": "INFINITIVESUFF",
+        "formClass": "INFINITIVESUFF",
         "conjClass": "Suffix",
         "nonFiniteForm": "Infinitive",
         "pos": "Verb"
@@ -5440,7 +5201,6 @@
       "note": "S99p.68",
       "common": {
         "pos": "Pronoun",
-        "pmorphClass": "ProMorph",
         "proClass": "Independent"
       },
       "terms": [["number", "person", "gender", "token"],
@@ -5459,7 +5219,6 @@
       "common": {
         "case": "Object",
         "pos": "Pronoun",
-        "pmorphClass": "ProMorph",
         "proClass": "ObjClitic"
       },
       "terms": [["conjSubType", "number", "person", "gender", "token"],
@@ -5479,13 +5238,12 @@
                 ["SubClass2", "Plural", "Person1", "Common", "kéen"],
                 ["SubClass2", "Plural", "Person2", "Common", "kíin"],
                 ["SubClass2", "Plural", "Person3", "Common",  "_"]]
-    }
+    },
     {
       "label": "somali-PPoss", 
       "note": "S99pp.114-115",
       "common": {
         "pos": "Pronoun",
-        "pmorphClass": "ProMorph",
         "proClass": "Possessive"
       },
       "terms": [["genPoss", "number", "person", "gender", "token"],
@@ -5512,7 +5270,6 @@
       "common": {
         "case": "Nominative",
         "pos": "Pronoun",
-        "pmorphClass": "ProMorph",
         "proClass": "SubjClit"
       },
       "terms": [["number", "person", "gender", "token"],
